@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useTransition } from "react";
+import { useState, useSyncExternalStore, useTransition } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Library, LogOut, Trash2 } from "lucide-react";
@@ -32,18 +32,22 @@ function getInitials(name: string | null | undefined, email: string): string {
   return source.slice(0, 2).toUpperCase();
 }
 
+function useIsClient() {
+  return useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
+}
+
 export function UserMenu() {
   const router = useRouter();
   const { data: session, isPending } = authClient.useSession();
-  const [isMounted, setIsMounted] = useState(false);
+  const isClient = useIsClient();
   const [isDeleteOpen, setIsDeleteOpen] = useState(false);
   const [isDeleting, startDeleting] = useTransition();
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted || isPending) return <Skeleton className="size-8 rounded-full" />;
+  if (!isClient || isPending) return <Skeleton className="size-8 rounded-full" />;
 
   if (!session)
     return (
