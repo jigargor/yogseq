@@ -59,7 +59,7 @@ const FEATURES: readonly Feature[] = [
     icon: FileText,
     title: "Your sequences stay yours",
     description:
-      "Sign in with a magic link — no password. Delete your account and every sequence any time.",
+      "Sign in with email and password. Delete your account and every sequence any time.",
   },
   {
     icon: Smartphone,
