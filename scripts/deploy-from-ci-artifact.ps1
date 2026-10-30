@@ -24,7 +24,7 @@ if ($RunId -eq 0) {
   if (-not $run) { throw "No completed CI run found" }
   $RunId = [long]$run.databaseId
   Write-Host "Using run $RunId ($($run.displayTitle))"
-}}
+}
 
 if (Test-Path $Tmp) { Remove-Item -Recurse -Force $Tmp }
 New-Item -ItemType Directory -Path $Tmp | Out-Null

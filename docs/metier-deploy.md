@@ -7,6 +7,17 @@
 **Runtime:** Cloudflare Workers (OpenNext) + Neon Postgres  
 **Apex site:** Leave `metierstudio.com` architecture portfolio unchanged  
 
+### Deploy mechanics (Windows)
+
+| Topic | Current behavior |
+|-------|------------------|
+| OpenNext build | Cannot run on Windows (symlink `EPERM`). CI (GitHub Actions, Linux) builds and uploads the artifact `open-next-yogseq` on every push to `main`. |
+| Deploy from Windows | `.\scripts\deploy-from-ci-artifact.ps1` downloads the artifact and runs `wrangler deploy`. It picks the latest completed CI run, or pass `-RunId <id>`. Requires `pnpm exec wrangler login` once. |
+| Config-only changes | `wrangler deploy` with an existing `.open-next` folder re-deploys without rebuilding. This is how `vars` changes in `apps/web/wrangler.jsonc` are shipped. |
+| CI deploy step | Wrangler OAuth tokens do not work as `CLOUDFLARE_API_TOKEN` in CI. Until a real API token is set as the GitHub secret, the CI deploy step is non-blocking and the artifact path is the deploy path. |
+
+**Worker secrets currently set:** `DATABASE_URL`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL=https://yogseq.metierstudio.org`.
+
 ### Finish deploy (operator — interactive Cloudflare auth)
 
 These steps cannot be completed from a non-interactive agent session once Wrangler OAuth expires:
@@ -47,6 +58,23 @@ Workers custom domains require the hostname’s zone in the **same** Cloudflare 
 
 Until NS cutover completes, use the `*.workers.dev` URL and/or `yogseq.metierstudio.org`.
 
+### Incident: wrong site on yogseq.metierstudio.org
+
+**Symptom (2026-10-30):** `https://yogseq.metierstudio.org` showed the Métier marketing site ("Movement practice. Clear scope. Show up.") instead of Yogseq.
+
+**Cause:** the Cloudflare zone `metierstudio.org` has a wildcard Worker route `*.metierstudio.org/*` bound to the Worker `metier-studio-llc`. Worker routes run before Custom Domains, so the wildcard intercepted the hostname even though a Custom Domain `yogseq.metierstudio.org` -> Worker `yogseq` existed.
+
+**Fix applied:** added a more specific route `yogseq.metierstudio.org/*` with **no Worker assigned** (script null) on zone `metierstudio.org`. A more specific route with no script excludes that hostname from the wildcard, so the request falls through to the Custom Domain origin, i.e. the `yogseq` Worker.
+
+| Method | Steps |
+|--------|-------|
+| Dashboard | Workers & Pages -> Overview -> (zone) Routes, or Websites -> `metierstudio.org` -> Workers Routes -> Add route -> pattern `yogseq.metierstudio.org/*`, Worker: **None** |
+| API | `POST /zones/{zone_id}/workers/routes` with body `{"pattern":"yogseq.metierstudio.org/*"}` (no `script` field) |
+
+**Repeat for `.com`:** once the `metierstudio.com` zone is on Cloudflare, check for a wildcard Worker route on that zone. If one exists, add the same no-Worker route for `yogseq.metierstudio.com/*`.
+
+**Verify:** `curl -I https://yogseq.metierstudio.org` and confirm the response is served by Yogseq, not the Métier site.
+
 ---
 
 ## Phase 0 — Requirements checklist
@@ -62,7 +90,7 @@ Fill every row before the first production invite. Do not invent missing values.
 | Neon project (production) | [ ] | Use **pooled** connection string |
 | `DATABASE_URL` (Neon pooled) | [ ] | Secret — never commit |
 | GitHub repo `jigargor/yogseq` Actions secrets access | [ ] | For CI deploy on `main` |
-| Resend account + API key (optional but needed for magic-link email) | [ ] | Without it, links only appear in Worker logs |
+| Resend account + API key (optional; enables magic-link sign-in and the password-reset path) | [ ] | Without it, email/password sign-in still works; magic link is hidden from `/sign-in` |
 | Resend From address decision | [ ] | Prefer verified domain, e.g. `Yogseq <login@metierstudio.com>` or Resend onboarding |
 | Google OAuth client (optional) | [ ] | JS origin + redirect for `https://yogseq.metierstudio.com` |
 | Cloudflare Web Analytics token (optional) | [ ] | `NEXT_PUBLIC_CF_ANALYTICS_TOKEN` at **build** time |
@@ -163,9 +191,10 @@ If the zone lives in another Cloudflare account, attach the domain from the acco
 
 ### F. Auth / email / OAuth after DNS
 
-- Resend: verify sending domain; set `RESEND_FROM_EMAIL`.
-- Google Cloud Console: authorized JS origin `https://yogseq.metierstudio.com` and Better Auth callback redirect for that origin.
-- Smoke: magic-link sign-in → create sequence → save → reload → share page → mobile.
+- Default sign-in is email + password (no third-party service needed). See [`docs/auth-plan.md`](auth-plan.md).
+- Resend (optional): verify sending domain; set `RESEND_FROM_EMAIL`. Enables magic-link sign-in.
+- Google Cloud Console (optional): authorized JS origin `https://yogseq.metierstudio.com` and Better Auth callback redirect for that origin.
+- Smoke: create account → create sequence → save → reload → share page → mobile. Full auth checklist in `docs/auth-plan.md`.
 
 ### G. GitHub production path
 
@@ -227,6 +256,20 @@ With `CLOUDFLARE_API_TOKEN` + account id, after the Worker exists:
 ```
 
 Prefer the dashboard **Add Custom Domain** flow so SSL certificates provision automatically on the `metierstudio.com` zone.
+
+### Runtime notes (Worker 500 fixes)
+
+Two runtime failures were fixed on 2026-10-30. Both are recorded here so they are not reintroduced.
+
+1. **Every route returned 500:** `Dynamic require of "/.next/server/middleware-manifest.json" is not supported`.
+   - Known OpenNext Cloudflare issue with Next 16 (opennextjs-cloudflare issues [#1232](https://github.com/opennextjs/opennextjs-cloudflare/issues/1232) and [#1380](https://github.com/opennextjs/opennextjs-cloudflare/issues/1380)). Next's `getMiddlewareManifest()` uses a raw dynamic require that Workers cannot execute.
+   - Workaround in place: `vars.NEXT_PRIVATE_MINIMAL_MODE = "1"` in `apps/web/wrangler.jsonc`. OpenNext already runs middleware in its own routing layer, and the app has no middleware/proxy file, so this is safe.
+   - Remove the var once OpenNext ships a fix.
+2. **`/api/auth/*` returned 500:** `TypeError: ... is not a function`.
+   - Cause: better-auth's `toNextJsHandler(auth)` checks `"handler" in auth`. The lazy `auth` Proxy in `apps/web/src/lib/auth.ts` only had a `get` trap, so the check was false.
+   - Fix: added `has`, `ownKeys`, and `getOwnPropertyDescriptor` traps to the Proxy. This would have failed in any environment, not only Workers.
+
+**Diagnosis tip:** the browser only shows a bare 500. To see the real exception, run `pnpm exec wrangler tail yogseq --format json` from `apps/web` while hitting the URL.
 
 ---
 

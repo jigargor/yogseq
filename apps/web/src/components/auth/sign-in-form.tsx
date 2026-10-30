@@ -1,50 +1,102 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { useRouter } from "next/navigation";
 import { Loader2, Mail } from "lucide-react";
 import { authClient } from "@/lib/auth-client";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface SignInFormProps {
   callbackURL: string;
-  googleEnabled: boolean;
+  isMagicLinkEnabled: boolean;
+  isGoogleEnabled: boolean;
 }
 
-type FormStatus = "idle" | "sending" | "sent" | "error";
+type PendingAction = "sign-in" | "sign-up" | "magic-link" | "google";
 
-export function SignInForm({ callbackURL, googleEnabled }: SignInFormProps) {
+type FormState =
+  | { status: "idle" }
+  | { status: "pending"; action: PendingAction }
+  | { status: "error"; message: string }
+  | { status: "link-sent" };
+
+const IDLE_STATE: FormState = { status: "idle" };
+
+function getSignUpErrorMessage(message: string | undefined): string {
+  if (message && /already exists?/i.test(message))
+    return "An account with this email already exists. Sign in instead.";
+  return message ?? "Could not create your account. Please try again.";
+}
+
+export function SignInForm({ callbackURL, isMagicLinkEnabled, isGoogleEnabled }: SignInFormProps) {
+  const router = useRouter();
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<FormStatus>("idle");
-  const [message, setMessage] = useState<string | null>(null);
-  const [isGoogleLoading, setIsGoogleLoading] = useState(false);
+  const [password, setPassword] = useState("");
+  const [formState, setFormState] = useState<FormState>(IDLE_STATE);
 
-  async function handleMagicLink(event: FormEvent<HTMLFormElement>) {
+  const isPending = formState.status === "pending";
+  const isPendingAction = (action: PendingAction) =>
+    formState.status === "pending" && formState.action === action;
+
+  function completeAuth() {
+    router.push(callbackURL);
+    router.refresh();
+  }
+
+  async function handleSignIn(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setStatus("sending");
-    setMessage(null);
-    const { error } = await authClient.signIn.magicLink({ email, callbackURL });
+    setFormState({ status: "pending", action: "sign-in" });
+    const { error } = await authClient.signIn.email({ email, password, callbackURL });
     if (error) {
-      setStatus("error");
-      setMessage(error.message ?? "Could not send the sign-in link. Please try again.");
+      setFormState({
+        status: "error",
+        message: error.message ?? "Could not sign in. Check your email and password.",
+      });
       return;
     }
-    setStatus("sent");
+    completeAuth();
+  }
+
+  async function handleSignUp(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setFormState({ status: "pending", action: "sign-up" });
+    const { error } = await authClient.signUp.email({ name, email, password, callbackURL });
+    if (error) {
+      setFormState({ status: "error", message: getSignUpErrorMessage(error.message) });
+      return;
+    }
+    completeAuth();
+  }
+
+  async function handleMagicLink() {
+    setFormState({ status: "pending", action: "magic-link" });
+    const { error } = await authClient.signIn.magicLink({ email, callbackURL });
+    if (error) {
+      setFormState({
+        status: "error",
+        message: error.message ?? "Could not send the sign-in link. Please try again.",
+      });
+      return;
+    }
+    setFormState({ status: "link-sent" });
   }
 
   async function handleGoogle() {
-    setIsGoogleLoading(true);
+    setFormState({ status: "pending", action: "google" });
     const { error } = await authClient.signIn.social({ provider: "google", callbackURL });
-    if (error) {
-      setIsGoogleLoading(false);
-      setStatus("error");
-      setMessage(error.message ?? "Google sign-in failed. Please try again.");
-    }
+    if (error)
+      setFormState({
+        status: "error",
+        message: error.message ?? "Google sign-in failed. Please try again.",
+      });
   }
 
-  if (status === "sent")
+  if (formState.status === "link-sent")
     return (
       <Alert>
         <Mail />
@@ -56,41 +108,111 @@ export function SignInForm({ callbackURL, googleEnabled }: SignInFormProps) {
 
   return (
     <div className="flex flex-col gap-4">
-      <form onSubmit={handleMagicLink} className="flex flex-col gap-3">
-        <Label htmlFor="email">Email</Label>
-        <Input
-          id="email"
-          type="email"
-          autoComplete="email"
-          required
-          placeholder="you@example.com"
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-        />
-        <Button type="submit" disabled={status === "sending" || email.length === 0}>
-          {status === "sending" ? <Loader2 className="animate-spin" /> : <Mail />}
-          Email me a sign-in link
-        </Button>
-      </form>
+      <Tabs defaultValue="sign-in" onValueChange={() => setFormState(IDLE_STATE)}>
+        <TabsList className="w-full">
+          <TabsTrigger value="sign-in">Sign in</TabsTrigger>
+          <TabsTrigger value="sign-up">Create account</TabsTrigger>
+        </TabsList>
 
-      {googleEnabled ? (
+        <TabsContent value="sign-in">
+          <form onSubmit={handleSignIn} className="flex flex-col gap-3 pt-2">
+            <Label htmlFor="sign-in-email">Email</Label>
+            <Input
+              id="sign-in-email"
+              type="email"
+              autoComplete="email"
+              required
+              placeholder="you@example.com"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+            />
+            <Label htmlFor="sign-in-password">Password</Label>
+            <Input
+              id="sign-in-password"
+              type="password"
+              autoComplete="current-password"
+              required
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+            />
+            <Button type="submit" disabled={isPending}>
+              {isPendingAction("sign-in") ? <Loader2 className="animate-spin" /> : null}
+              Sign in
+            </Button>
+          </form>
+        </TabsContent>
+
+        <TabsContent value="sign-up">
+          <form onSubmit={handleSignUp} className="flex flex-col gap-3 pt-2">
+            <Label htmlFor="sign-up-name">Name</Label>
+            <Input
+              id="sign-up-name"
+              type="text"
+              autoComplete="name"
+              required
+              placeholder="Your name"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+            />
+            <Label htmlFor="sign-up-email">Email</Label>
+            <Input
+              id="sign-up-email"
+              type="email"
+              autoComplete="email"
+              required
+              placeholder="you@example.com"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+            />
+            <Label htmlFor="sign-up-password">Password</Label>
+            <Input
+              id="sign-up-password"
+              type="password"
+              autoComplete="new-password"
+              required
+              minLength={8}
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+            />
+            <p className="text-muted-foreground text-xs">At least 8 characters.</p>
+            <Button type="submit" disabled={isPending}>
+              {isPendingAction("sign-up") ? <Loader2 className="animate-spin" /> : null}
+              Create account
+            </Button>
+          </form>
+        </TabsContent>
+      </Tabs>
+
+      {formState.status === "error" ? (
+        <Alert variant="destructive">
+          <AlertDescription>{formState.message}</AlertDescription>
+        </Alert>
+      ) : null}
+
+      {isMagicLinkEnabled ? (
+        <Button
+          type="button"
+          variant="secondary"
+          onClick={handleMagicLink}
+          disabled={isPending || email.length === 0}
+        >
+          {isPendingAction("magic-link") ? <Loader2 className="animate-spin" /> : <Mail />}
+          Email me a sign-in link instead
+        </Button>
+      ) : null}
+
+      {isGoogleEnabled ? (
         <>
           <div className="text-muted-foreground flex items-center gap-3 text-xs">
             <span className="bg-border h-px flex-1" />
             or
             <span className="bg-border h-px flex-1" />
           </div>
-          <Button variant="outline" onClick={handleGoogle} disabled={isGoogleLoading}>
-            {isGoogleLoading ? <Loader2 className="animate-spin" /> : null}
+          <Button type="button" variant="outline" onClick={handleGoogle} disabled={isPending}>
+            {isPendingAction("google") ? <Loader2 className="animate-spin" /> : null}
             Continue with Google
           </Button>
         </>
-      ) : null}
-
-      {status === "error" && message ? (
-        <Alert variant="destructive">
-          <AlertDescription>{message}</AlertDescription>
-        </Alert>
       ) : null}
     </div>
   );

@@ -41,13 +41,21 @@ pnpm dev           # http://localhost:3000
 | `BETTER_AUTH_SECRET`             | yes      | Long random string (`openssl rand -base64 32`)                     |
 | `BETTER_AUTH_URL`                | yes      | Public origin, e.g. `http://localhost:3000`                        |
 | `NEXT_PUBLIC_APP_URL`            | yes      | Same origin, used by the browser auth client                       |
-| `RESEND_API_KEY`                 | no       | Magic-link emails. Without it the link is printed to the server log |
+| `RESEND_API_KEY`                 | no       | Enables magic-link sign-in. Without it `/sign-in` only offers email/password (no link is shown) |
 | `RESEND_FROM_EMAIL`              | no       | e.g. `Yogseq <login@yourdomain.com>`                               |
 | `GOOGLE_CLIENT_ID` / `_SECRET`   | no       | Enables "Continue with Google" on `/sign-in`                       |
 | `NEXT_PUBLIC_CF_ANALYTICS_TOKEN` | no       | Cloudflare Web Analytics token; beacon is skipped when unset       |
 | `ALLOW_STUDIO_WRITE`             | no       | `1` allows Pose Studio saves outside `NODE_ENV=development`        |
 
 The app builds without any of these; auth and library features need the database and secret at runtime.
+
+### Signing in
+
+- **Email and password** is the default. Teachers create an account on `/sign-in` ("Create account" tab) and sign in with email and password. No third-party service is required.
+- **Magic link** (optional): when `RESEND_API_KEY` is set, `/sign-in` also offers "Email me a sign-in link instead".
+- **Google** (optional): when `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` are set, `/sign-in` shows "Continue with Google".
+
+See [`docs/auth-plan.md`](docs/auth-plan.md) for the decision record, server config, and rollout checklist.
 
 ## Pose Studio (dev tool)
 

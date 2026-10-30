@@ -3,6 +3,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { SignInForm } from "@/components/auth/sign-in-form";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { getAuthProviders } from "@/lib/auth-providers";
 import { getSessionUser } from "@/lib/session";
 
 export const metadata: Metadata = {
@@ -24,7 +25,7 @@ export default async function SignInPage({ searchParams }: SignInPageProps) {
   const callbackURL = safeNextPath((await searchParams).next);
   if (await getSessionUser()) redirect(callbackURL);
 
-  const googleEnabled = Boolean(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET);
+  const { isMagicLinkEnabled, isGoogleEnabled } = getAuthProviders();
 
   return (
     <main className="flex flex-1 items-center justify-center px-4 py-16">
@@ -32,12 +33,15 @@ export default async function SignInPage({ searchParams }: SignInPageProps) {
         <CardHeader>
           <CardTitle className="text-xl">Sign in to Yogseq</CardTitle>
           <CardDescription>
-            No password needed. We&apos;ll email you a one-time link. New here? An account is
-            created automatically.
+            Sign in with your email and password, or create a free account.
           </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-6">
-          <SignInForm callbackURL={callbackURL} googleEnabled={googleEnabled} />
+          <SignInForm
+            callbackURL={callbackURL}
+            isMagicLinkEnabled={isMagicLinkEnabled}
+            isGoogleEnabled={isGoogleEnabled}
+          />
           <p className="text-muted-foreground text-xs">
             By continuing you agree to the{" "}
             <Link href="/terms" className="underline underline-offset-4">

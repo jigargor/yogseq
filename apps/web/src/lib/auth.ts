@@ -28,6 +28,17 @@ async function sendMagicLinkEmail(email: string, url: string) {
   if (error) throw new Error(`Failed to send magic link: ${error.message}`);
 }
 
+const STATIC_TRUSTED_ORIGINS = [
+  "https://yogseq.metierstudio.org",
+  "https://yogseq.metierstudio.com",
+  "http://localhost:3000",
+];
+
+function getTrustedOrigins(): string[] {
+  const configuredUrl = process.env.BETTER_AUTH_URL;
+  return [...new Set(configuredUrl ? [...STATIC_TRUSTED_ORIGINS, configuredUrl] : STATIC_TRUSTED_ORIGINS)];
+}
+
 function createAuth() {
   const googleClientId = process.env.GOOGLE_CLIENT_ID;
   const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET;
@@ -35,8 +46,15 @@ function createAuth() {
   return betterAuth({
     baseURL: process.env.BETTER_AUTH_URL ?? "http://localhost:3000",
     secret: process.env.BETTER_AUTH_SECRET,
+    trustedOrigins: getTrustedOrigins(),
     database: drizzleAdapter(getDb(), { provider: "pg", schema }),
-    emailAndPassword: { enabled: false },
+    emailAndPassword: {
+      enabled: true,
+      minPasswordLength: 8,
+      maxPasswordLength: 128,
+      autoSignIn: true,
+      requireEmailVerification: false,
+    },
     socialProviders:
       googleClientId && googleClientSecret
         ? {
