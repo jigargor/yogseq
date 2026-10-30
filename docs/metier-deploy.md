@@ -182,8 +182,18 @@ Token needs Workers Scripts Edit (and related) on the account. After the first s
 |--------|---------|
 | [`scripts/setup-production.ps1`](../scripts/setup-production.ps1) | `pnpm db:migrate` + OpenNext deploy + `wrangler secret put` |
 | [`scripts/setup-github-secrets.ps1`](../scripts/setup-github-secrets.ps1) | `gh secret set` / `gh variable set` for CI |
+| [`scripts/deploy-from-ci-artifact.ps1`](../scripts/deploy-from-ci-artifact.ps1) | Download CI `open-next-yogseq` artifact + `wrangler deploy` (OAuth OK) |
 
-Repo variable already expected: `NEXT_PUBLIC_APP_URL=https://yogseq.metierstudio.com`.
+Repo variable (interim): `NEXT_PUBLIC_APP_URL=https://yogseq.metierstudio.org`.
+
+### Cloudflare API token for GitHub Actions
+
+`wrangler login` OAuth tokens **do not** work as `CLOUDFLARE_API_TOKEN` in CI (auth error 10000).
+
+1. Dashboard → [API Tokens](https://dash.cloudflare.com/profile/api-tokens) → **Create Token** → template **Edit Cloudflare Workers**.
+2. Restrict to account `359089ac16b9342a1cf8f294edd92b9b` if prompted.
+3. `gh secret set CLOUDFLARE_API_TOKEN --repo jigargor/yogseq` with the token value.
+4. Until then, use `scripts/deploy-from-ci-artifact.ps1` after each green OpenNext build.
 
 ### Custom domain via API (optional)
 
