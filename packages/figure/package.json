@@ -1,0 +1,29 @@
+{
+  "name": "@yogseq/figure",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "echo \"no lint configured\""
+  },
+  "dependencies": {
+    "zod": "^4.1.12"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "react": "^19.2.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

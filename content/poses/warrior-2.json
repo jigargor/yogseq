@@ -1,0 +1,99 @@
+{
+  "id": "warrior-2",
+  "slug": "warrior-2",
+  "nameEn": "Warrior II",
+  "nameSanskrit": "Virabhadrasana II",
+  "nameSanskritDiacritics": "Vīrabhadrāsana II",
+  "aliases": ["Warrior Two", "Side Warrior", "Virabhadrasana Two"],
+  "position": "standing",
+  "types": ["hipOpener", "balance"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.095,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.9054
+      },
+      "shinL": {
+        "angle": -0.5237
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.5708
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -0.9939
+      },
+      "shinR": {
+        "angle": 0.9911
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Stack the front knee over the ankle and track it toward the little toe.",
+    "Press into the outer edge of the back foot.",
+    "Extend the arms level with the shoulders and reach in both directions.",
+    "Keep the torso centered between the legs rather than leaning forward."
+  ],
+  "benefits": [
+    "Strengthens thighs and ankles",
+    "Builds endurance in the shoulders",
+    "Opens the inner thighs and hips"
+  ],
+  "cautions": [
+    "Do not let the front knee collapse inward",
+    "Shorten the stance if the knee feels strained"
+  ],
+  "related": {
+    "prep": ["mountain", "goddess"],
+    "counter": ["wide-legged-forward-fold"],
+    "variations": ["reverse-warrior", "extended-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

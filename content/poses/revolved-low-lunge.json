@@ -1,0 +1,96 @@
+{
+  "id": "revolved-low-lunge",
+  "slug": "revolved-low-lunge",
+  "nameEn": "Revolved Low Lunge",
+  "nameSanskrit": "Parivrtta Anjaneyasana",
+  "nameSanskritDiacritics": "Parivṛtta Añjaneyāsana",
+  "aliases": ["Twisting Lunge", "Low Lunge Twist", "Parivrtta Anjaneyasana"],
+  "position": "kneeling",
+  "types": ["twist", "hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.0398,
+      "y": 0.19,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.1745
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": -0.1745
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.7453
+      },
+      "forearmL": {
+        "angle": 1.6581
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.6473
+      },
+      "shinL": {
+        "angle": -1.5134
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.9199,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": -0.0873,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.2618,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.1345,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Settle into a low lunge with a long spine.",
+    "Bring the palms to prayer and hook the opposite elbow outside the front knee.",
+    "Press the palms together to open the chest toward the side wall.",
+    "Keep the front knee stacked over the ankle."
+  ],
+  "benefits": ["Twists and lengthens the spine", "Opens hip flexors", "Challenges balance gently"],
+  "cautions": ["Keep the hands on blocks for a gentler twist", "Pad the back knee"],
+  "related": {
+    "prep": ["low-lunge"],
+    "counter": ["child"],
+    "variations": ["revolved-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

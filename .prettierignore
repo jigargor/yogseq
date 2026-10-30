@@ -1,0 +1,9 @@
+node_modules
+.next
+.open-next
+.wrangler
+dist
+coverage
+pnpm-lock.yaml
+apps/web/public/catalog
+*.md

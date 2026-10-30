@@ -1,0 +1,93 @@
+{
+  "id": "gate",
+  "slug": "gate",
+  "nameEn": "Gate Pose",
+  "nameSanskrit": "Parighasana",
+  "nameSanskritDiacritics": "Parighāsana",
+  "aliases": ["Parighasana", "Kneeling Side Stretch", "Gate Pose Side Bend"],
+  "position": "kneeling",
+  "types": ["lateralBend", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.2231,
+      "y": 0.127,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.2094
+      },
+      "spineUpper": {
+        "angle": -0.4014
+      },
+      "neck": {
+        "angle": -0.1222
+      },
+      "head": {
+        "angle": -0.0524
+      },
+      "upperArmL": {
+        "angle": 2.3562
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5708
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": 2.9671
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": 0
+      },
+      "shinR": {
+        "angle": 0,
+        "scale": 0.4
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Kneel upright and extend one leg out to the side.",
+    "Square the hips forward and press the extended foot flat.",
+    "Sweep the opposite arm overhead and bend sideways over the long leg.",
+    "Rest the lower hand on the shin or thigh without leaning into it."
+  ],
+  "benefits": ["Stretches side body and inner thigh", "Improves spinal mobility", "Opens the hips"],
+  "cautions": ["Pad the kneeling knee", "Keep the arm lower if the shoulder is tight"],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["child"],
+    "variations": ["crescent-moon"]
+  },
+  "status": "published",
+  "version": 1
+}

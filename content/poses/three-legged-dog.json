@@ -1,0 +1,100 @@
+{
+  "id": "three-legged-dog",
+  "slug": "three-legged-dog",
+  "nameEn": "Three-Legged Dog",
+  "nameSanskrit": "Eka Pada Adho Mukha Svanasana",
+  "nameSanskritDiacritics": "Eka Pāda Adho Mukha Śvānāsana",
+  "aliases": ["Downward Dog Split", "Eka Pada Adho Mukha Svanasana", "Dog Split"],
+  "position": "inversion",
+  "types": ["hamstring", "balance", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0346,
+      "y": 0.0517,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.2166
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.2269
+      },
+      "head": {
+        "angle": -0.3491
+      },
+      "upperArmL": {
+        "angle": 1.367
+      },
+      "forearmL": {
+        "angle": 1.8978
+      },
+      "handL": {
+        "angle": 0.5225
+      },
+      "thighL": {
+        "angle": 1.693
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0.5236
+      },
+      "upperArmR": {
+        "angle": 1.4065,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.7997,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.5812,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.3142,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "From down dog, lift one leg straight back and up.",
+    "Keep the hips square by pressing into both hands.",
+    "Reach through the lifted heel and the crown of the head.",
+    "Bend the lifted knee for an open-hip variation."
+  ],
+  "benefits": [
+    "Stretches hamstrings and hip flexors",
+    "Strengthens shoulders and glutes",
+    "Builds balance"
+  ],
+  "cautions": ["Keep the lifted leg lower if the shoulders strain", "Avoid with wrist pain"],
+  "related": {
+    "prep": ["downward-dog"],
+    "counter": ["child"],
+    "variations": ["downward-dog"]
+  },
+  "status": "published",
+  "version": 1
+}

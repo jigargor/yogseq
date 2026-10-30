@@ -1,0 +1,99 @@
+{
+  "id": "wind-relieving",
+  "slug": "wind-relieving",
+  "nameEn": "Wind-Relieving Pose",
+  "nameSanskrit": "Pavanamuktasana",
+  "nameSanskritDiacritics": "Pavanamuktāsana",
+  "aliases": ["Pawanmuktasana", "One Knee to Chest", "Single Knee Hug", "Gas Release Pose"],
+  "position": "supine",
+  "types": ["restorative"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0225,
+      "y": 0.392,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.1745
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.5934,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.1047,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.1817,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "blanket"],
+  "cues": [
+    "Hug one knee in toward the chest while the other leg stays long.",
+    "Keep the lower back and the tailbone heavy.",
+    "Flex the extended foot and press the heel away.",
+    "Switch legs after a few slow breaths."
+  ],
+  "benefits": ["Stretches the hips and lower back", "Helps digestion", "Relieves tension"],
+  "cautions": [
+    "Keep the head down if the neck feels strained",
+    "Avoid with recent abdominal surgery"
+  ],
+  "related": {
+    "prep": ["corpse"],
+    "counter": ["corpse"],
+    "variations": ["knees-to-chest"]
+  },
+  "status": "published",
+  "version": 1
+}

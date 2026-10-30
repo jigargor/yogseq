@@ -1,0 +1,99 @@
+{
+  "id": "seated-forward-fold",
+  "slug": "seated-forward-fold",
+  "nameEn": "Seated Forward Fold",
+  "nameSanskrit": "Paschimottanasana",
+  "nameSanskritDiacritics": "Paścimottānāsana",
+  "aliases": ["Paschimottanasana", "Seated Fold", "Intense West Stretch", "Forward Bend"],
+  "position": "seated",
+  "types": ["forwardFold", "hamstring", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.2296,
+      "y": 0.3756,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.8727
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.3491
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": 2.9001
+      },
+      "forearmL": {
+        "angle": 2.2383
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.4435
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.7909,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.3075,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.4435,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "blanket", "bolster"],
+  "cues": [
+    "Sit tall and hinge forward from the hips, not the waist.",
+    "Keep the spine long and the feet flexed.",
+    "Hold the shins, feet or a strap, lengthening with each inhale.",
+    "Fold deeper on the exhale without pulling hard."
+  ],
+  "benefits": ["Stretches hamstrings and back", "Calms the mind", "Relieves tension in the spine"],
+  "cautions": [
+    "Bend the knees if the low back rounds",
+    "Sit on a blanket to tilt the pelvis forward"
+  ],
+  "related": {
+    "prep": ["staff", "half-forward-fold"],
+    "counter": ["staff"],
+    "variations": ["wide-seated-forward-fold", "head-to-knee"]
+  },
+  "status": "published",
+  "version": 1
+}

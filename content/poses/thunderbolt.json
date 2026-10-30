@@ -1,0 +1,103 @@
+{
+  "id": "thunderbolt",
+  "slug": "thunderbolt",
+  "nameEn": "Thunderbolt Pose",
+  "nameSanskrit": "Vajrasana",
+  "nameSanskritDiacritics": "Vajrāsana",
+  "aliases": ["Vajrasana", "Diamond Pose", "Sitting on Heels", "Kneeling Pose"],
+  "position": "kneeling",
+  "types": ["restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0607,
+      "y": 0.325,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.4887
+      },
+      "forearmL": {
+        "angle": 0.5934
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.0472
+      },
+      "shinL": {
+        "angle": -2.618
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.4887,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.5934,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.618,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Kneel with knees together and sit back on the heels.",
+    "Lengthen through the spine and rest the hands on the thighs.",
+    "Place a blanket behind the knees if the stretch is intense.",
+    "Breathe slowly and steadily."
+  ],
+  "benefits": [
+    "Stretches ankles, thighs and feet",
+    "Calming for meditation and breathwork",
+    "Aids digestion when seated after meals"
+  ],
+  "cautions": [
+    "Avoid with knee or ankle injury",
+    "Place a block between the heels and hips if needed"
+  ],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["tabletop"],
+    "variations": ["hero"]
+  },
+  "status": "published",
+  "version": 1
+}

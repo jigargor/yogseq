@@ -1,0 +1,100 @@
+{
+  "id": "one-leg-folded-forward-fold",
+  "slug": "one-leg-folded-forward-fold",
+  "nameEn": "One-Leg Folded Forward Fold",
+  "nameSanskrit": "Triang Mukhaikapada Paschimottanasana",
+  "nameSanskritDiacritics": "Triaṅga Mukhaikapāda Paścimottānāsana",
+  "aliases": [
+    "Three-Limbed Forward Fold",
+    "Hero Leg Forward Fold",
+    "Triang Mukhaikapada Paschimottanasana"
+  ],
+  "position": "seated",
+  "types": ["forwardFold", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1931,
+      "y": 0.3708,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.8727
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.3491
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": 3.0926
+      },
+      "forearmL": {
+        "angle": 1.9646
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.4435
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.2523,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.3725,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.3562,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -3.0543,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket", "strap"],
+  "cues": [
+    "Fold one leg back beside the hip like hero and extend the other forward.",
+    "Sit on a block to keep the hips level.",
+    "Hinge forward and hold the extended foot.",
+    "Keep the folded knee pointing forward."
+  ],
+  "benefits": ["Stretches hamstrings and quads", "Opens the hips and ankles", "Calms the mind"],
+  "cautions": ["Sit on a block to protect the folded knee", "Avoid with knee injuries"],
+  "related": {
+    "prep": ["hero", "head-to-knee"],
+    "counter": ["staff"],
+    "variations": ["head-to-knee"]
+  },
+  "status": "published",
+  "version": 1
+}

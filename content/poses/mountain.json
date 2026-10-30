@@ -1,0 +1,96 @@
+{
+  "id": "mountain",
+  "slug": "mountain",
+  "nameEn": "Mountain Pose",
+  "nameSanskrit": "Tadasana",
+  "nameSanskritDiacritics": "Tāḍāsana",
+  "aliases": ["Tadasana", "Standing Tall", "Samasthiti", "Equal Standing"],
+  "position": "standing",
+  "types": ["balance"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.1047
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.1047
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": 0
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Root evenly through the four corners of each foot.",
+    "Stack ribs over hips and lengthen the crown of the head upward.",
+    "Let the shoulders melt away from the ears with palms facing forward.",
+    "Soften the knees just enough to avoid locking them."
+  ],
+  "benefits": [
+    "Improves postural awareness",
+    "Builds foundational leg and core engagement",
+    "Calms the mind before practice"
+  ],
+  "cautions": ["Bend the knees slightly if you are lightheaded"],
+  "related": {
+    "prep": [],
+    "counter": ["standing-forward-fold"],
+    "variations": ["upward-salute", "five-pointed-star"]
+  },
+  "status": "published",
+  "version": 1
+}

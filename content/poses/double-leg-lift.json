@@ -1,0 +1,100 @@
+{
+  "id": "double-leg-lift",
+  "slug": "double-leg-lift",
+  "nameEn": "Double Leg Lift",
+  "nameSanskrit": "Dvi Pada Uttanasana",
+  "nameSanskritDiacritics": "Dvi Pāda Utthānāsana",
+  "aliases": ["Leg Lifts", "Core Leg Raise", "Dvipada Pitham Core"],
+  "position": "supine",
+  "types": ["core"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0525,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": -0.0349
+      },
+      "spineUpper": {
+        "angle": -0.2269
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 0.3491
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.7854
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.3491,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.7854,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "Press the low back into the floor and lift both legs together.",
+    "Keep the legs long and the feet flexed or pointed.",
+    "Lower only as far as the abdominals stay engaged.",
+    "Breathe out as you lift and in as you lower."
+  ],
+  "benefits": [
+    "Strengthens abdominals and hip flexors",
+    "Improves control",
+    "Supports good posture"
+  ],
+  "cautions": ["Bend the knees if the lower back arches", "Avoid with disc problems"],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": ["knees-to-chest"],
+    "variations": ["dead-bug"]
+  },
+  "status": "published",
+  "version": 1
+}

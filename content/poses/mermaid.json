@@ -1,0 +1,94 @@
+{
+  "id": "mermaid",
+  "slug": "mermaid",
+  "nameEn": "Mermaid Pose",
+  "nameSanskrit": "Sirsasana Kurmasana Side Bend",
+  "nameSanskritDiacritics": "Śīrṣāsana Kūrmāsana",
+  "aliases": ["Mermaid Side Bend", "Seated Mermaid", "Mermaid Stretch"],
+  "position": "seated",
+  "types": ["lateralBend", "hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.0962,
+      "y": 0.335,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.2094
+      },
+      "spineUpper": {
+        "angle": -0.3142
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.1416
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.309,
+        "scale": 0.55
+      },
+      "shinL": {
+        "angle": -2.7053
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -3.0543
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.309,
+        "scale": 0.55
+      },
+      "shinR": {
+        "angle": 2.7053
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Sit with one leg folded in front and the other folded back.",
+    "Reach both arms overhead and sweep them sideways.",
+    "Keep both hips grounded and the chest lifted.",
+    "Use a block under the hip to level the pelvis."
+  ],
+  "benefits": ["Opens the side body", "Stretches hips and thighs", "Increases spinal mobility"],
+  "cautions": ["Raise the hips on a block if the knees complain"],
+  "related": {
+    "prep": ["seated-side-bend"],
+    "counter": ["staff"],
+    "variations": ["seated-side-bend"]
+  },
+  "status": "published",
+  "version": 1
+}

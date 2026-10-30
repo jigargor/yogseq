@@ -1,0 +1,100 @@
+{
+  "id": "side-crow",
+  "slug": "side-crow",
+  "nameEn": "Side Crow",
+  "nameSanskrit": "Parsva Bakasana",
+  "nameSanskritDiacritics": "Pārśva Bakāsana",
+  "aliases": ["Parsva Bakasana", "Twisted Crow", "Side Crane"],
+  "position": "armBalance",
+  "types": ["balance", "twist", "core"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1439,
+      "y": 0.055,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.1817
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.3491
+      },
+      "neck": {
+        "angle": 0.0873
+      },
+      "head": {
+        "angle": 0.3491
+      },
+      "upperArmL": {
+        "angle": 1.5275
+      },
+      "forearmL": {
+        "angle": 2.3407
+      },
+      "handL": {
+        "angle": 0.2333
+      },
+      "thighL": {
+        "angle": -2.7053
+      },
+      "shinL": {
+        "angle": 2.9671
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.7,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.8507,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.5509,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -2.7053,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.9671,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Squat and twist the torso to one side, hooking the opposite elbow outside the knees.",
+    "Place the hands on the floor and shift forward.",
+    "Rest both knees on the back of one upper arm.",
+    "Lift the feet and keep the gaze forward."
+  ],
+  "benefits": [
+    "Strengthens the core and arms",
+    "Improves balance and rotational control",
+    "Builds confidence in arm balancing"
+  ],
+  "cautions": ["Place pillows in front of you", "Avoid with wrist or shoulder injuries"],
+  "related": {
+    "prep": ["crow"],
+    "counter": ["child"],
+    "variations": ["crow"]
+  },
+  "status": "published",
+  "version": 1
+}

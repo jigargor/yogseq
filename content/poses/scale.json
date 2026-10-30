@@ -1,0 +1,98 @@
+{
+  "id": "scale",
+  "slug": "scale",
+  "nameEn": "Scale Pose",
+  "nameSanskrit": "Tolasana",
+  "nameSanskritDiacritics": "Tolāsana",
+  "aliases": ["Tolasana", "Lifted Lotus", "Pendant Pose"],
+  "position": "armBalance",
+  "types": ["balance", "core"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.2933,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.0349
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.2217,
+        "scale": 0.5
+      },
+      "shinL": {
+        "angle": -2.4435
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.0349
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2217,
+        "scale": 0.5
+      },
+      "shinR": {
+        "angle": 2.4435
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Sit in lotus or easy seat and place the palms by the hips.",
+    "Press the hands down and lift the pelvis and legs off the floor.",
+    "Keep the shoulders away from the ears and the chest lifted.",
+    "Hold for a few breaths, then lower with control."
+  ],
+  "benefits": [
+    "Strengthens arms, wrists and abdomen",
+    "Builds lightness and control",
+    "Improves focus"
+  ],
+  "cautions": ["Use blocks under the hands", "Avoid with wrist or knee issues"],
+  "related": {
+    "prep": ["lotus"],
+    "counter": ["staff"],
+    "variations": ["crow"]
+  },
+  "status": "published",
+  "version": 1
+}

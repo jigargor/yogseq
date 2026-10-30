@@ -1,0 +1,100 @@
+{
+  "id": "upward-dog",
+  "slug": "upward-dog",
+  "nameEn": "Upward-Facing Dog",
+  "nameSanskrit": "Urdhva Mukha Svanasana",
+  "nameSanskritDiacritics": "Ūrdhva Mukha Śvānāsana",
+  "aliases": ["Updog", "Urdhva Mukha Svanasana", "Up Dog"],
+  "position": "prone",
+  "types": ["backbend", "chestOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0696,
+      "y": 0.3258,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3963
+      },
+      "spineLower": {
+        "angle": 0.2618
+      },
+      "spineUpper": {
+        "angle": 0.3491
+      },
+      "neck": {
+        "angle": 0.2618
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": 0.7854
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 0.0698
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.8151
+      },
+      "upperArmR": {
+        "angle": 0.7854,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.0698,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.8151,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Press into the hands and the tops of the feet and lift the thighs off the floor.",
+    "Straighten the arms and slide the shoulders away from the ears.",
+    "Open the chest forward and up between the arms.",
+    "Keep the neck long and the legs strong."
+  ],
+  "benefits": [
+    "Opens the chest and front body",
+    "Strengthens arms, wrists and back",
+    "Prepares for deeper backbends"
+  ],
+  "cautions": ["Use cobra if the lower back pinches", "Avoid with wrist injuries"],
+  "related": {
+    "prep": ["chaturanga", "cobra"],
+    "counter": ["downward-dog"],
+    "variations": ["cobra"]
+  },
+  "status": "published",
+  "version": 1
+}

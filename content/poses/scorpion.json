@@ -1,0 +1,103 @@
+{
+  "id": "scorpion",
+  "slug": "scorpion",
+  "nameEn": "Scorpion Pose",
+  "nameSanskrit": "Vrschikasana",
+  "nameSanskritDiacritics": "Vṛścikāsana",
+  "aliases": ["Vrschikasana", "Forearm Stand Backbend", "Scorpion"],
+  "position": "inversion",
+  "types": ["backbend", "balance", "shoulderOpener"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1162,
+      "y": -0.0369,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.9671
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.1745
+      },
+      "neck": {
+        "angle": 0.1745
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": -2.618
+      },
+      "forearmL": {
+        "angle": 1.5708
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -1.0472
+      },
+      "shinL": {
+        "angle": -1.2217
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -2.618,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -1.0472,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.2217,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Establish a strong forearm stand first.",
+    "Bend the knees and let the feet drop toward the head.",
+    "Lift the chest and press the forearms down.",
+    "Keep the gaze between the hands and breathe slowly."
+  ],
+  "benefits": [
+    "Deep spinal extension",
+    "Strengthens shoulders and core",
+    "Develops control and focus"
+  ],
+  "cautions": [
+    "Only practice with an experienced teacher",
+    "Avoid with back, shoulder or neck injuries"
+  ],
+  "related": {
+    "prep": ["forearm-stand"],
+    "counter": ["child"],
+    "variations": ["forearm-stand"]
+  },
+  "status": "published",
+  "version": 1
+}

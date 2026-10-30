@@ -1,0 +1,96 @@
+{
+  "id": "half-boat",
+  "slug": "half-boat",
+  "nameEn": "Half Boat",
+  "nameSanskrit": "Ardha Navasana",
+  "nameSanskritDiacritics": "Ardha Nāvāsana",
+  "aliases": ["Ardha Navasana", "Low Boat", "Bent-Knee Boat"],
+  "position": "seated",
+  "types": ["core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0895,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.2618
+      },
+      "spineLower": {
+        "angle": 0.1745
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 1.2217
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.042
+      },
+      "shinL": {
+        "angle": -0.733
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.2217,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.042,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.733,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "block"],
+  "cues": [
+    "Lean back slightly and lift the shins parallel to the floor.",
+    "Keep the chest open and the spine long.",
+    "Reach the arms forward alongside the knees.",
+    "Draw the belly in and breathe steadily."
+  ],
+  "benefits": ["Builds core strength", "Stretches hip flexors", "Prepares for full boat"],
+  "cautions": ["Keep the feet on the floor with lower back pain"],
+  "related": {
+    "prep": ["staff"],
+    "counter": ["seated-forward-fold"],
+    "variations": ["boat"]
+  },
+  "status": "published",
+  "version": 1
+}

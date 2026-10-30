@@ -1,0 +1,103 @@
+{
+  "id": "chair",
+  "slug": "chair",
+  "nameEn": "Chair Pose",
+  "nameSanskrit": "Utkatasana",
+  "nameSanskritDiacritics": "Utkaṭāsana",
+  "aliases": ["Fierce Pose", "Awkward Chair", "Lightning Bolt Pose"],
+  "position": "standing",
+  "types": ["core", "balance"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1356,
+      "y": 0.0996,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.5236
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -2.9671
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5772
+      },
+      "shinL": {
+        "angle": -1.5836
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -2.9671,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5662,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5662,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Bend the knees and send the hips back as if lowering onto a chair.",
+    "Keep the weight in the heels so the toes stay light.",
+    "Draw the tailbone down and lift the chest forward of the thighs.",
+    "Reach the arms up beside the ears without flaring the ribs."
+  ],
+  "benefits": [
+    "Strengthens thighs, glutes and ankles",
+    "Builds heat and stamina",
+    "Teaches core support in a bent-knee stance"
+  ],
+  "cautions": [
+    "Reduce the depth with sensitive knees",
+    "Keep arms lower if shoulders feel pinched"
+  ],
+  "related": {
+    "prep": ["mountain"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["revolved-chair", "goddess"]
+  },
+  "status": "published",
+  "version": 1
+}

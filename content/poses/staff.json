@@ -1,0 +1,100 @@
+{
+  "id": "staff",
+  "slug": "staff",
+  "nameEn": "Staff Pose",
+  "nameSanskrit": "Dandasana",
+  "nameSanskritDiacritics": "Daṇḍāsana",
+  "aliases": ["Dandasana", "Seated Mountain", "Long Sit", "Stick Pose"],
+  "position": "seated",
+  "types": ["core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1997,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.1308
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5708
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.1308,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Sit tall with both legs extended and the toes pointing up.",
+    "Press the thighs down and flex the feet.",
+    "Place the palms beside the hips and lift through the crown of the head.",
+    "Sit on a folded blanket if the pelvis tips back."
+  ],
+  "benefits": [
+    "Improves posture",
+    "Strengthens the back and core",
+    "Prepares for seated forward folds"
+  ],
+  "cautions": ["Elevate the hips if the lower back rounds"],
+  "related": {
+    "prep": [],
+    "counter": ["seated-forward-fold"],
+    "variations": ["easy-seat", "seated-forward-fold"]
+  },
+  "status": "published",
+  "version": 1
+}

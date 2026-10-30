@@ -1,0 +1,103 @@
+{
+  "id": "cobra",
+  "slug": "cobra",
+  "nameEn": "Cobra Pose",
+  "nameSanskrit": "Bhujangasana",
+  "nameSanskritDiacritics": "Bhujaṅgāsana",
+  "aliases": ["Bhujangasana", "Low Cobra", "Snake Pose"],
+  "position": "prone",
+  "types": ["backbend", "chestOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0528,
+      "y": 0.3896,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.1745
+      },
+      "spineUpper": {
+        "angle": 0.4363
+      },
+      "neck": {
+        "angle": 0.2618
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": 0.0446
+      },
+      "forearmL": {
+        "angle": 2.0701
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.0802,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.9751,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Lie face down with the hands under the shoulders and elbows hugging in.",
+    "Press the tops of the feet and thighs down.",
+    "Peel the chest forward and up using the back muscles, not the arms.",
+    "Keep the neck long and the gaze slightly forward."
+  ],
+  "benefits": [
+    "Strengthens the spine and back muscles",
+    "Opens the chest and shoulders",
+    "Energizes the body"
+  ],
+  "cautions": [
+    "Keep the pubic bone grounded and avoid crunching the low back",
+    "Avoid in pregnancy or with recent abdominal surgery"
+  ],
+  "related": {
+    "prep": ["child"],
+    "counter": ["child"],
+    "variations": ["baby-cobra", "upward-dog", "seal"]
+  },
+  "status": "published",
+  "version": 1
+}

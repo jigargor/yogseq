@@ -1,0 +1,99 @@
+{
+  "id": "dead-bug",
+  "slug": "dead-bug",
+  "nameEn": "Dead Bug",
+  "nameSanskrit": "Mrtaka Kitasana",
+  "nameSanskritDiacritics": "Mṛtaka Kīṭāsana",
+  "aliases": ["Dead Bug Core Drill", "Supine Core Pose", "Opposite Arm Leg Reach"],
+  "position": "supine",
+  "types": ["core"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.1237,
+      "y": 0.4,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.2618
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Lie back with the knees over the hips and the arms reaching up.",
+    "Press the low back lightly toward the floor.",
+    "Extend the opposite arm and leg away slowly.",
+    "Return to the start without losing the abdominal brace."
+  ],
+  "benefits": ["Builds deep core stability", "Protects the low back", "Teaches coordination"],
+  "cautions": [
+    "Keep the movement small if the back arches",
+    "Rest with the feet down if the neck strains"
+  ],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": ["knees-to-chest"],
+    "variations": ["double-leg-lift"]
+  },
+  "status": "published",
+  "version": 1
+}

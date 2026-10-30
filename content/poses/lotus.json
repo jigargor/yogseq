@@ -1,0 +1,97 @@
+{
+  "id": "lotus",
+  "slug": "lotus",
+  "nameEn": "Lotus Pose",
+  "nameSanskrit": "Padmasana",
+  "nameSanskritDiacritics": "Padmāsana",
+  "aliases": ["Padmasana", "Full Lotus", "Lotus Seat"],
+  "position": "seated",
+  "types": ["hipOpener"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.2933,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2094
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.2217,
+        "scale": 0.5
+      },
+      "shinL": {
+        "angle": -2.4435
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.2094
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2217,
+        "scale": 0.5
+      },
+      "shinR": {
+        "angle": 2.4435
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Warm up the hips and knees before attempting lotus.",
+    "Place the right foot high on the left thigh, then the left foot over the right.",
+    "Keep the knees low and the pelvis tilted forward.",
+    "Rest the hands on the knees with palms up or down."
+  ],
+  "benefits": ["Stable base for meditation", "Opens hips and ankles", "Encourages upright posture"],
+  "cautions": [
+    "Never force the feet into position",
+    "Skip or use half lotus if the knees complain"
+  ],
+  "related": {
+    "prep": ["easy-seat", "half-lotus"],
+    "counter": ["staff"],
+    "variations": ["half-lotus"]
+  },
+  "status": "published",
+  "version": 1
+}

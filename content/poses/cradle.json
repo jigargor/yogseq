@@ -1,0 +1,96 @@
+{
+  "id": "cradle",
+  "slug": "cradle",
+  "nameEn": "Cradle Pose",
+  "nameSanskrit": "Hindolasana",
+  "nameSanskritDiacritics": "Hindolāsana",
+  "aliases": ["Hindolasana", "Rocking the Baby", "Hip Cradle"],
+  "position": "seated",
+  "types": ["hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.093,
+      "y": 0.3968,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.6581
+      },
+      "forearmL": {
+        "angle": 2.7053
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3963
+      },
+      "shinL": {
+        "angle": 3.0543
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.7453,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.4435,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.1817,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Bring one shin up and cradle it in the elbow, foot in the other elbow.",
+    "Sit tall and rock gently to release the hip.",
+    "Keep the foot flexed to protect the knee.",
+    "Switch sides after a few breaths."
+  ],
+  "benefits": ["Opens outer hips", "Warms up for seated poses", "Releases tension in the glutes"],
+  "cautions": ["Rock gently with knee issues", "Keep the foot flexed"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["staff"],
+    "variations": ["cow-face"]
+  },
+  "status": "published",
+  "version": 1
+}

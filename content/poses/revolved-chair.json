@@ -1,0 +1,103 @@
+{
+  "id": "revolved-chair",
+  "slug": "revolved-chair",
+  "nameEn": "Revolved Chair",
+  "nameSanskrit": "Parivrtta Utkatasana",
+  "nameSanskritDiacritics": "Parivṛtta Utkaṭāsana",
+  "aliases": ["Twisting Chair", "Chair Twist", "Prayer Twist"],
+  "position": "standing",
+  "types": ["twist", "core"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1671,
+      "y": 0.0934,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.3491
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.1745
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.7453
+      },
+      "forearmL": {
+        "angle": 1.7453
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3751
+      },
+      "shinL": {
+        "angle": -1.6479
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.0071,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": -0.0873,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.3214,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5588,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Sink into chair pose, then bring the palms together at the chest.",
+    "Lengthen the spine before hooking the elbow outside the opposite knee.",
+    "Keep the knees level and parallel as you rotate from the ribs.",
+    "Press hands together to turn the chest open toward the ceiling."
+  ],
+  "benefits": [
+    "Deepens spinal rotation",
+    "Challenges balance and leg strength",
+    "Stimulates circulation through the torso"
+  ],
+  "cautions": [
+    "Keep the twist gentle with lower back pain",
+    "Use a block between the thighs for stability"
+  ],
+  "related": {
+    "prep": ["chair"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["revolved-triangle"]
+  },
+  "status": "published",
+  "version": 1
+}

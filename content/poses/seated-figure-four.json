@@ -1,0 +1,101 @@
+{
+  "id": "seated-figure-four",
+  "slug": "seated-figure-four",
+  "nameEn": "Seated Figure Four",
+  "nameSanskrit": "Sthira Sukha Chair Pigeon",
+  "nameSanskritDiacritics": "Sthira Sukha Eka Pāda",
+  "aliases": ["Chair Pigeon", "Seated Pigeon", "Figure Four on a Chair", "Seated Hip Stretch"],
+  "position": "seated",
+  "types": ["hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.168,
+      "y": 0.215,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.2094
+      },
+      "spineUpper": {
+        "angle": -0.1396
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 0.6981
+      },
+      "forearmL": {
+        "angle": 1.0472
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5708
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.6109,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.9599,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.6581,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.6581,
+        "scale": 0.25,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["chair"],
+  "cues": [
+    "Sit tall on a chair with both feet flat on the floor.",
+    "Cross one ankle over the opposite knee and flex the foot.",
+    "Hinge forward with a long spine until the stretch builds.",
+    "Press the top knee gently away with the hand."
+  ],
+  "benefits": [
+    "Opens the outer hip and glute",
+    "Accessible hip stretch for desk workers",
+    "Relieves tension in the lower back"
+  ],
+  "cautions": ["Keep the foot flexed to protect the knee", "Back off if the knee feels pinched"],
+  "related": {
+    "prep": ["staff"],
+    "counter": ["seated-forward-fold"],
+    "variations": ["pigeon"]
+  },
+  "status": "published",
+  "version": 1
+}

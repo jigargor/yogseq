@@ -1,0 +1,100 @@
+{
+  "id": "dolphin",
+  "slug": "dolphin",
+  "nameEn": "Dolphin Pose",
+  "nameSanskrit": "Ardha Pincha Mayurasana",
+  "nameSanskritDiacritics": "Ardha Pincha Mayūrāsana",
+  "aliases": ["Ardha Pincha Mayurasana", "Forearm Down Dog", "Half Peacock Feather"],
+  "position": "inversion",
+  "types": ["shoulderOpener", "hamstring", "core"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1096,
+      "y": 0.0502,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.2864
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.1571
+      },
+      "head": {
+        "angle": -0.3491
+      },
+      "upperArmL": {
+        "angle": 2.2864
+      },
+      "forearmL": {
+        "angle": 1.5708
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.7628
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0.5236
+      },
+      "upperArmR": {
+        "angle": 2.2864,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.7628,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.5236,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Place the forearms on the floor, shoulder-width apart.",
+    "Tuck the toes and lift the hips high.",
+    "Press the forearms into the floor and draw the chest toward the thighs.",
+    "Keep the neck relaxed and the knees soft if the hamstrings are tight."
+  ],
+  "benefits": [
+    "Strengthens shoulders and arms",
+    "Stretches hamstrings and spine",
+    "Prepares for forearm balance"
+  ],
+  "cautions": ["Bend the knees if the back rounds", "Avoid with shoulder issues"],
+  "related": {
+    "prep": ["downward-dog"],
+    "counter": ["child"],
+    "variations": ["forearm-stand"]
+  },
+  "status": "published",
+  "version": 1
+}

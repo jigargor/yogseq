@@ -1,0 +1,96 @@
+{
+  "id": "bound-side-angle",
+  "slug": "bound-side-angle",
+  "nameEn": "Bound Side Angle",
+  "nameSanskrit": "Baddha Parsvakonasana",
+  "nameSanskritDiacritics": "Baddha Pārśvakoṇāsana",
+  "aliases": ["Bound Extended Side Angle", "Wrapped Side Angle"],
+  "position": "standing",
+  "types": ["twist", "shoulderOpener", "hipOpener"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.0248,
+      "y": 0.135,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.3491
+      },
+      "spineLower": {
+        "angle": 0.6109
+      },
+      "spineUpper": {
+        "angle": 0.0873
+      },
+      "neck": {
+        "angle": 0.0873
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": -1.8326
+      },
+      "forearmL": {
+        "angle": 1.1345
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.5978
+      },
+      "shinL": {
+        "angle": -0.362
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.6981
+      },
+      "forearmR": {
+        "angle": -0.6981
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.6042
+      },
+      "shinR": {
+        "angle": 1.2057
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "From side angle, sweep the lower arm under the front thigh.",
+    "Reach the top arm behind the back and clasp the hands or a strap.",
+    "Keep the front knee bent and the chest rolling open.",
+    "Stay patient with the bind and breathe into the ribs."
+  ],
+  "benefits": [
+    "Deep shoulder and chest opening",
+    "Strengthens legs",
+    "Improves rotational mobility"
+  ],
+  "cautions": ["Use a strap if the hands do not meet", "Avoid with shoulder instability"],
+  "related": {
+    "prep": ["extended-side-angle"],
+    "counter": ["wide-legged-forward-fold"],
+    "variations": ["revolved-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

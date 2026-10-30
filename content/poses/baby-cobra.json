@@ -1,0 +1,100 @@
+{
+  "id": "baby-cobra",
+  "slug": "baby-cobra",
+  "nameEn": "Baby Cobra",
+  "nameSanskrit": "Ardha Bhujangasana",
+  "nameSanskritDiacritics": "Ardha Bhujaṅgāsana",
+  "aliases": ["Ardha Bhujangasana", "Low Cobra Lift", "Half Cobra"],
+  "position": "prone",
+  "types": ["backbend"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0251,
+      "y": 0.1854,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.0873
+      },
+      "spineUpper": {
+        "angle": 0.2269
+      },
+      "neck": {
+        "angle": 0.1222
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": 0.9948
+      },
+      "forearmL": {
+        "angle": 0.6109
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.9948,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.6109,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Keep the hands light and lift the chest slightly.",
+    "Draw the shoulder blades together and down.",
+    "Lengthen through the crown of the head.",
+    "Lower slowly with control."
+  ],
+  "benefits": [
+    "Gently strengthens the back",
+    "Warms up the spine",
+    "Prepares for deeper backbends"
+  ],
+  "cautions": ["Keep the lift small with low back sensitivity"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["child"],
+    "variations": ["cobra"]
+  },
+  "status": "published",
+  "version": 1
+}

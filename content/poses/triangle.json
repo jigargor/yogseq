@@ -1,0 +1,96 @@
+{
+  "id": "triangle",
+  "slug": "triangle",
+  "nameEn": "Triangle Pose",
+  "nameSanskrit": "Trikonasana",
+  "nameSanskritDiacritics": "Trikoṇāsana",
+  "aliases": ["Utthita Trikonasana", "Extended Triangle", "Trikonasana"],
+  "position": "standing",
+  "types": ["lateralBend", "hamstring", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.0911,
+      "y": 0.0465,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 1.4312
+      },
+      "spineUpper": {
+        "angle": 0.0524
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": 1.6581
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.4887
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.4835
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -0.4887
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Keep both legs straight and press evenly through both feet.",
+    "Hinge sideways from the front hip crease before the torso tips.",
+    "Rest the lower hand on the shin or a block, never the knee joint.",
+    "Stack the top shoulder over the bottom and reach the top arm toward the ceiling."
+  ],
+  "benefits": [
+    "Stretches hamstrings, hips and sides",
+    "Strengthens legs",
+    "Builds length through the spine"
+  ],
+  "cautions": ["Avoid locking the front knee", "Use a block if the floor is far away"],
+  "related": {
+    "prep": ["warrior-2"],
+    "counter": ["wide-legged-forward-fold"],
+    "variations": ["revolved-triangle", "extended-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

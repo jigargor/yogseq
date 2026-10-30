@@ -1,0 +1,96 @@
+{
+  "id": "happy-baby",
+  "slug": "happy-baby",
+  "nameEn": "Happy Baby",
+  "nameSanskrit": "Ananda Balasana",
+  "nameSanskritDiacritics": "Ānanda Bālāsana",
+  "aliases": ["Ananda Balasana", "Dead Bug Pose", "Happy Baby Stretch"],
+  "position": "supine",
+  "types": ["hipOpener", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.235,
+      "y": 0.4,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.4197
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.5307
+      },
+      "shinL": {
+        "angle": -0.7854
+      },
+      "footL": {
+        "angle": -0.1745
+      },
+      "upperArmR": {
+        "angle": 1.4254,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.5307,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.7854,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -0.1745,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "blanket"],
+  "cues": [
+    "Lie back and bring the knees wide toward the armpits.",
+    "Hold the outer edges of the feet or the shins.",
+    "Press the feet into the hands and the tailbone toward the floor.",
+    "Rock gently side to side."
+  ],
+  "benefits": ["Opens the inner thighs and hips", "Releases the lower back", "Playful and calming"],
+  "cautions": ["Hold the shins if the feet are out of reach", "Avoid late in pregnancy"],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": ["corpse"],
+    "variations": ["knees-to-chest"]
+  },
+  "status": "published",
+  "version": 1
+}

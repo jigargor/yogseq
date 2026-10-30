@@ -1,0 +1,96 @@
+{
+  "id": "bharadvaja-twist",
+  "slug": "bharadvaja-twist",
+  "nameEn": "Bharadvaja's Twist",
+  "nameSanskrit": "Bharadvajasana",
+  "nameSanskritDiacritics": "Bharadvājāsana",
+  "aliases": ["Bharadvajasana", "Seated Side Twist", "Sage Bharadvaja Twist"],
+  "position": "seated",
+  "types": ["twist"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0289,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.8727
+      },
+      "forearmL": {
+        "angle": 0.5236
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5708
+      },
+      "shinL": {
+        "angle": -3.1416
+      },
+      "footL": {
+        "angle": -1.8326
+      },
+      "upperArmR": {
+        "angle": -0.6981,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": -0.1745,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.9671,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.6581,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Fold both legs to one side with the shins stacked or crossed.",
+    "Sit evenly on the hips and lengthen the spine.",
+    "Twist toward the lifted knee with one hand on the opposite thigh.",
+    "Look over the back shoulder only if the neck feels easy."
+  ],
+  "benefits": ["Releases the back and shoulders", "Gently opens the hips", "Aids digestion"],
+  "cautions": ["Place a block under the hip if one side lifts", "Avoid with knee sensitivity"],
+  "related": {
+    "prep": ["seated-twist"],
+    "counter": ["staff"],
+    "variations": ["half-lord-of-fishes"]
+  },
+  "status": "published",
+  "version": 1
+}

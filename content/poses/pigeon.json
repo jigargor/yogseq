@@ -1,0 +1,104 @@
+{
+  "id": "pigeon",
+  "slug": "pigeon",
+  "nameEn": "Pigeon Pose",
+  "nameSanskrit": "Eka Pada Rajakapotasana",
+  "nameSanskritDiacritics": "Eka Pāda Rājakapotāsana",
+  "aliases": ["Half Pigeon", "Sleeping Pigeon Prep", "Eka Pada Rajakapotasana", "King Pigeon Prep"],
+  "position": "kneeling",
+  "types": ["hipOpener", "backbend"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.1492,
+      "y": 0.395,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.0873
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0.1222
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2702
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.4835
+      },
+      "shinL": {
+        "angle": 2.7925,
+        "scale": 0.6
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.2729,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -1.4835,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket", "block"],
+  "cues": [
+    "From downward dog, bring one knee forward behind the wrist and extend the back leg.",
+    "Flex the front foot and sit the hips evenly toward the floor.",
+    "Press the fingertips down and lift the chest.",
+    "Support the hip with a folded blanket if it lifts off the ground."
+  ],
+  "benefits": [
+    "Deeply opens the outer hip and glutes",
+    "Stretches the hip flexors of the back leg",
+    "Releases tension in the low back"
+  ],
+  "cautions": [
+    "Use props under the hip to protect the front knee",
+    "Avoid if the front knee feels pinched"
+  ],
+  "related": {
+    "prep": ["downward-dog"],
+    "counter": ["child"],
+    "variations": ["sleeping-pigeon"]
+  },
+  "status": "published",
+  "version": 1
+}

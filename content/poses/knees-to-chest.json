@@ -1,0 +1,101 @@
+{
+  "id": "knees-to-chest",
+  "slug": "knees-to-chest",
+  "nameEn": "Knees to Chest",
+  "nameSanskrit": "Apanasana",
+  "nameSanskritDiacritics": "Apānāsana",
+  "aliases": [
+    "Apanasana",
+    "Wind-Relieving Pose (Both Legs)",
+    "Knee Hug",
+    "Pawanamuktasana Both Knees"
+  ],
+  "position": "supine",
+  "types": ["restorative", "forwardFold"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.2122,
+      "y": 0.4,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.5934
+      },
+      "forearmL": {
+        "angle": 0.1047
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.1817
+      },
+      "shinL": {
+        "angle": -3.1416
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.5934,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.1047,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.1817,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Draw both knees toward the chest and wrap the arms around the shins.",
+    "Keep the tailbone heavy on the floor.",
+    "Rock gently side to side to massage the back.",
+    "Relax the shoulders and the neck."
+  ],
+  "benefits": ["Releases the lower back", "Aids digestion", "Calms the mind"],
+  "cautions": ["Hold behind the thighs with knee sensitivity", "Avoid in late pregnancy"],
+  "related": {
+    "prep": ["corpse"],
+    "counter": ["corpse"],
+    "variations": ["wind-relieving", "happy-baby"]
+  },
+  "status": "published",
+  "version": 1
+}

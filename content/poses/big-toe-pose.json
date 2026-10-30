@@ -1,0 +1,103 @@
+{
+  "id": "big-toe-pose",
+  "slug": "big-toe-pose",
+  "nameEn": "Big Toe Pose",
+  "nameSanskrit": "Padangusthasana",
+  "nameSanskritDiacritics": "Pādāṅguṣṭhāsana",
+  "aliases": ["Standing Big Toe Hold", "Toe Grip Fold", "Padangusthasana"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.129,
+      "y": -0.0275,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.1345
+      },
+      "spineLower": {
+        "angle": -1.0472
+      },
+      "spineUpper": {
+        "angle": -0.5236
+      },
+      "neck": {
+        "angle": -0.2618
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 1.5684
+      },
+      "forearmL": {
+        "angle": 1.1092
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.1345
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.6217,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.9331,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.1345,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "Hook the first two fingers around each big toe.",
+    "Lift the chest halfway to lengthen the spine.",
+    "Fold forward by bending the elbows out wide.",
+    "Keep the weight over the middle of the feet."
+  ],
+  "benefits": [
+    "Stretches the backs of the legs",
+    "Improves spinal length",
+    "Encourages focus and calm"
+  ],
+  "cautions": [
+    "Use a strap around the feet if the toes are out of reach",
+    "Keep knees slightly bent for tight hamstrings"
+  ],
+  "related": {
+    "prep": ["half-forward-fold"],
+    "counter": ["mountain"],
+    "variations": ["hands-under-feet"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,416 @@
+{
+  "id": "vinyasa-peak-warrior",
+  "title": "Vinyasa — Peak Warrior III",
+  "description": "A flowing 60-minute class that builds through sun salutations and warrior variations toward Warrior III and Half Moon.",
+  "level": "intermediate",
+  "style": "Vinyasa",
+  "targetMinutes": 60,
+  "tags": ["vinyasa", "strength", "balance", "peak-pose", "warrior"],
+  "items": [
+    {
+      "id": "vinyasa-peak-warrior-01",
+      "kind": "section",
+      "title": "Centering"
+    },
+    {
+      "id": "vinyasa-peak-warrior-02",
+      "kind": "pose",
+      "poseId": "easy-seat",
+      "durationSec": 120,
+      "note": "Set an intention to build steady strength."
+    },
+    {
+      "id": "vinyasa-peak-warrior-03",
+      "kind": "pose",
+      "poseId": "tabletop",
+      "durationSec": 20
+    },
+    {
+      "id": "vinyasa-peak-warrior-04",
+      "kind": "pose",
+      "poseId": "cat",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-05",
+      "kind": "pose",
+      "poseId": "cow",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-06",
+      "kind": "pose",
+      "poseId": "child",
+      "durationSec": 40
+    },
+    {
+      "id": "vinyasa-peak-warrior-07",
+      "kind": "section",
+      "title": "Sun Salutation A (repeat 3 times)"
+    },
+    {
+      "id": "vinyasa-peak-warrior-08",
+      "kind": "pose",
+      "poseId": "mountain",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-09",
+      "kind": "pose",
+      "poseId": "upward-salute",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-10",
+      "kind": "pose",
+      "poseId": "standing-forward-fold",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-11",
+      "kind": "pose",
+      "poseId": "half-forward-fold",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-12",
+      "kind": "pose",
+      "poseId": "plank",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-13",
+      "kind": "pose",
+      "poseId": "chaturanga",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-14",
+      "kind": "pose",
+      "poseId": "upward-dog",
+      "breaths": 1,
+      "durationSec": 5
+    },
+    {
+      "id": "vinyasa-peak-warrior-15",
+      "kind": "pose",
+      "poseId": "downward-dog",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-16",
+      "kind": "note",
+      "note": "Step or float forward and rise to mountain to complete each round."
+    },
+    {
+      "id": "vinyasa-peak-warrior-17",
+      "kind": "section",
+      "title": "Warrior builders"
+    },
+    {
+      "id": "vinyasa-peak-warrior-18",
+      "kind": "pose",
+      "poseId": "crescent-lunge",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-19",
+      "kind": "pose",
+      "poseId": "crescent-lunge",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-20",
+      "kind": "pose",
+      "poseId": "warrior-1",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-21",
+      "kind": "pose",
+      "poseId": "warrior-1",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-22",
+      "kind": "pose",
+      "poseId": "warrior-2",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-23",
+      "kind": "pose",
+      "poseId": "warrior-2",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-24",
+      "kind": "pose",
+      "poseId": "reverse-warrior",
+      "side": "right",
+      "breaths": 3,
+      "durationSec": 15
+    },
+    {
+      "id": "vinyasa-peak-warrior-25",
+      "kind": "pose",
+      "poseId": "reverse-warrior",
+      "side": "left",
+      "breaths": 3,
+      "durationSec": 15
+    },
+    {
+      "id": "vinyasa-peak-warrior-26",
+      "kind": "pose",
+      "poseId": "extended-side-angle",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-27",
+      "kind": "pose",
+      "poseId": "extended-side-angle",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-28",
+      "kind": "pose",
+      "poseId": "downward-dog",
+      "breaths": 5,
+      "durationSec": 25,
+      "note": "Vinyasa between sides: plank, chaturanga, up dog, down dog."
+    },
+    {
+      "id": "vinyasa-peak-warrior-29",
+      "kind": "section",
+      "title": "Balance and hips"
+    },
+    {
+      "id": "vinyasa-peak-warrior-30",
+      "kind": "pose",
+      "poseId": "revolved-side-angle",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-31",
+      "kind": "pose",
+      "poseId": "revolved-side-angle",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-32",
+      "kind": "pose",
+      "poseId": "triangle",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-33",
+      "kind": "pose",
+      "poseId": "triangle",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-34",
+      "kind": "pose",
+      "poseId": "pyramid",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-35",
+      "kind": "pose",
+      "poseId": "pyramid",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-36",
+      "kind": "pose",
+      "poseId": "half-forward-fold",
+      "side": "right",
+      "breaths": 3,
+      "durationSec": 15
+    },
+    {
+      "id": "vinyasa-peak-warrior-37",
+      "kind": "pose",
+      "poseId": "half-forward-fold",
+      "side": "left",
+      "breaths": 3,
+      "durationSec": 15
+    },
+    {
+      "id": "vinyasa-peak-warrior-38",
+      "kind": "section",
+      "title": "Peak: Warrior III and Half Moon"
+    },
+    {
+      "id": "vinyasa-peak-warrior-39",
+      "kind": "note",
+      "note": "Keep a micro-bend in the standing knee and use blocks as needed."
+    },
+    {
+      "id": "vinyasa-peak-warrior-40",
+      "kind": "pose",
+      "poseId": "warrior-3",
+      "side": "right",
+      "breaths": 6,
+      "durationSec": 30
+    },
+    {
+      "id": "vinyasa-peak-warrior-41",
+      "kind": "pose",
+      "poseId": "warrior-3",
+      "side": "left",
+      "breaths": 6,
+      "durationSec": 30
+    },
+    {
+      "id": "vinyasa-peak-warrior-42",
+      "kind": "pose",
+      "poseId": "half-moon",
+      "side": "right",
+      "breaths": 6,
+      "durationSec": 30
+    },
+    {
+      "id": "vinyasa-peak-warrior-43",
+      "kind": "pose",
+      "poseId": "half-moon",
+      "side": "left",
+      "breaths": 6,
+      "durationSec": 30
+    },
+    {
+      "id": "vinyasa-peak-warrior-44",
+      "kind": "pose",
+      "poseId": "airplane",
+      "side": "right",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-45",
+      "kind": "pose",
+      "poseId": "airplane",
+      "side": "left",
+      "breaths": 5,
+      "durationSec": 25
+    },
+    {
+      "id": "vinyasa-peak-warrior-46",
+      "kind": "section",
+      "title": "Cool down"
+    },
+    {
+      "id": "vinyasa-peak-warrior-47",
+      "kind": "pose",
+      "poseId": "standing-forward-fold",
+      "durationSec": 45
+    },
+    {
+      "id": "vinyasa-peak-warrior-48",
+      "kind": "pose",
+      "poseId": "chair",
+      "durationSec": 40
+    },
+    {
+      "id": "vinyasa-peak-warrior-49",
+      "kind": "pose",
+      "poseId": "garland",
+      "durationSec": 45
+    },
+    {
+      "id": "vinyasa-peak-warrior-50",
+      "kind": "pose",
+      "poseId": "bridge",
+      "durationSec": 45
+    },
+    {
+      "id": "vinyasa-peak-warrior-51",
+      "kind": "pose",
+      "poseId": "wheel",
+      "durationSec": 30,
+      "note": "Optional. Take bridge again if the shoulders feel tight."
+    },
+    {
+      "id": "vinyasa-peak-warrior-52",
+      "kind": "pose",
+      "poseId": "reclined-pigeon",
+      "side": "right",
+      "durationSec": 60
+    },
+    {
+      "id": "vinyasa-peak-warrior-53",
+      "kind": "pose",
+      "poseId": "reclined-pigeon",
+      "side": "left",
+      "durationSec": 60
+    },
+    {
+      "id": "vinyasa-peak-warrior-54",
+      "kind": "pose",
+      "poseId": "reclined-twist",
+      "side": "right",
+      "durationSec": 50
+    },
+    {
+      "id": "vinyasa-peak-warrior-55",
+      "kind": "pose",
+      "poseId": "reclined-twist",
+      "side": "left",
+      "durationSec": 50
+    },
+    {
+      "id": "vinyasa-peak-warrior-56",
+      "kind": "pose",
+      "poseId": "happy-baby",
+      "durationSec": 45
+    },
+    {
+      "id": "vinyasa-peak-warrior-57",
+      "kind": "section",
+      "title": "Rest"
+    },
+    {
+      "id": "vinyasa-peak-warrior-58",
+      "kind": "pose",
+      "poseId": "corpse",
+      "durationSec": 2235
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "flying-pigeon",
+  "slug": "flying-pigeon",
+  "nameEn": "Flying Pigeon",
+  "nameSanskrit": "Eka Pada Galavasana",
+  "nameSanskritDiacritics": "Eka Pāda Galavāsana",
+  "aliases": ["Eka Pada Galavasana", "Flying Crow", "Figure Four Arm Balance"],
+  "position": "armBalance",
+  "types": ["balance", "hipOpener", "core"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.0166,
+      "y": 0.055,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.7453
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": 1.4841
+      },
+      "forearmL": {
+        "angle": 0.5637
+      },
+      "handL": {
+        "angle": 1.2682
+      },
+      "thighL": {
+        "angle": -3.1416
+      },
+      "shinL": {
+        "angle": 2.9671
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.7453,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.1745,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Begin in a deep figure-four squat with the hands on the floor.",
+    "Rest the shin on the upper arms and shift the weight forward.",
+    "Extend the back leg straight behind you.",
+    "Reach the chest forward and keep the gaze steady."
+  ],
+  "benefits": ["Strengthens arms and core", "Opens hips and glutes", "Builds poise"],
+  "cautions": ["Keep a pillow in front of you", "Avoid with wrist or shoulder issues"],
+  "related": {
+    "prep": ["crow", "pigeon"],
+    "counter": ["child"],
+    "variations": ["crow"]
+  },
+  "status": "published",
+  "version": 1
+}

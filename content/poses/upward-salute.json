@@ -1,0 +1,96 @@
+{
+  "id": "upward-salute",
+  "slug": "upward-salute",
+  "nameEn": "Upward Salute",
+  "nameSanskrit": "Urdhva Hastasana",
+  "nameSanskritDiacritics": "Ūrdhva Hastāsana",
+  "aliases": ["Raised Hands Pose", "Sun Salute Arms", "Reaching Up"],
+  "position": "standing",
+  "types": ["backbend", "chestOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 3.002
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -3.002
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": 0
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Sweep the arms wide and up on an inhale.",
+    "Keep the lower ribs knitted in so the lower back stays long.",
+    "Reach through the fingertips while the shoulder blades slide down the back.",
+    "Lift the gaze lightly toward the thumbs if the neck is comfortable."
+  ],
+  "benefits": [
+    "Stretches shoulders, sides of the body and chest",
+    "Wakes up the legs and spine",
+    "Builds length for flowing sequences"
+  ],
+  "cautions": ["Keep the gaze forward with neck or shoulder tension"],
+  "related": {
+    "prep": ["mountain"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["crescent-moon", "standing-backbend"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "id": "bound-angle-fold",
+  "slug": "bound-angle-fold",
+  "nameEn": "Bound Angle Fold",
+  "nameSanskrit": "Baddha Konasana Forward Fold",
+  "nameSanskritDiacritics": "Baddha Koṇāsana",
+  "aliases": ["Butterfly Fold", "Cobbler's Fold", "Forward Fold in Butterfly"],
+  "position": "seated",
+  "types": ["hipOpener", "forwardFold", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.3108,
+      "y": 0.3758,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.9599
+      },
+      "spineLower": {
+        "angle": -0.4712
+      },
+      "spineUpper": {
+        "angle": -0.2269
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.0543
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.2689
+      },
+      "shinL": {
+        "angle": 2.8798
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -3.0543,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.2689,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.8798,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "block"],
+  "cues": [
+    "From bound angle, hinge forward from the hip creases.",
+    "Rest the forehead on a block or bolster.",
+    "Let the elbows fall to the shins or the floor.",
+    "Stay long and relaxed through the neck."
+  ],
+  "benefits": ["Deepens the hip opening", "Stretches the lower back", "Quiets the nervous system"],
+  "cautions": ["Support the head if the forward fold feels strained", "Keep the knees on props"],
+  "related": {
+    "prep": ["bound-angle"],
+    "counter": ["staff"],
+    "variations": ["bound-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

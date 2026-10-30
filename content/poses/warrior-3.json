@@ -1,0 +1,100 @@
+{
+  "id": "warrior-3",
+  "slug": "warrior-3",
+  "nameEn": "Warrior III",
+  "nameSanskrit": "Virabhadrasana III",
+  "nameSanskritDiacritics": "Vīrabhadrāsana III",
+  "aliases": ["Warrior Three", "Flying Warrior", "Standing T-Pose"],
+  "position": "standing",
+  "types": ["balance", "core", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1158,
+      "y": -0.0078,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3963
+      },
+      "spineLower": {
+        "angle": -0.1745
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.1067
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3963
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.1067,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.2094,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Shift weight into the standing foot and hinge forward from the hip.",
+    "Lift the back leg until it is level with the torso, toes pointing down.",
+    "Square the hips so the lifted hip does not roll open.",
+    "Extend arms forward, in line with the ears, or back beside the hips."
+  ],
+  "benefits": [
+    "Strengthens the standing leg and back body",
+    "Improves balance and focus",
+    "Tones the core"
+  ],
+  "cautions": ["Keep a micro-bend in the standing knee", "Place hands on blocks if balance wavers"],
+  "related": {
+    "prep": ["warrior-1", "half-forward-fold"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["airplane", "half-moon"]
+  },
+  "status": "published",
+  "version": 1
+}

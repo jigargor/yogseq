@@ -1,0 +1,100 @@
+{
+  "id": "supported-shoulderstand",
+  "slug": "supported-shoulderstand",
+  "nameEn": "Supported Shoulderstand",
+  "nameSanskrit": "Salamba Sarvangasana",
+  "nameSanskritDiacritics": "Sālamba Sarvāṅgāsana",
+  "aliases": ["Wall Shoulderstand", "Supported Candle", "Chair Shoulderstand"],
+  "position": "supine",
+  "types": ["restorative", "balance"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0412,
+      "y": 0.0167,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.9322
+      },
+      "spineLower": {
+        "angle": -0.1222
+      },
+      "spineUpper": {
+        "angle": -0.1222
+      },
+      "neck": {
+        "angle": -0.4887
+      },
+      "head": {
+        "angle": -1.0472
+      },
+      "upperArmL": {
+        "angle": -1.3614
+      },
+      "forearmL": {
+        "angle": 1.0472
+      },
+      "handL": {
+        "angle": 0.1745
+      },
+      "thighL": {
+        "angle": 0.0524
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -1.3614,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.1745,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.0524,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall", "chair", "blanket"],
+  "cues": [
+    "Set up near a wall and lift the hips with the feet resting on the wall.",
+    "Place the hands on the lower back and walk the elbows in.",
+    "Gradually straighten the legs while keeping weight in the shoulders.",
+    "Hold only as long as the neck stays relaxed."
+  ],
+  "benefits": [
+    "Gentle inversion benefits",
+    "Takes load off the legs",
+    "Easier to learn than the free-standing pose"
+  ],
+  "cautions": ["Avoid with neck problems", "Stay near the wall for support"],
+  "related": {
+    "prep": ["bridge"],
+    "counter": ["fish"],
+    "variations": ["shoulderstand"]
+  },
+  "status": "published",
+  "version": 1
+}

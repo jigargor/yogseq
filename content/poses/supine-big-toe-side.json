@@ -1,0 +1,98 @@
+{
+  "id": "supine-big-toe-side",
+  "slug": "supine-big-toe-side",
+  "nameEn": "Reclined Big Toe Side Stretch",
+  "nameSanskrit": "Supta Padangusthasana B",
+  "nameSanskritDiacritics": "Supta Pādāṅguṣṭhāsana B",
+  "aliases": ["Supine Leg to the Side", "Side Reclining Leg Stretch", "Reclined Hip Opener"],
+  "position": "supine",
+  "types": ["hamstring", "hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.0225,
+      "y": 0.384,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.6109,
+        "scale": 0.7,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "scale": 0.7,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "block"],
+  "cues": [
+    "Hold the strap in the opposite hand and lower the leg out to the side.",
+    "Keep the other hip grounded.",
+    "Rest the free arm out to the side for balance.",
+    "Support the leg on a block if it hovers."
+  ],
+  "benefits": ["Opens the inner thigh and hip", "Stretches hamstrings", "Improves hip mobility"],
+  "cautions": ["Keep the leg supported if the groin is tight"],
+  "related": {
+    "prep": ["supine-big-toe"],
+    "counter": ["knees-to-chest"],
+    "variations": ["supine-big-toe"]
+  },
+  "status": "published",
+  "version": 1
+}

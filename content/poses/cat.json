@@ -1,0 +1,100 @@
+{
+  "id": "cat",
+  "slug": "cat",
+  "nameEn": "Cat Pose",
+  "nameSanskrit": "Marjaryasana",
+  "nameSanskritDiacritics": "Mārjāryāsana",
+  "aliases": ["Cat Stretch", "Cat Tilt", "Marjaryasana", "Spinal Flexion"],
+  "position": "kneeling",
+  "types": ["forwardFold", "core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0586,
+      "y": 0.0347,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.9599
+      },
+      "spineLower": {
+        "angle": -0.6981
+      },
+      "spineUpper": {
+        "angle": -0.4014
+      },
+      "neck": {
+        "angle": -0.2967
+      },
+      "head": {
+        "angle": -0.3491
+      },
+      "upperArmL": {
+        "angle": 2.0595
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.9599
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 2.0595,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.9599,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "On an exhale, press the floor away and round the spine toward the ceiling.",
+    "Tuck the tailbone and draw the navel toward the spine.",
+    "Let the head drop and relax the neck.",
+    "Spread the shoulder blades wide across the back."
+  ],
+  "benefits": [
+    "Mobilizes the spine",
+    "Stretches the back and shoulders",
+    "Coordinates breath with movement"
+  ],
+  "cautions": ["Move gently with wrist or knee discomfort"],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["child"],
+    "variations": ["cow"]
+  },
+  "status": "published",
+  "version": 1
+}

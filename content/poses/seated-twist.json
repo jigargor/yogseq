@@ -1,0 +1,96 @@
+{
+  "id": "seated-twist",
+  "slug": "seated-twist",
+  "nameEn": "Easy Seated Twist",
+  "nameSanskrit": "Sukhasana Parivrtta",
+  "nameSanskritDiacritics": "Sukhāsana Parivṛtta",
+  "aliases": ["Simple Twist", "Seated Spinal Twist", "Cross-Legged Twist"],
+  "position": "seated",
+  "types": ["twist"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0042,
+      "y": 0.3968,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.6981
+      },
+      "forearmL": {
+        "angle": 0.6109
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3963
+      },
+      "shinL": {
+        "angle": 3.0543
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -0.7854,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": -0.2618,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 3.0543,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Sit tall and inhale to lengthen the spine.",
+    "On the exhale, rotate from the belly, chest and then shoulders.",
+    "Place one hand on the opposite knee and the other behind you.",
+    "Keep the chin level and breathe evenly."
+  ],
+  "benefits": ["Mobilizes the spine", "Relieves tension in the back", "Supports digestion"],
+  "cautions": ["Rotate gently with disc issues", "Keep both hips grounded"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["staff"],
+    "variations": ["half-lord-of-fishes", "bharadvaja-twist"]
+  },
+  "status": "published",
+  "version": 1
+}

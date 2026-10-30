@@ -1,0 +1,100 @@
+{
+  "id": "wide-knee-child",
+  "slug": "wide-knee-child",
+  "nameEn": "Wide-Knee Child's Pose",
+  "nameSanskrit": "Garbha Pindasana (Wide Child)",
+  "nameSanskritDiacritics": "Garbha Piṇḍāsana",
+  "aliases": ["Wide Child's Pose", "Open Knee Child", "Balasana Variation"],
+  "position": "kneeling",
+  "types": ["restorative", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.2834,
+      "y": 0.3047,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.309
+      },
+      "spineLower": {
+        "angle": -0.2618
+      },
+      "spineUpper": {
+        "angle": -0.1745
+      },
+      "neck": {
+        "angle": -0.0349
+      },
+      "head": {
+        "angle": -0.1047
+      },
+      "upperArmL": {
+        "angle": -3.0543
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.3562
+      },
+      "shinL": {
+        "angle": -2.618
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -3.0543,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.3562,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.618,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "Spread the knees wide and touch the big toes together.",
+    "Sink the hips back and lower the torso between the thighs.",
+    "Rest the forehead on a bolster or the floor.",
+    "Extend the arms forward or let them fall alongside you."
+  ],
+  "benefits": [
+    "Opens the inner thighs and hips",
+    "Eases the lower back",
+    "Creates space for breath"
+  ],
+  "cautions": ["Support the torso with a bolster if the hips feel strained"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["tabletop"],
+    "variations": ["frog"]
+  },
+  "status": "published",
+  "version": 1
+}

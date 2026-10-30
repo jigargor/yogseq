@@ -1,0 +1,100 @@
+{
+  "id": "puppy",
+  "slug": "puppy",
+  "nameEn": "Puppy Pose",
+  "nameSanskrit": "Uttana Shishosana",
+  "nameSanskritDiacritics": "Uttāna Śiśosana",
+  "aliases": ["Melting Heart", "Anahatasana", "Extended Puppy Dog", "Heart to Floor"],
+  "position": "kneeling",
+  "types": ["shoulderOpener", "chestOpener", "backbend"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1662,
+      "y": 0.1822,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3963
+      },
+      "spineLower": {
+        "angle": -0.4887
+      },
+      "spineUpper": {
+        "angle": -0.384
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -2.5831
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3963
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -2.5831,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "From tabletop, walk the hands forward while keeping the hips over the knees.",
+    "Melt the chest toward the floor and rest the forehead or chin down.",
+    "Press the palms into the floor and lengthen the arms.",
+    "Keep a gentle curve in the low back."
+  ],
+  "benefits": [
+    "Opens the shoulders and upper back",
+    "Lengthens the spine",
+    "Offers a restful backbend"
+  ],
+  "cautions": ["Pad the knees", "Avoid pushing the head down if the neck is sensitive"],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["child"],
+    "variations": ["extended-child"]
+  },
+  "status": "published",
+  "version": 1
+}

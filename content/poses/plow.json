@@ -1,0 +1,103 @@
+{
+  "id": "plow",
+  "slug": "plow",
+  "nameEn": "Plow Pose",
+  "nameSanskrit": "Halasana",
+  "nameSanskritDiacritics": "Halāsana",
+  "aliases": ["Halasana", "Plough Pose"],
+  "position": "supine",
+  "types": ["forwardFold", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0123,
+      "y": 0.0204,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 2.9671
+      },
+      "spineLower": {
+        "angle": 0.0873
+      },
+      "spineUpper": {
+        "angle": 0.0873
+      },
+      "neck": {
+        "angle": -0.6981
+      },
+      "head": {
+        "angle": -0.8727
+      },
+      "upperArmL": {
+        "angle": -1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.618
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -0.8727
+      },
+      "upperArmR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.618,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -0.8727,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "chair"],
+  "cues": [
+    "Fold the legs overhead from shoulderstand and lower the toes to the floor.",
+    "Support the back with the hands or interlace the fingers behind you.",
+    "Keep the neck relaxed and avoid turning the head.",
+    "Use a chair or blanket lifts to ease the stretch."
+  ],
+  "benefits": [
+    "Stretches the spine and shoulders",
+    "Calms the nervous system",
+    "Stimulates the thyroid"
+  ],
+  "cautions": [
+    "Avoid with neck injury, high blood pressure or during menstruation",
+    "Place blankets under the shoulders"
+  ],
+  "related": {
+    "prep": ["bridge", "shoulderstand"],
+    "counter": ["fish"],
+    "variations": ["shoulderstand"]
+  },
+  "status": "published",
+  "version": 1
+}

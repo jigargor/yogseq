@@ -1,0 +1,100 @@
+{
+  "id": "hero",
+  "slug": "hero",
+  "nameEn": "Hero Pose",
+  "nameSanskrit": "Virasana",
+  "nameSanskritDiacritics": "Vīrāsana",
+  "aliases": ["Virasana", "Hero Seat", "Seat Between the Feet"],
+  "position": "kneeling",
+  "types": ["hipOpener", "restorative"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.098,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.6981
+      },
+      "forearmL": {
+        "angle": 0.733
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5359
+      },
+      "shinL": {
+        "angle": -3.1067
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.6981,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.733,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5359,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -3.1067,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Kneel with the knees together and feet slightly wider than the hips.",
+    "Sit down between the feet, using a block if necessary.",
+    "Rotate the thighs inward and lengthen the tailbone down.",
+    "Rest the hands on the thighs and lift the chest."
+  ],
+  "benefits": [
+    "Stretches quadriceps and ankles",
+    "Improves posture for meditation",
+    "Opens the front of the thighs"
+  ],
+  "cautions": ["Sit on a block to protect the knees", "Avoid with knee pain or recent injuries"],
+  "related": {
+    "prep": ["thunderbolt"],
+    "counter": ["tabletop"],
+    "variations": ["reclined-hero"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "id": "bird-of-paradise",
+  "slug": "bird-of-paradise",
+  "nameEn": "Bird of Paradise",
+  "nameSanskrit": "Svarga Dvijasana",
+  "nameSanskritDiacritics": "Svarga Dvijāsana",
+  "aliases": ["Svarga Dvijasana", "Bound Extended Leg"],
+  "position": "standing",
+  "types": ["balance", "hamstring", "shoulderOpener"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1338,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": -0.0524
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.5359
+      },
+      "forearmL": {
+        "angle": 1.3963
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.8378,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.4435,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "wall"],
+  "cues": [
+    "Bind the arm around the thigh from a bound lunge.",
+    "Step the back foot forward and rise onto the standing leg.",
+    "Straighten the lifted leg as the chest stays proud.",
+    "Keep the breath even and the gaze steady."
+  ],
+  "benefits": ["Stretches hamstrings and hips", "Opens shoulders", "Deepens balance and focus"],
+  "cautions": ["Use a strap for the bind", "Keep the standing knee soft"],
+  "related": {
+    "prep": ["tree", "revolved-side-angle"],
+    "counter": ["mountain"],
+    "variations": ["extended-hand-to-big-toe"]
+  },
+  "status": "published",
+  "version": 1
+}

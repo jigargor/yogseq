@@ -1,0 +1,92 @@
+{
+  "id": "garland",
+  "slug": "garland",
+  "nameEn": "Garland Pose",
+  "nameSanskrit": "Malasana",
+  "nameSanskritDiacritics": "Mālāsana",
+  "aliases": ["Yogi Squat", "Deep Squat", "Malasana", "Garland Squat"],
+  "position": "standing",
+  "types": ["hipOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.0498,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.5236
+      },
+      "forearmL": {
+        "angle": 2.3562
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.6981
+      },
+      "shinL": {
+        "angle": -0.8727
+      },
+      "footL": {
+        "angle": 0.0873,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.5236
+      },
+      "forearmR": {
+        "angle": -2.3562
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -0.6981
+      },
+      "shinR": {
+        "angle": 0.8727
+      },
+      "footR": {
+        "angle": 3.0543,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Step the feet mat width and turn the toes out.",
+    "Lower into a deep squat with the heels grounded or on a blanket.",
+    "Bring the palms together at the chest and press the elbows into the knees.",
+    "Lift the chest and lengthen the spine."
+  ],
+  "benefits": ["Opens hips and groins", "Stretches ankles and low back", "Encourages grounding"],
+  "cautions": ["Sit on a block to reduce depth", "Avoid with acute knee issues"],
+  "related": {
+    "prep": ["goddess"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["side-lunge"]
+  },
+  "status": "published",
+  "version": 1
+}

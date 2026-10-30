@@ -1,0 +1,100 @@
+{
+  "id": "high-lunge",
+  "slug": "high-lunge",
+  "nameEn": "High Lunge",
+  "nameSanskrit": "Ashta Chandrasana",
+  "nameSanskritDiacritics": "Aṣṭa Candrāsana",
+  "aliases": ["Lunge", "Runner's Lunge", "Prayer Lunge"],
+  "position": "standing",
+  "types": ["hipOpener", "core"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.025,
+      "y": 0.0845,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2094
+      },
+      "forearmL": {
+        "angle": 2.4086
+      },
+      "handL": {
+        "angle": -0.1745
+      },
+      "thighL": {
+        "angle": 0.9939
+      },
+      "shinL": {
+        "angle": -0.9911
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.2094,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.4086,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": -0.1745,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.5525,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.5324,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.125,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Step back with the back leg straight and the heel lifted.",
+    "Bend the front knee over the ankle, keeping it stacked.",
+    "Draw the lower ribs in and lift the chest, hands at heart center.",
+    "Press the back heel toward the wall behind you."
+  ],
+  "benefits": [
+    "Strengthens legs and glutes",
+    "Stretches hip flexors",
+    "Builds balance and core control"
+  ],
+  "cautions": ["Lower the back knee to the floor for support", "Shorten the stance with knee pain"],
+  "related": {
+    "prep": ["standing-forward-fold", "downward-dog"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["crescent-lunge", "low-lunge"]
+  },
+  "status": "published",
+  "version": 1
+}

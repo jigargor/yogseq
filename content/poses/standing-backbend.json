@@ -1,0 +1,99 @@
+{
+  "id": "standing-backbend",
+  "slug": "standing-backbend",
+  "nameEn": "Standing Backbend",
+  "nameSanskrit": "Anuvittasana",
+  "nameSanskritDiacritics": "Anuvittāsana",
+  "aliases": ["Standing Back Arch", "Standing Backward Bend", "Anuvittasana"],
+  "position": "standing",
+  "types": ["backbend", "chestOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.1477,
+      "y": -0.0054,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.1396
+      },
+      "spineLower": {
+        "angle": 0.4014
+      },
+      "spineUpper": {
+        "angle": 0.2967
+      },
+      "neck": {
+        "angle": 0.1396
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": -2.8274
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.1396
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -2.8274,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.1396,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Press the feet down and lift the arms overhead.",
+    "Push the hips slightly forward and draw the tailbone down.",
+    "Lift the chest and arch through the upper back, not just the low back.",
+    "Let the head follow the curve only as far as feels comfortable."
+  ],
+  "benefits": ["Opens chest and front body", "Strengthens the back", "Energizes the whole system"],
+  "cautions": [
+    "Keep the movement small with low back issues",
+    "Skip with significant neck problems"
+  ],
+  "related": {
+    "prep": ["upward-salute"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["upward-salute"]
+  },
+  "status": "published",
+  "version": 1
+}

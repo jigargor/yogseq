@@ -1,0 +1,96 @@
+{
+  "id": "extended-hand-to-big-toe",
+  "slug": "extended-hand-to-big-toe",
+  "nameEn": "Extended Hand-to-Big-Toe",
+  "nameSanskrit": "Utthita Hasta Padangusthasana B",
+  "nameSanskritDiacritics": "Utthita Hasta Pādāṅguṣṭhāsana B",
+  "aliases": ["Side Leg Lift", "Standing Leg Raise to the Side", "Hand to Toe Side"],
+  "position": "standing",
+  "types": ["balance", "hipOpener", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.0276,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -2.0378
+      },
+      "forearmR": {
+        "angle": 1.139
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -2.3562
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["strap", "wall"],
+  "cues": [
+    "Hold the big toe or a strap and lift the leg to the side.",
+    "Keep the standing leg strong and the hips level.",
+    "Press the lifted heel out and open the hip.",
+    "Extend the free arm for balance."
+  ],
+  "benefits": [
+    "Opens inner thighs and hips",
+    "Strengthens the standing leg",
+    "Challenges balance and stability"
+  ],
+  "cautions": ["Use a strap and keep the knee bent if the groin is tight"],
+  "related": {
+    "prep": ["tree"],
+    "counter": ["mountain"],
+    "variations": ["hand-to-big-toe"]
+  },
+  "status": "published",
+  "version": 1
+}

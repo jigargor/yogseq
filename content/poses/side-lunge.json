@@ -1,0 +1,92 @@
+{
+  "id": "side-lunge",
+  "slug": "side-lunge",
+  "nameEn": "Side Lunge",
+  "nameSanskrit": "Skandasana",
+  "nameSanskritDiacritics": "Skandāsana",
+  "aliases": ["Skandasana", "Cossack Squat", "Lateral Lunge"],
+  "position": "standing",
+  "types": ["hipOpener", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.0244,
+      "y": 0.175,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.3491
+      },
+      "forearmL": {
+        "angle": 2.4435
+      },
+      "handL": {
+        "angle": 0.0873
+      },
+      "thighL": {
+        "angle": 1.1519
+      },
+      "shinL": {
+        "angle": -0.4678
+      },
+      "footL": {
+        "angle": 0.1886,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.3491
+      },
+      "forearmR": {
+        "angle": -2.4435
+      },
+      "handR": {
+        "angle": -0.0873
+      },
+      "thighR": {
+        "angle": -1.3412
+      },
+      "shinR": {
+        "angle": 1.0376
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Step wide and shift into one bent knee, the other leg long.",
+    "Keep the heel of the bent leg grounded.",
+    "Flex the straight foot so the toes point up.",
+    "Hold the hands at the heart or on blocks for balance."
+  ],
+  "benefits": ["Stretches inner thighs", "Strengthens quads and glutes", "Increases hip mobility"],
+  "cautions": ["Reduce the depth with knee or hip tightness", "Place hands on blocks for support"],
+  "related": {
+    "prep": ["goddess", "wide-legged-forward-fold"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["garland"]
+  },
+  "status": "published",
+  "version": 1
+}

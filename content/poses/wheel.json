@@ -1,0 +1,103 @@
+{
+  "id": "wheel",
+  "slug": "wheel",
+  "nameEn": "Wheel Pose",
+  "nameSanskrit": "Urdhva Dhanurasana",
+  "nameSanskritDiacritics": "Ūrdhva Dhanurāsana",
+  "aliases": ["Upward Bow", "Urdhva Dhanurasana", "Full Wheel", "Chakrasana"],
+  "position": "supine",
+  "types": ["backbend", "chestOpener", "shoulderOpener"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0681,
+      "y": 0.0795,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.6109
+      },
+      "spineLower": {
+        "angle": 0.6981
+      },
+      "spineUpper": {
+        "angle": 1.1345
+      },
+      "neck": {
+        "angle": 0.4363
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": -2.4435
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 0.2618
+      },
+      "shinL": {
+        "angle": -1.1345
+      },
+      "footL": {
+        "angle": 0.2618
+      },
+      "upperArmR": {
+        "angle": -2.4435,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.2618,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.1345,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.2618,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall", "block"],
+  "cues": [
+    "Place the hands beside the ears and press the feet down.",
+    "Lift into the crown of the head, then straighten the arms.",
+    "Roll the thighs inward and keep the feet parallel.",
+    "Press the chest toward the wall behind you."
+  ],
+  "benefits": [
+    "Deeply opens chest, shoulders and hips",
+    "Strengthens arms, legs and back",
+    "Energizes the whole body"
+  ],
+  "cautions": [
+    "Warm up thoroughly with bridge and camel",
+    "Skip with wrist, shoulder or back injuries"
+  ],
+  "related": {
+    "prep": ["bridge", "camel"],
+    "counter": ["knees-to-chest"],
+    "variations": ["bridge"]
+  },
+  "status": "published",
+  "version": 1
+}

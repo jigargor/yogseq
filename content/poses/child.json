@@ -1,0 +1,103 @@
+{
+  "id": "child",
+  "slug": "child",
+  "nameEn": "Child's Pose",
+  "nameSanskrit": "Balasana",
+  "nameSanskritDiacritics": "Bālāsana",
+  "aliases": ["Balasana", "Resting Pose", "Kid's Pose"],
+  "position": "kneeling",
+  "types": ["restorative", "forwardFold"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.2819,
+      "y": 0.3222,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3963
+      },
+      "spineLower": {
+        "angle": -0.1396
+      },
+      "spineUpper": {
+        "angle": -0.1222
+      },
+      "neck": {
+        "angle": -0.1222
+      },
+      "head": {
+        "angle": -0.1047
+      },
+      "upperArmL": {
+        "angle": 3.0892
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.4435
+      },
+      "shinL": {
+        "angle": -2.618
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 3.0892,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.4435,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.618,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket", "block"],
+  "cues": [
+    "Sit the hips back toward the heels as the torso folds forward.",
+    "Rest the forehead on the floor, a block or a bolster.",
+    "Let the arms rest forward or alongside the body.",
+    "Breathe into the back ribs."
+  ],
+  "benefits": [
+    "Gently stretches the back, hips and thighs",
+    "Calms the nervous system",
+    "Offers a restful pause in practice"
+  ],
+  "cautions": [
+    "Place a blanket between the thighs and calves if the knees are tender",
+    "Avoid deep folding in late pregnancy"
+  ],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["tabletop"],
+    "variations": ["extended-child", "wide-knee-child"]
+  },
+  "status": "published",
+  "version": 1
+}

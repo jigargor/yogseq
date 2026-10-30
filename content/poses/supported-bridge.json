@@ -1,0 +1,100 @@
+{
+  "id": "supported-bridge",
+  "slug": "supported-bridge",
+  "nameEn": "Supported Bridge",
+  "nameSanskrit": "Setu Bandha Sarvangasana (Supported)",
+  "nameSanskritDiacritics": "Setu Bandha Sarvāṅgāsana",
+  "aliases": ["Restorative Bridge", "Block Bridge", "Bridge with Block"],
+  "position": "supine",
+  "types": ["backbend", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0605,
+      "y": 0.195,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.9548
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.1047
+      },
+      "neck": {
+        "angle": -0.2443
+      },
+      "head": {
+        "angle": -0.0349
+      },
+      "upperArmL": {
+        "angle": -0.2793
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.5153
+      },
+      "shinL": {
+        "angle": -1.2014
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.2793,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.4908,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.2288,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "bolster"],
+  "cues": [
+    "Lift the hips and slide a block under the sacrum.",
+    "Rest the pelvis on the block without gripping the glutes.",
+    "Let the arms rest at the sides and the chest open.",
+    "Breathe slowly and stay for a minute or more."
+  ],
+  "benefits": [
+    "Gently opens the front body",
+    "Relaxes the lower back",
+    "Calming effect on the nervous system"
+  ],
+  "cautions": ["Choose a lower block height if the lower back feels compressed"],
+  "related": {
+    "prep": ["bridge"],
+    "counter": ["knees-to-chest"],
+    "variations": ["bridge"]
+  },
+  "status": "published",
+  "version": 1
+}

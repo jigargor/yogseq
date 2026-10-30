@@ -1,0 +1,99 @@
+{
+  "id": "headstand",
+  "slug": "headstand",
+  "nameEn": "Supported Headstand",
+  "nameSanskrit": "Salamba Sirsasana",
+  "nameSanskritDiacritics": "Sālamba Śīrṣāsana",
+  "aliases": ["Sirsasana", "Salamba Sirsasana", "King of Asanas", "Headstand"],
+  "position": "inversion",
+  "types": ["balance", "core"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0326,
+      "y": -0.0559,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -3.1067
+      },
+      "spineLower": {
+        "angle": -0.0349
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 2.7925
+      },
+      "forearmL": {
+        "angle": 1.9199
+      },
+      "handL": {
+        "angle": 0.5236
+      },
+      "thighL": {
+        "angle": -0.0349
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 2.7925,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.9199,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.5236,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.0349,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall", "blanket"],
+  "cues": [
+    "Interlace the fingers and place the crown of the head lightly on the floor.",
+    "Press the forearms down so most weight stays in the arms.",
+    "Walk the feet in, lift the hips over the shoulders and extend the legs.",
+    "Stack the hips over the shoulders and breathe evenly."
+  ],
+  "benefits": ["Builds core and shoulder strength", "Develops balance and focus", "Calms the mind"],
+  "cautions": [
+    "Learn with an experienced teacher near a wall",
+    "Avoid with neck injury, glaucoma or high blood pressure"
+  ],
+  "related": {
+    "prep": ["dolphin"],
+    "counter": ["child"],
+    "variations": ["tripod-headstand"]
+  },
+  "status": "published",
+  "version": 1
+}

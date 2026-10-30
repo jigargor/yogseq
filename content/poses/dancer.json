@@ -1,0 +1,103 @@
+{
+  "id": "dancer",
+  "slug": "dancer",
+  "nameEn": "Dancer Pose",
+  "nameSanskrit": "Natarajasana",
+  "nameSanskritDiacritics": "Naṭarājāsana",
+  "aliases": ["Lord of the Dance", "Natarajasana", "Standing Bow"],
+  "position": "standing",
+  "types": ["backbend", "balance", "chestOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0243,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.2618
+      },
+      "spineUpper": {
+        "angle": -0.2618
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 2.2689
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.5696,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -1.2217,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.309,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "wall"],
+  "cues": [
+    "Ground through the standing leg and hold the inside of the lifted foot.",
+    "Kick the foot back into the hand while lifting the chest.",
+    "Reach the front arm forward and keep the hips squared.",
+    "Keep a steady gaze and breathe evenly."
+  ],
+  "benefits": [
+    "Opens chest, shoulders and quads",
+    "Builds balance and focus",
+    "Strengthens the standing leg"
+  ],
+  "cautions": [
+    "Use a strap around the foot if the hand does not reach",
+    "Avoid pushing into the low back"
+  ],
+  "related": {
+    "prep": ["tree", "low-lunge"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["bow"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "tripod-headstand",
+  "slug": "tripod-headstand",
+  "nameEn": "Tripod Headstand",
+  "nameSanskrit": "Sirsasana II",
+  "nameSanskritDiacritics": "Śīrṣāsana II",
+  "aliases": ["Sirsasana II", "Hands-Down Headstand", "Tripod"],
+  "position": "inversion",
+  "types": ["balance", "core"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0557,
+      "y": -0.0837,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -3.0543
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.8326
+      },
+      "forearmL": {
+        "angle": 1.309
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": -0.0873
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.8326,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.309,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.0873,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall", "blanket"],
+  "cues": [
+    "Place the hands shoulder-width apart and the crown of the head between them.",
+    "Bend the elbows to ninety degrees and rest the knees on the upper arms.",
+    "Lift the legs slowly with control and extend them upward.",
+    "Keep the weight shared between the hands and head."
+  ],
+  "benefits": [
+    "Strengthens arms and shoulders",
+    "Improves balance and focus",
+    "Challenges core control"
+  ],
+  "cautions": ["Practice near a wall", "Avoid with neck or shoulder injury"],
+  "related": {
+    "prep": ["headstand"],
+    "counter": ["child"],
+    "variations": ["headstand"]
+  },
+  "status": "published",
+  "version": 1
+}

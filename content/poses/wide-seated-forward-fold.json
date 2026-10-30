@@ -1,0 +1,98 @@
+{
+  "id": "wide-seated-forward-fold",
+  "slug": "wide-seated-forward-fold",
+  "nameEn": "Wide Seated Forward Fold",
+  "nameSanskrit": "Upavistha Konasana",
+  "nameSanskritDiacritics": "Upaviṣṭha Koṇāsana",
+  "aliases": ["Seated Straddle", "Upavistha Konasana", "Wide-Angle Seated Fold"],
+  "position": "seated",
+  "types": ["forwardFold", "hipOpener", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.299,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0,
+        "scale": 0.6
+      },
+      "spineUpper": {
+        "angle": 0,
+        "scale": 0.55
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2094
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.2566
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.2094
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2566
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["bolster", "block", "blanket"],
+  "cues": [
+    "Spread the legs wide with toes pointing up.",
+    "Sit on a blanket and walk the hands forward.",
+    "Fold from the hips with a long spine.",
+    "Rest on a bolster or block if the floor is far."
+  ],
+  "benefits": [
+    "Stretches inner thighs and hamstrings",
+    "Releases the pelvis",
+    "Improves hip mobility"
+  ],
+  "cautions": ["Keep knees soft if the hamstrings are tight", "Use support under the torso"],
+  "related": {
+    "prep": ["staff", "bound-angle"],
+    "counter": ["staff"],
+    "variations": ["wide-seated-side-bend"]
+  },
+  "status": "published",
+  "version": 1
+}

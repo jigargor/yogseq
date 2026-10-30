@@ -1,0 +1,27 @@
+{
+  "name": "yogseq",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "pnpm --filter @yogseq/web dev",
+    "build": "pnpm content:build && pnpm --filter @yogseq/web build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "content:build": "pnpm --filter @yogseq/content build",
+    "content:generate": "pnpm --filter @yogseq/content exec tsx ../../scripts/generate-poses.ts",
+    "db:generate": "pnpm --filter @yogseq/db generate",
+    "db:migrate": "pnpm --filter @yogseq/db migrate",
+    "db:push": "pnpm --filter @yogseq/db push",
+    "preview": "pnpm --filter @yogseq/web preview",
+    "deploy": "pnpm --filter @yogseq/web deploy"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "typescript": "^5.9.3"
+  }
+}

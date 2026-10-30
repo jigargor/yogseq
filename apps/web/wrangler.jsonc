@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yogseq",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-30",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  // Production custom domain is attached in the Cloudflare dashboard
+  // (Workers → yogseq → Domains & Routes → yogseq.metierstudio.com)
+  // so SSL/DNS stay tied to the metierstudio.com zone. Do not bind that
+  // hostname to preview version uploads.
+  "workers_dev": true
+}

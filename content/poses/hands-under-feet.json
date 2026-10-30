@@ -1,0 +1,103 @@
+{
+  "id": "hands-under-feet",
+  "slug": "hands-under-feet",
+  "nameEn": "Hands Under Feet",
+  "nameSanskrit": "Padahastasana",
+  "nameSanskritDiacritics": "Pādahastāsana",
+  "aliases": ["Foot-Hand Pose", "Hand-to-Foot Pose", "Palms Under Feet"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1026,
+      "y": -0.0473,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.1345
+      },
+      "spineLower": {
+        "angle": -1.2217
+      },
+      "spineUpper": {
+        "angle": -0.5236
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 1.688
+      },
+      "forearmL": {
+        "angle": 1.3789
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.1345
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.7,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.2597,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.1345,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Slide the palms under the feet with fingertips facing the heels.",
+    "Pull gently on the feet to lengthen the spine.",
+    "Keep the weight forward in the toes and hips high.",
+    "Release the neck and breathe into the back body."
+  ],
+  "benefits": [
+    "Deep hamstring and calf stretch",
+    "Stimulates circulation to the head",
+    "Calming effect on the mind"
+  ],
+  "cautions": [
+    "Bend the knees if the hamstrings or low back complain",
+    "Avoid with acute back injury"
+  ],
+  "related": {
+    "prep": ["standing-forward-fold"],
+    "counter": ["mountain"],
+    "variations": ["gorilla", "big-toe-pose"]
+  },
+  "status": "published",
+  "version": 1
+}

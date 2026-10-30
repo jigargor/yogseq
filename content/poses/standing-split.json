@@ -1,0 +1,100 @@
+{
+  "id": "standing-split",
+  "slug": "standing-split",
+  "nameEn": "Standing Split",
+  "nameSanskrit": "Urdhva Prasarita Eka Padasana",
+  "nameSanskritDiacritics": "Ūrdhva Prasārita Eka Pādāsana",
+  "aliases": ["Standing Splits", "Upward Extended One-Foot Pose"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring", "balance"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0193,
+      "y": -0.0198,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.8727
+      },
+      "spineLower": {
+        "angle": -1.9199
+      },
+      "spineUpper": {
+        "angle": -0.1745
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 2.0713
+      },
+      "forearmL": {
+        "angle": 2.0175
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.8727
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.0789,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.9972,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -2.0071,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Fold forward and walk the hands under the shoulders.",
+    "Shift the weight into the standing leg and lift the other leg back and up.",
+    "Keep the hips level and press through the lifted heel.",
+    "Draw the chest toward the standing thigh."
+  ],
+  "benefits": [
+    "Deepens hamstring and calf stretch",
+    "Builds balance and leg strength",
+    "Increases hip mobility"
+  ],
+  "cautions": ["Use blocks beneath the hands", "Keep the standing knee slightly bent"],
+  "related": {
+    "prep": ["standing-forward-fold", "half-forward-fold"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["warrior-3"]
+  },
+  "status": "published",
+  "version": 1
+}

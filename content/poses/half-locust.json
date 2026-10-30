@@ -1,0 +1,100 @@
+{
+  "id": "half-locust",
+  "slug": "half-locust",
+  "nameEn": "Half Locust",
+  "nameSanskrit": "Ardha Salabhasana",
+  "nameSanskritDiacritics": "Ardha Śalabhāsana",
+  "aliases": ["Ardha Salabhasana", "Single Leg Lift", "One-Leg Locust"],
+  "position": "prone",
+  "types": ["backbend"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0158,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.0349
+      },
+      "spineUpper": {
+        "angle": 0.0698
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.0175
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.4363
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -0.0175,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Rest the forehead down and lengthen both arms forward or back.",
+    "Lift one leg straight, keeping the hips level.",
+    "Press the pubic bone down.",
+    "Lower with control and switch sides."
+  ],
+  "benefits": [
+    "Strengthens the glutes and lower back",
+    "Gentler than full locust",
+    "Builds control"
+  ],
+  "cautions": ["Keep the lift modest if the lower back protests"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["child"],
+    "variations": ["locust"]
+  },
+  "status": "published",
+  "version": 1
+}

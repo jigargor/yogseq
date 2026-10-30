@@ -1,0 +1,100 @@
+{
+  "id": "chaturanga",
+  "slug": "chaturanga",
+  "nameEn": "Four-Limbed Staff Pose",
+  "nameSanskrit": "Chaturanga Dandasana",
+  "nameSanskritDiacritics": "Caturaṅga Daṇḍāsana",
+  "aliases": ["Chaturanga", "Low Plank", "Pushup Lowered"],
+  "position": "prone",
+  "types": ["core", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0228,
+      "y": 0.2821,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3963
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0524
+      },
+      "upperArmL": {
+        "angle": -0.1745
+      },
+      "forearmL": {
+        "angle": 1.5708
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.1745,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "From plank, lean forward and bend the elbows to ninety degrees.",
+    "Hug the elbows toward the ribs and keep the body in one line.",
+    "Keep the shoulders level with the elbows, not below.",
+    "Press back to plank or lower the knees to maintain alignment."
+  ],
+  "benefits": [
+    "Builds arm, shoulder and core strength",
+    "Prepares for arm balances",
+    "Strong transition in vinyasa"
+  ],
+  "cautions": ["Lower the knees to build strength safely", "Avoid with shoulder instability"],
+  "related": {
+    "prep": ["plank"],
+    "counter": ["upward-dog", "child"],
+    "variations": ["plank"]
+  },
+  "status": "published",
+  "version": 1
+}

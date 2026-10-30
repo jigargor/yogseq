@@ -1,0 +1,92 @@
+{
+  "id": "banana",
+  "slug": "banana",
+  "nameEn": "Banana Pose",
+  "nameSanskrit": "Ardha Chandrasana Supine",
+  "nameSanskritDiacritics": "Ardha Candrāsana",
+  "aliases": ["Reclining Side Stretch", "Supine Crescent", "Moon Stretch Lying"],
+  "position": "supine",
+  "types": ["lateralBend", "restorative"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.1242,
+      "y": 0.4,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": -0.1396
+      },
+      "spineUpper": {
+        "angle": -0.2094
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.0543
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.1745
+      },
+      "shinL": {
+        "angle": 0.1745
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -3.0543
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": 0.1745
+      },
+      "shinR": {
+        "angle": 0.1745
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Lie on the back and reach the arms overhead.",
+    "Walk the feet and the upper body to one side, bowing like a banana.",
+    "Keep both hips grounded and the breath easy.",
+    "Reach the fingertips and heels away from each other."
+  ],
+  "benefits": ["Stretches the side body", "Releases the ribs", "Easy and relaxing"],
+  "cautions": ["Keep the movement small with shoulder tension"],
+  "related": {
+    "prep": ["corpse"],
+    "counter": ["corpse"],
+    "variations": ["reclined-twist"]
+  },
+  "status": "published",
+  "version": 1
+}

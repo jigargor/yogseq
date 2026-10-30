@@ -1,0 +1,96 @@
+{
+  "id": "revolved-head-to-knee",
+  "slug": "revolved-head-to-knee",
+  "nameEn": "Revolved Head-to-Knee",
+  "nameSanskrit": "Parivrtta Janu Sirsasana",
+  "nameSanskritDiacritics": "Parivṛtta Jānu Śīrṣāsana",
+  "aliases": ["Parivrtta Janu Sirsasana", "Twisted Head-to-Knee", "Side Bend Janu Sirsasana"],
+  "position": "seated",
+  "types": ["lateralBend", "twist", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.1202,
+      "y": 0.2629,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.3142
+      },
+      "neck": {
+        "angle": -0.0698
+      },
+      "head": {
+        "angle": -0.0524
+      },
+      "upperArmL": {
+        "angle": 1.6363
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.4835
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": 3.0194
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2566
+      },
+      "shinR": {
+        "angle": 2.4784
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["strap", "bolster"],
+  "cues": [
+    "Extend one leg wide and bend the other knee in.",
+    "Lower the opposite elbow toward the inside of the extended leg.",
+    "Sweep the top arm overhead and open the chest to the ceiling.",
+    "Roll the ribs toward the sky and breathe into the top side."
+  ],
+  "benefits": [
+    "Stretches side body and hamstrings",
+    "Opens the hip",
+    "Improves rotational mobility"
+  ],
+  "cautions": ["Rest the lower arm on a block", "Do not force the twist with back pain"],
+  "related": {
+    "prep": ["head-to-knee"],
+    "counter": ["staff"],
+    "variations": ["head-to-knee"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "id": "extended-child",
+  "slug": "extended-child",
+  "nameEn": "Extended Child's Pose",
+  "nameSanskrit": "Utthita Balasana",
+  "nameSanskritDiacritics": "Utthita Bālāsana",
+  "aliases": ["Extended Puppy", "Long Arm Child", "Child with Arms Forward"],
+  "position": "kneeling",
+  "types": ["restorative", "shoulderOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.2629,
+      "y": 0.2766,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.4835
+      },
+      "spineLower": {
+        "angle": -0.2618
+      },
+      "spineUpper": {
+        "angle": -0.1047
+      },
+      "neck": {
+        "angle": 0.0698
+      },
+      "head": {
+        "angle": -0.1047
+      },
+      "upperArmL": {
+        "angle": -2.8972
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.2689
+      },
+      "shinL": {
+        "angle": -2.3562
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -2.8972,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.2689,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.3562,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "Walk the hands far forward and press into the fingertips.",
+    "Keep the hips lifting back toward the heels.",
+    "Melt the chest and forehead toward the floor.",
+    "Feel length through the arms and sides."
+  ],
+  "benefits": ["Stretches shoulders and lats", "Lengthens the spine", "Soothes the mind"],
+  "cautions": ["Keep the elbows soft if shoulders are tight"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["tabletop"],
+    "variations": ["puppy"]
+  },
+  "status": "published",
+  "version": 1
+}

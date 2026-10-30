@@ -1,0 +1,100 @@
+{
+  "id": "plank",
+  "slug": "plank",
+  "nameEn": "Plank Pose",
+  "nameSanskrit": "Phalakasana",
+  "nameSanskritDiacritics": "Phalakāsana",
+  "aliases": ["Phalakasana", "High Plank", "Straight-Arm Plank", "Pushup Position"],
+  "position": "prone",
+  "types": ["core", "shoulderOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0238,
+      "y": 0.2009,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.2043
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.1047
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 1.2043
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -0.192
+      },
+      "upperArmR": {
+        "angle": 1.2043,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -0.192,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Stack the shoulders over the wrists and press the floor away.",
+    "Reach back through the heels and forward through the crown.",
+    "Draw the lower belly in and keep the hips level.",
+    "Spread the shoulder blades wide."
+  ],
+  "benefits": [
+    "Strengthens core, arms and shoulders",
+    "Builds full-body stability",
+    "Prepares for arm balances"
+  ],
+  "cautions": ["Lower the knees if the hips sag", "Use a wall incline for wrist or shoulder pain"],
+  "related": {
+    "prep": ["tabletop", "downward-dog"],
+    "counter": ["child"],
+    "variations": ["forearm-plank", "chaturanga", "side-plank"]
+  },
+  "status": "published",
+  "version": 1
+}

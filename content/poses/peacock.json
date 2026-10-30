@@ -1,0 +1,103 @@
+{
+  "id": "peacock",
+  "slug": "peacock",
+  "nameEn": "Peacock Pose",
+  "nameSanskrit": "Mayurasana",
+  "nameSanskritDiacritics": "Mayūrāsana",
+  "aliases": ["Mayurasana", "Elbow Balance", "Horizontal Peacock"],
+  "position": "armBalance",
+  "types": ["balance", "core"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0155,
+      "y": 0.2469,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 0.3491
+      },
+      "forearmL": {
+        "angle": 1.2217
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.3491,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.2217,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Kneel and place the hands on the floor with the fingers pointing back toward the feet.",
+    "Lower the abdomen onto the elbows and extend the legs back.",
+    "Lean forward until the feet lift off the floor.",
+    "Keep the body horizontal and breathe slowly."
+  ],
+  "benefits": [
+    "Strengthens forearms, wrists and core",
+    "Improves digestion and focus",
+    "Builds endurance"
+  ],
+  "cautions": [
+    "Avoid with wrist problems or during pregnancy",
+    "Pad the floor in front of the head"
+  ],
+  "related": {
+    "prep": ["crow"],
+    "counter": ["child"],
+    "variations": ["crow"]
+  },
+  "status": "published",
+  "version": 1
+}

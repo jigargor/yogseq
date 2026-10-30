@@ -1,0 +1,100 @@
+{
+  "id": "gorilla",
+  "slug": "gorilla",
+  "nameEn": "Gorilla Pose",
+  "nameSanskrit": "Padahastasana (Bent Knee)",
+  "nameSanskritDiacritics": "Pādahastāsana",
+  "aliases": ["Gorilla Fold", "Palms Under Feet Squat", "Hand-Under-Foot Fold"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1144,
+      "y": 0.0325,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.9599
+      },
+      "spineLower": {
+        "angle": -1.309
+      },
+      "spineUpper": {
+        "angle": -0.5236
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": 1.1668
+      },
+      "forearmL": {
+        "angle": 1.6588
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.6352
+      },
+      "shinL": {
+        "angle": -1.2388
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.1991,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.5295,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.6163,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.2024,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Slide the palms under the feet with fingertips toward the heels.",
+    "Bend the knees and lengthen the spine.",
+    "Draw the elbows slightly back to lift the chest.",
+    "Let the head release and keep the weight in the heels."
+  ],
+  "benefits": [
+    "Stretches hamstrings and low back",
+    "Relaxes the neck and shoulders",
+    "Increases wrist flexibility"
+  ],
+  "cautions": ["Keep the knees bent generously for tight hamstrings", "Skip with wrist pain"],
+  "related": {
+    "prep": ["standing-forward-fold"],
+    "counter": ["mountain"],
+    "variations": ["hands-under-feet"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,99 @@
+{
+  "id": "shoulderstand",
+  "slug": "shoulderstand",
+  "nameEn": "Shoulderstand",
+  "nameSanskrit": "Sarvangasana",
+  "nameSanskritDiacritics": "Sarvāṅgāsana",
+  "aliases": ["Sarvangasana", "Candlestick", "Supported Shoulder Stand"],
+  "position": "supine",
+  "types": ["balance", "restorative"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0312,
+      "y": 0.0161,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -3.0543
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": -0.4363
+      },
+      "head": {
+        "angle": -1.0472
+      },
+      "upperArmL": {
+        "angle": -1.309
+      },
+      "forearmL": {
+        "angle": 1.0472
+      },
+      "handL": {
+        "angle": 0.1745
+      },
+      "thighL": {
+        "angle": -0.0873
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -1.309,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.1745,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.0873,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "wall"],
+  "cues": [
+    "Fold two or three blankets under the shoulders and keep the head off the edge.",
+    "Lift the legs overhead and support the back with the hands.",
+    "Walk the elbows in and stack the hips over the shoulders.",
+    "Look straight up and keep the neck long."
+  ],
+  "benefits": ["Strengthens the shoulders and core", "Calms the mind", "Improves circulation"],
+  "cautions": [
+    "Avoid with neck problems, high blood pressure or menstruation",
+    "Never turn the head"
+  ],
+  "related": {
+    "prep": ["bridge", "plow"],
+    "counter": ["fish"],
+    "variations": ["supported-shoulderstand", "half-shoulderstand"]
+  },
+  "status": "published",
+  "version": 1
+}

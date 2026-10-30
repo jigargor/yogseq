@@ -1,0 +1,103 @@
+{
+  "id": "bow",
+  "slug": "bow",
+  "nameEn": "Bow Pose",
+  "nameSanskrit": "Dhanurasana",
+  "nameSanskritDiacritics": "Dhanurāsana",
+  "aliases": ["Dhanurasana", "Full Bow", "Archer's Pose"],
+  "position": "prone",
+  "types": ["backbend", "chestOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0804,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.2618
+      },
+      "spineUpper": {
+        "angle": 0.5236
+      },
+      "neck": {
+        "angle": 0.2618
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": -1.0329
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.2618
+      },
+      "shinL": {
+        "angle": -1.6581
+      },
+      "footL": {
+        "angle": -1.2217
+      },
+      "upperArmR": {
+        "angle": -1.0295,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.2618,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.6581,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.2217,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "strap"],
+  "cues": [
+    "Bend the knees and reach back to hold the ankles.",
+    "Kick the feet into the hands as the chest and thighs lift.",
+    "Keep the knees hip-width apart and the neck long.",
+    "Rock gently if it feels good, then release."
+  ],
+  "benefits": [
+    "Opens chest, shoulders and hip flexors",
+    "Strengthens the back",
+    "Stimulates the abdomen"
+  ],
+  "cautions": [
+    "Use a strap around the ankles if the hands do not reach",
+    "Avoid with high blood pressure or abdominal injury"
+  ],
+  "related": {
+    "prep": ["locust", "cobra"],
+    "counter": ["child"],
+    "variations": ["half-bow"]
+  },
+  "status": "published",
+  "version": 1
+}

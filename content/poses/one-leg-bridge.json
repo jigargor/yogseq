@@ -1,0 +1,100 @@
+{
+  "id": "one-leg-bridge",
+  "slug": "one-leg-bridge",
+  "nameEn": "One-Legged Bridge",
+  "nameSanskrit": "Eka Pada Setu Bandha Sarvangasana",
+  "nameSanskritDiacritics": "Eka Pāda Setu Bandha Sarvāṅgāsana",
+  "aliases": ["Single-Leg Bridge", "Eka Pada Setu Bandhasana", "Bridge with Leg Lift"],
+  "position": "supine",
+  "types": ["backbend", "core", "balance"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0608,
+      "y": 0.2339,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 2.0944
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": -0.3491
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": -0.5236
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.4533
+      },
+      "shinL": {
+        "angle": -1.5018
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.5236,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.6981,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Lift into bridge and keep the hips level.",
+    "Extend one leg toward the ceiling, foot flexed.",
+    "Press down through the grounded foot and shoulders.",
+    "Lower with control and switch sides."
+  ],
+  "benefits": [
+    "Strengthens glutes and hamstrings",
+    "Challenges core stability",
+    "Improves balance"
+  ],
+  "cautions": ["Return to double-leg bridge if the hips tilt"],
+  "related": {
+    "prep": ["bridge"],
+    "counter": ["knees-to-chest"],
+    "variations": ["bridge"]
+  },
+  "status": "published",
+  "version": 1
+}

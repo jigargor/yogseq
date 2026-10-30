@@ -1,0 +1,103 @@
+{
+  "id": "bridge",
+  "slug": "bridge",
+  "nameEn": "Bridge Pose",
+  "nameSanskrit": "Setu Bandha Sarvangasana",
+  "nameSanskritDiacritics": "Setu Bandha Sarvāṅgāsana",
+  "aliases": ["Setu Bandha Sarvangasana", "Bridge", "Shoulder Bridge"],
+  "position": "supine",
+  "types": ["backbend", "chestOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0594,
+      "y": 0.2339,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 2.0944
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": -0.3491
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": -0.5236
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.4533
+      },
+      "shinL": {
+        "angle": -1.5018
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.5236,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.4315,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5219,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "strap"],
+  "cues": [
+    "Plant the feet hip-width apart with the heels under the knees.",
+    "Press into the feet and lift the hips toward the ceiling.",
+    "Roll the shoulders under and keep the neck relaxed.",
+    "Draw the knees forward rather than letting them splay."
+  ],
+  "benefits": [
+    "Strengthens glutes, hamstrings and back",
+    "Opens the chest and hip flexors",
+    "Gently energizing"
+  ],
+  "cautions": [
+    "Keep the neck still and avoid turning the head",
+    "Lower down if the low back pinches"
+  ],
+  "related": {
+    "prep": ["corpse", "knees-to-chest"],
+    "counter": ["knees-to-chest"],
+    "variations": ["supported-bridge", "one-leg-bridge", "wheel"]
+  },
+  "status": "published",
+  "version": 1
+}

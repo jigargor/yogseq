@@ -1,0 +1,100 @@
+{
+  "id": "firefly",
+  "slug": "firefly",
+  "nameEn": "Firefly Pose",
+  "nameSanskrit": "Tittibhasana",
+  "nameSanskritDiacritics": "Tiṭṭibhāsana",
+  "aliases": ["Tittibhasana", "Insect Pose", "Lifted Straddle"],
+  "position": "armBalance",
+  "types": ["balance", "hamstring", "core"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.221,
+      "y": 0.035,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.9199
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": 0.1745
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": 1.6654
+      },
+      "forearmL": {
+        "angle": 0.7387
+      },
+      "handL": {
+        "angle": 1.1738
+      },
+      "thighL": {
+        "angle": -2.618
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.807,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.4315,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.3394,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -2.618,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Squat with the feet apart and thread the arms behind the thighs.",
+    "Lean back slightly and lift the feet off the floor.",
+    "Straighten the legs forward and press the thighs into the upper arms.",
+    "Look forward and breathe."
+  ],
+  "benefits": [
+    "Strengthens arms and core",
+    "Stretches hamstrings and inner thighs",
+    "Boosts confidence"
+  ],
+  "cautions": ["Warm up the hamstrings thoroughly", "Use a block under the hands"],
+  "related": {
+    "prep": ["garland", "crow"],
+    "counter": ["child"],
+    "variations": ["crow"]
+  },
+  "status": "published",
+  "version": 1
+}

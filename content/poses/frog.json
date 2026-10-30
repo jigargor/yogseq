@@ -1,0 +1,96 @@
+{
+  "id": "frog",
+  "slug": "frog",
+  "nameEn": "Frog Pose",
+  "nameSanskrit": "Mandukasana",
+  "nameSanskritDiacritics": "Maṇḍūkāsana",
+  "aliases": ["Mandukasana", "Wide Knee Quadruped", "Frog Stretch"],
+  "position": "kneeling",
+  "types": ["hipOpener", "restorative"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.2336,
+      "y": 0.2147,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.4835
+      },
+      "spineLower": {
+        "angle": -0.1745
+      },
+      "spineUpper": {
+        "angle": -0.3491
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -2.9147
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.9199
+      },
+      "shinL": {
+        "angle": -2.0071
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -2.9147,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.9199,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.0071,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "From tabletop, slide the knees wide with the ankles in line with the knees.",
+    "Flex the feet and keep the shins parallel.",
+    "Rock the hips back toward the heels and lower to forearms.",
+    "Back off if the inner knees feel pinched."
+  ],
+  "benefits": ["Opens the inner thighs and groins", "Releases the hips", "Improves hip mobility"],
+  "cautions": ["Pad the knees generously", "Come out slowly to avoid groin strain"],
+  "related": {
+    "prep": ["tabletop", "wide-knee-child"],
+    "counter": ["child"],
+    "variations": ["wide-knee-child"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "thread-the-needle",
+  "slug": "thread-the-needle",
+  "nameEn": "Thread the Needle",
+  "nameSanskrit": "Parsva Balasana (Threaded Arm)",
+  "nameSanskritDiacritics": "Pārśva Bālāsana",
+  "aliases": ["Threading the Needle", "Shoulder Thread", "Twisted Tabletop"],
+  "position": "kneeling",
+  "types": ["twist", "shoulderOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1703,
+      "y": 0.1389,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3963
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.5236
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": -2.4435
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3963
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -2.4435,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "bolster"],
+  "cues": [
+    "From tabletop, slide one arm along the floor under the chest.",
+    "Lower the shoulder and cheek to the floor or a bolster.",
+    "Keep the hips stacked over the knees.",
+    "Press the other hand down to deepen the twist gently."
+  ],
+  "benefits": [
+    "Releases the shoulders and upper back",
+    "Gently twists the spine",
+    "Relieves tension in the neck"
+  ],
+  "cautions": ["Pad the shoulder if there is any pinching", "Back off with shoulder injuries"],
+  "related": {
+    "prep": ["tabletop", "cat"],
+    "counter": ["child"],
+    "variations": ["puppy"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,103 @@
+{
+  "id": "supine-big-toe",
+  "slug": "supine-big-toe",
+  "nameEn": "Reclined Big Toe Pose",
+  "nameSanskrit": "Supta Padangusthasana",
+  "nameSanskritDiacritics": "Supta Pādāṅguṣṭhāsana",
+  "aliases": ["Supta Padangusthasana", "Supine Hand-to-Big-Toe", "Hamstring Stretch Lying"],
+  "position": "supine",
+  "types": ["hamstring"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0225,
+      "y": 0.392,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.1745
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.8727,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "Lie on the back and loop a strap around the lifted foot.",
+    "Keep the grounded leg active and the foot flexed.",
+    "Hold the strap with both hands and draw the leg toward you.",
+    "Relax the shoulders and neck on the floor."
+  ],
+  "benefits": [
+    "Stretches hamstrings and calves",
+    "Lengthens the lower back",
+    "Accessible and relaxing"
+  ],
+  "cautions": [
+    "Bend the knee slightly if the hamstring is tight",
+    "Keep the strap long to avoid pulling hard"
+  ],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": ["knees-to-chest"],
+    "variations": ["supine-big-toe-side"]
+  },
+  "status": "published",
+  "version": 1
+}

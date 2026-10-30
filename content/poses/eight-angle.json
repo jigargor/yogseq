@@ -1,0 +1,96 @@
+{
+  "id": "eight-angle",
+  "slug": "eight-angle",
+  "nameEn": "Eight-Angle Pose",
+  "nameSanskrit": "Astavakrasana",
+  "nameSanskritDiacritics": "Aṣṭāvakrāsana",
+  "aliases": ["Astavakrasana", "Sage Astavakra", "Side Leg Balance"],
+  "position": "armBalance",
+  "types": ["balance", "core", "hipOpener"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.2169,
+      "y": -0.015,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.0944
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0.1745
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": 1.5402
+      },
+      "forearmL": {
+        "angle": 1.2068
+      },
+      "handL": {
+        "angle": 0.9182
+      },
+      "thighL": {
+        "angle": -2.5307
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0.0873
+      },
+      "upperArmR": {
+        "angle": 2.0944,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -2.5307,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.0873,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Hook one leg over the upper arm and cross the ankles.",
+    "Press the hands down and shift the weight forward.",
+    "Straighten the legs to one side and lower the chest.",
+    "Keep the gaze forward and breathe."
+  ],
+  "benefits": ["Strengthens arms and core", "Opens hips", "Improves coordination"],
+  "cautions": ["Learn with an experienced teacher", "Avoid with wrist injuries"],
+  "related": {
+    "prep": ["crow"],
+    "counter": ["child"],
+    "variations": ["firefly"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "half-bow",
+  "slug": "half-bow",
+  "nameEn": "Half Bow",
+  "nameSanskrit": "Ardha Dhanurasana",
+  "nameSanskritDiacritics": "Ardha Dhanurāsana",
+  "aliases": ["Ardha Dhanurasana", "One-Legged Bow", "Single Bow"],
+  "position": "prone",
+  "types": ["backbend"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0297,
+      "y": 0.201,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.1396
+      },
+      "spineUpper": {
+        "angle": 0.2443
+      },
+      "neck": {
+        "angle": 0.1396
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": -0.7542
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.2618
+      },
+      "shinL": {
+        "angle": -1.6581
+      },
+      "footL": {
+        "angle": -1.2217
+      },
+      "upperArmR": {
+        "angle": 1.1868,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "blanket"],
+  "cues": [
+    "Rest on the belly and bend one knee toward the hip.",
+    "Reach back and hold the ankle.",
+    "Lift the chest slightly and press the foot into the hand.",
+    "Keep the other leg grounded and the hips even."
+  ],
+  "benefits": [
+    "Stretches the quads and hip flexors",
+    "Opens the chest",
+    "Gentle introduction to bow"
+  ],
+  "cautions": ["Use a strap if the hand does not reach"],
+  "related": {
+    "prep": ["cobra"],
+    "counter": ["child"],
+    "variations": ["bow"]
+  },
+  "status": "published",
+  "version": 1
+}

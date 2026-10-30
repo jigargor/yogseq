@@ -1,0 +1,99 @@
+{
+  "id": "extended-side-angle",
+  "slug": "extended-side-angle",
+  "nameEn": "Extended Side Angle",
+  "nameSanskrit": "Utthita Parsvakonasana",
+  "nameSanskritDiacritics": "Utthita Pārśvakoṇāsana",
+  "aliases": ["Side Angle Pose", "Utthita Parsvakonasana", "Lateral Angle"],
+  "position": "standing",
+  "types": ["lateralBend", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.1069,
+      "y": 0.135,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.3491
+      },
+      "spineLower": {
+        "angle": 0.6981
+      },
+      "spineUpper": {
+        "angle": 0.1396
+      },
+      "neck": {
+        "angle": 0.0349
+      },
+      "head": {
+        "angle": 0.0349
+      },
+      "upperArmL": {
+        "angle": -3.0718
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.5978
+      },
+      "shinL": {
+        "angle": -0.362
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.0123
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.6042
+      },
+      "shinR": {
+        "angle": 1.2057
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Bend the front knee to a right angle and keep it stacked over the ankle.",
+    "Lower the front forearm to the thigh or the hand to a block.",
+    "Reach the top arm over the ear in one long line from the back heel.",
+    "Rotate the top ribs open without collapsing the bottom side."
+  ],
+  "benefits": [
+    "Strengthens legs and glutes",
+    "Stretches the sides of the torso",
+    "Opens groins and hips"
+  ],
+  "cautions": [
+    "Rest the forearm on the thigh with neck or shoulder strain",
+    "Turn the gaze down if the neck feels tight"
+  ],
+  "related": {
+    "prep": ["warrior-2"],
+    "counter": ["wide-legged-forward-fold"],
+    "variations": ["bound-side-angle", "revolved-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

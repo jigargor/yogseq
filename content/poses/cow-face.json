@@ -1,0 +1,96 @@
+{
+  "id": "cow-face",
+  "slug": "cow-face",
+  "nameEn": "Cow Face Pose",
+  "nameSanskrit": "Gomukhasana",
+  "nameSanskritDiacritics": "Gomukhāsana",
+  "aliases": ["Gomukhasana", "Cow Face", "Gomukhasana Arms"],
+  "position": "seated",
+  "types": ["hipOpener", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0599,
+      "y": 0.4158,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.2618
+      },
+      "forearmL": {
+        "angle": -2.618
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.4835
+      },
+      "shinL": {
+        "angle": 2.8798
+      },
+      "footL": {
+        "angle": -1.4835
+      },
+      "upperArmR": {
+        "angle": 3.0543,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.7053,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.4835,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.8798,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.4835,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "block", "blanket"],
+  "cues": [
+    "Stack the knees one over the other, heels beside opposite hips.",
+    "Sit on a block so both sitting bones are heavy.",
+    "Reach one arm up and bend it behind the head; sweep the other behind the back.",
+    "Hook the fingers or hold a strap, lifting the chest."
+  ],
+  "benefits": ["Opens hips and shoulders", "Stretches triceps and chest", "Improves posture"],
+  "cautions": ["Sit higher if the knees are uncomfortable", "Use a strap if the hands do not meet"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["staff"],
+    "variations": ["eagle"]
+  },
+  "status": "published",
+  "version": 1
+}

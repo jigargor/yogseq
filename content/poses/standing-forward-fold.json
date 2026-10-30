@@ -1,0 +1,100 @@
+{
+  "id": "standing-forward-fold",
+  "slug": "standing-forward-fold",
+  "nameEn": "Standing Forward Fold",
+  "nameSanskrit": "Uttanasana",
+  "nameSanskritDiacritics": "Uttānāsana",
+  "aliases": ["Ragdoll", "Intense Stretch Pose", "Uttanasana", "Forward Bend"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1081,
+      "y": -0.0185,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.0472
+      },
+      "spineLower": {
+        "angle": -1.3963
+      },
+      "spineUpper": {
+        "angle": -0.5236
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 2.3335
+      },
+      "forearmL": {
+        "angle": 1.7862
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.0472
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.3402,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.7646,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Hinge from the hip creases with a long spine on the way down.",
+    "Soften the knees and let the head and neck hang heavy.",
+    "Shift the weight slightly forward over the balls of the feet.",
+    "Rise up slowly with a flat back on the inhale."
+  ],
+  "benefits": [
+    "Stretches hamstrings and calves",
+    "Releases tension in neck and back",
+    "Calms the nervous system"
+  ],
+  "cautions": ["Bend the knees generously with low back pain", "Rise slowly to avoid dizziness"],
+  "related": {
+    "prep": ["mountain", "upward-salute"],
+    "counter": ["mountain"],
+    "variations": ["half-forward-fold", "hands-under-feet"]
+  },
+  "status": "published",
+  "version": 1
+}

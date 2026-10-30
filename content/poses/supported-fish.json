@@ -1,0 +1,100 @@
+{
+  "id": "supported-fish",
+  "slug": "supported-fish",
+  "nameEn": "Supported Fish",
+  "nameSanskrit": "Salamba Matsyasana",
+  "nameSanskritDiacritics": "Sālamba Matsyāsana",
+  "aliases": ["Restorative Fish", "Bolster Fish", "Heart Opener on Bolster"],
+  "position": "supine",
+  "types": ["chestOpener", "restorative", "backbend"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0183,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": -0.0524
+      },
+      "spineUpper": {
+        "angle": -0.2094
+      },
+      "neck": {
+        "angle": 0.4363
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": 0.4363
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.4363,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "block", "blanket"],
+  "cues": [
+    "Place a bolster or blanket roll lengthwise or across the upper back.",
+    "Lie back and let the chest open over the support.",
+    "Rest the arms out to the sides, palms up.",
+    "Support the head with a blanket."
+  ],
+  "benefits": [
+    "Passive chest and shoulder opening",
+    "Eases breathing",
+    "Soothes the nervous system"
+  ],
+  "cautions": ["Use a lower prop if the back or neck feels compressed"],
+  "related": {
+    "prep": ["corpse"],
+    "counter": ["knees-to-chest"],
+    "variations": ["fish"]
+  },
+  "status": "published",
+  "version": 1
+}

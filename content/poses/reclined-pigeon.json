@@ -1,0 +1,108 @@
+{
+  "id": "reclined-pigeon",
+  "slug": "reclined-pigeon",
+  "nameEn": "Reclined Pigeon",
+  "nameSanskrit": "Supta Kapotasana",
+  "nameSanskritDiacritics": "Supta Kapotāsana",
+  "aliases": [
+    "Supine Figure Four",
+    "Thread the Needle (Reclined)",
+    "Eye of the Needle",
+    "Reclined Figure Four"
+  ],
+  "position": "supine",
+  "types": ["hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.1875,
+      "y": 0.384,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.5236
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.1817
+      },
+      "shinL": {
+        "angle": -3.0543
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.5236,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.0944,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "wall"],
+  "cues": [
+    "Cross one ankle over the opposite thigh and flex the foot.",
+    "Draw the lower leg toward the chest, threading the hands behind the thigh.",
+    "Keep the head and shoulders relaxed on the floor.",
+    "Press the top knee gently away to deepen."
+  ],
+  "benefits": [
+    "Opens the outer hip and glutes",
+    "Releases lower-back tension",
+    "Gentle and accessible"
+  ],
+  "cautions": [
+    "Use a strap or keep the foot on the floor if reach is limited",
+    "Protect the knee by keeping the foot flexed"
+  ],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": ["corpse"],
+    "variations": ["pigeon"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "id": "boat",
+  "slug": "boat",
+  "nameEn": "Boat Pose",
+  "nameSanskrit": "Navasana",
+  "nameSanskritDiacritics": "Nāvāsana",
+  "aliases": ["Navasana", "Full Boat", "V-Sit"],
+  "position": "seated",
+  "types": ["core", "balance"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0708,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.2618
+      },
+      "spineLower": {
+        "angle": 0.1745
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 1.309
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.0944
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.309
+      },
+      "upperArmR": {
+        "angle": 1.309,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.0944,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.309,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "block"],
+  "cues": [
+    "Lean back on the sitting bones and lift the shins.",
+    "Straighten the legs into a V shape if the spine stays long.",
+    "Reach the arms forward parallel to the floor.",
+    "Lift the chest and keep the breath moving."
+  ],
+  "benefits": ["Strengthens the core and hip flexors", "Builds balance", "Tones the lower back"],
+  "cautions": ["Bend the knees to keep the spine straight", "Avoid with recent abdominal surgery"],
+  "related": {
+    "prep": ["staff", "half-boat"],
+    "counter": ["seated-forward-fold"],
+    "variations": ["half-boat"]
+  },
+  "status": "published",
+  "version": 1
+}

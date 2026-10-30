@@ -1,0 +1,100 @@
+{
+  "id": "lion",
+  "slug": "lion",
+  "nameEn": "Lion Pose",
+  "nameSanskrit": "Simhasana",
+  "nameSanskritDiacritics": "Siṃhāsana",
+  "aliases": ["Simhasana", "Lion's Breath", "Roaring Lion"],
+  "position": "kneeling",
+  "types": ["restorative", "chestOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.146,
+      "y": 0.3243,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.2618
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 1.3963
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.309
+      },
+      "shinL": {
+        "angle": -2.618
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.309,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.618,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Kneel and sit back on the heels with the palms pressing the knees.",
+    "Inhale through the nose and lean slightly forward.",
+    "Open the mouth wide, stick out the tongue and exhale with a roar.",
+    "Gaze up toward the third eye."
+  ],
+  "benefits": [
+    "Releases tension in the face and jaw",
+    "Energizes the throat and chest",
+    "Releases stress"
+  ],
+  "cautions": ["Pad the knees", "Use a chair if kneeling is uncomfortable"],
+  "related": {
+    "prep": ["thunderbolt"],
+    "counter": ["child"],
+    "variations": ["thunderbolt"]
+  },
+  "status": "published",
+  "version": 1
+}

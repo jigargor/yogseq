@@ -1,0 +1,96 @@
+{
+  "id": "tree",
+  "slug": "tree",
+  "nameEn": "Tree Pose",
+  "nameSanskrit": "Vrksasana",
+  "nameSanskritDiacritics": "Vṛkṣāsana",
+  "aliases": ["Vrksasana", "Standing Tree", "One-Legged Tree"],
+  "position": "standing",
+  "types": ["balance"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.0526,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 3.002
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -3.002
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.0821
+      },
+      "shinR": {
+        "angle": 2.5133
+      },
+      "footR": {
+        "angle": 2.9322,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Root through the standing foot and fix your gaze on a steady point.",
+    "Place the sole of the lifted foot on the calf or inner thigh, never on the knee.",
+    "Press the foot and leg into each other for stability.",
+    "Bring the hands to prayer or stretch the arms overhead like branches."
+  ],
+  "benefits": [
+    "Improves balance and concentration",
+    "Strengthens ankles and legs",
+    "Opens the hips"
+  ],
+  "cautions": ["Keep the foot off the side of the knee", "Stay near a wall if unsteady"],
+  "related": {
+    "prep": ["mountain"],
+    "counter": ["mountain"],
+    "variations": ["eagle", "dancer"]
+  },
+  "status": "published",
+  "version": 1
+}

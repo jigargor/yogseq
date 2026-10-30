@@ -1,0 +1,98 @@
+{
+  "id": "half-lotus",
+  "slug": "half-lotus",
+  "nameEn": "Half Lotus",
+  "nameSanskrit": "Ardha Padmasana",
+  "nameSanskritDiacritics": "Ardha Padmāsana",
+  "aliases": ["Ardha Padmasana", "Half Lotus Seat"],
+  "position": "seated",
+  "types": ["hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.0013,
+      "y": 0.2964,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2094
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.309,
+        "scale": 0.5
+      },
+      "shinL": {
+        "angle": -2.7053
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.2094
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2217,
+        "scale": 0.55
+      },
+      "shinR": {
+        "angle": 2.4784
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Cross the legs and place one foot on the opposite thigh.",
+    "Tuck the other foot beneath the thigh.",
+    "Lift the spine and soften the shoulders.",
+    "Support the knee with a block if it hovers."
+  ],
+  "benefits": [
+    "Builds toward full lotus",
+    "Opens hips and ankles",
+    "Provides a steady meditation base"
+  ],
+  "cautions": ["Alternate sides to keep balance in the hips", "Skip with knee issues"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["staff"],
+    "variations": ["lotus"]
+  },
+  "status": "published",
+  "version": 1
+}

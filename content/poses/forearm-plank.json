@@ -1,0 +1,96 @@
+{
+  "id": "forearm-plank",
+  "slug": "forearm-plank",
+  "nameEn": "Forearm Plank",
+  "nameSanskrit": "Makara Adho Mukha Svanasana",
+  "nameSanskritDiacritics": "Makara Adho Mukha Śvānāsana",
+  "aliases": ["Elbow Plank", "Dolphin Plank", "Low Plank"],
+  "position": "prone",
+  "types": ["core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0425,
+      "y": 0.2733,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.3788
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0524
+      },
+      "head": {
+        "angle": -0.0524
+      },
+      "upperArmL": {
+        "angle": 1.3788
+      },
+      "forearmL": {
+        "angle": 1.5708
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -0.192
+      },
+      "upperArmR": {
+        "angle": 1.3788,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -0.192,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Place the forearms parallel with elbows under the shoulders.",
+    "Extend the legs back and tuck the toes.",
+    "Create one long line from heels to crown.",
+    "Press the forearms down and draw the ribs in."
+  ],
+  "benefits": ["Strengthens abdominals and shoulders", "Safer on the wrists", "Builds endurance"],
+  "cautions": ["Lower the knees if the lower back sags"],
+  "related": {
+    "prep": ["tabletop", "plank"],
+    "counter": ["child"],
+    "variations": ["plank"]
+  },
+  "status": "published",
+  "version": 1
+}

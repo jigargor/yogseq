@@ -1,0 +1,100 @@
+{
+  "id": "tabletop",
+  "slug": "tabletop",
+  "nameEn": "Tabletop",
+  "nameSanskrit": "Bharmanasana",
+  "nameSanskritDiacritics": "Bharmanāsana",
+  "aliases": ["Quadruped", "All Fours", "Table Pose", "Bharmanasana"],
+  "position": "kneeling",
+  "types": ["core", "balance"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0945,
+      "y": 0.1057,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0.0873
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5708
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Stack the wrists under the shoulders and the knees under the hips.",
+    "Spread the fingers wide and press the floor away.",
+    "Keep the spine long and neutral with the gaze slightly forward of the hands.",
+    "Pad the knees with a blanket if the floor feels harsh."
+  ],
+  "benefits": [
+    "Warms up the spine and shoulders",
+    "Builds core and wrist strength",
+    "Provides a stable starting point for many poses"
+  ],
+  "cautions": ["Make fists or use forearms with wrist pain"],
+  "related": {
+    "prep": [],
+    "counter": ["child"],
+    "variations": ["cat", "cow", "bird-dog"]
+  },
+  "status": "published",
+  "version": 1
+}

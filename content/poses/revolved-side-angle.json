@@ -1,0 +1,99 @@
+{
+  "id": "revolved-side-angle",
+  "slug": "revolved-side-angle",
+  "nameEn": "Revolved Side Angle",
+  "nameSanskrit": "Parivrtta Parsvakonasana",
+  "nameSanskritDiacritics": "Parivṛtta Pārśvakoṇāsana",
+  "aliases": ["Twisting Lunge", "Revolved Lunge", "Prayer Lunge Twist"],
+  "position": "standing",
+  "types": ["twist", "balance", "core"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0783,
+      "y": 0.0787,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.3491
+      },
+      "spineLower": {
+        "angle": -0.4363
+      },
+      "spineUpper": {
+        "angle": -0.1745
+      },
+      "neck": {
+        "angle": 0.0873
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": 2.7053
+      },
+      "forearmL": {
+        "angle": 1.4835
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.3812
+      },
+      "shinL": {
+        "angle": -1.0497
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.3562,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.7453,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.0901,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.8677,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.254,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Set up a deep lunge with the back heel lifted or pressed down.",
+    "Bring the palms together and hook the elbow outside the front knee.",
+    "Press the palms together to rotate the chest toward the sky.",
+    "Keep the front knee tracking over the ankle."
+  ],
+  "benefits": ["Deep spinal twist", "Strengthens thighs and hips", "Stimulates digestion"],
+  "cautions": [
+    "Keep the back knee lowered if balance is a concern",
+    "Skip deep rotation with spinal conditions"
+  ],
+  "related": {
+    "prep": ["high-lunge"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["revolved-chair"]
+  },
+  "status": "published",
+  "version": 1
+}

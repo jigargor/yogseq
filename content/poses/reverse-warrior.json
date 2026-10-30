@@ -1,0 +1,96 @@
+{
+  "id": "reverse-warrior",
+  "slug": "reverse-warrior",
+  "nameEn": "Reverse Warrior",
+  "nameSanskrit": "Viparita Virabhadrasana",
+  "nameSanskritDiacritics": "Viparīta Vīrabhadrāsana",
+  "aliases": ["Peaceful Warrior", "Reverse Warrior II", "Exalted Warrior"],
+  "position": "standing",
+  "types": ["lateralBend", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.0471,
+      "y": 0.095,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.2094
+      },
+      "spineUpper": {
+        "angle": -0.2269
+      },
+      "neck": {
+        "angle": -0.0524
+      },
+      "head": {
+        "angle": -0.0349
+      },
+      "upperArmL": {
+        "angle": 0.9948
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.9054
+      },
+      "shinL": {
+        "angle": -0.5237
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": 3.0543
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -0.9939
+      },
+      "shinR": {
+        "angle": 0.9911
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "From Warrior II, lift the front arm up and over the ears.",
+    "Rest the back hand lightly on the back leg without leaning on it.",
+    "Keep the front knee bent and stable as you arch back.",
+    "Open through the side ribs and lengthen from hip to fingertips."
+  ],
+  "benefits": [
+    "Stretches the sides of the torso",
+    "Opens the chest and shoulders",
+    "Strengthens the front leg"
+  ],
+  "cautions": ["Avoid compressing the neck by looking up if sore"],
+  "related": {
+    "prep": ["warrior-2"],
+    "counter": ["triangle"],
+    "variations": ["extended-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

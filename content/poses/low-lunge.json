@@ -1,0 +1,100 @@
+{
+  "id": "low-lunge",
+  "slug": "low-lunge",
+  "nameEn": "Low Lunge",
+  "nameSanskrit": "Anjaneyasana",
+  "nameSanskritDiacritics": "Añjaneyāsana",
+  "aliases": ["Anjaneyasana", "Kneeling Lunge", "Crescent Lunge Low"],
+  "position": "kneeling",
+  "types": ["hipOpener", "backbend", "balance"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0515,
+      "y": 0.19,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.6109
+      },
+      "forearmL": {
+        "angle": 0.7854
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.4562
+      },
+      "shinL": {
+        "angle": -1.4951
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.6109,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.7854,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.4363,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.1345,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Step one foot forward with the knee stacked over the ankle.",
+    "Lower the back knee and slide it back until the front hip softens.",
+    "Press down into the front foot and lift the chest.",
+    "Reach the arms overhead or rest the hands on the thigh."
+  ],
+  "benefits": [
+    "Opens hip flexors and quads",
+    "Strengthens legs",
+    "Prepares for backbends and arm balances"
+  ],
+  "cautions": ["Pad the back knee", "Shorten the stance if the front knee feels strained"],
+  "related": {
+    "prep": ["downward-dog", "tabletop"],
+    "counter": ["child"],
+    "variations": ["low-lunge-quad-stretch", "lizard"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,99 @@
+{
+  "id": "hand-to-big-toe",
+  "slug": "hand-to-big-toe",
+  "nameEn": "Hand-to-Big-Toe",
+  "nameSanskrit": "Utthita Hasta Padangusthasana",
+  "nameSanskritDiacritics": "Utthita Hasta Pādāṅguṣṭhāsana",
+  "aliases": ["Extended Hand-to-Big-Toe (Front)", "Standing Leg Raise", "Hand to Toe"],
+  "position": "standing",
+  "types": ["balance", "hamstring"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1866,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.2618
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.8727
+      },
+      "forearmL": {
+        "angle": 2.7925
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0.8723,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.3963,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.8727,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "wall"],
+  "cues": [
+    "Ground through the standing leg and lift the opposite knee.",
+    "Hold the big toe or loop a strap around the foot.",
+    "Extend the raised leg forward as far as the spine stays tall.",
+    "Keep the free hand on the hip and the hips level."
+  ],
+  "benefits": ["Stretches hamstrings", "Improves balance", "Strengthens the standing leg and core"],
+  "cautions": [
+    "Keep the raised knee bent if the back rounds",
+    "Use a strap to keep the spine upright"
+  ],
+  "related": {
+    "prep": ["tree", "mountain"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["extended-hand-to-big-toe"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "id": "easy-seat-forward-fold",
+  "slug": "easy-seat-forward-fold",
+  "nameEn": "Easy Seat Forward Fold",
+  "nameSanskrit": "Sukhasana Paschimottanasana",
+  "nameSanskritDiacritics": "Sukhāsana Paścimottānāsana",
+  "aliases": ["Cross-Legged Fold", "Seated Fold in Easy Pose", "Sukhasana Fold"],
+  "position": "seated",
+  "types": ["forwardFold", "hipOpener", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.2979,
+      "y": 0.3945,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.9599
+      },
+      "spineLower": {
+        "angle": -0.4712
+      },
+      "spineUpper": {
+        "angle": -0.2269
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0349
+      },
+      "upperArmL": {
+        "angle": -3.0543
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.3562
+      },
+      "shinL": {
+        "angle": 3.0543
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -3.0543,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.3562,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 3.0543,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "From easy seat, hinge forward with a long spine.",
+    "Walk the hands forward and lower the torso toward a bolster.",
+    "Relax the neck and shoulders.",
+    "Switch the crossing leg for the next round."
+  ],
+  "benefits": ["Stretches hips and back", "Quiets the mind", "Eases tension in the lower back"],
+  "cautions": ["Elevate the hips if the knees pull", "Support the head if the fold is deep"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["easy-seat"],
+    "variations": ["bound-angle-fold"]
+  },
+  "status": "published",
+  "version": 1
+}

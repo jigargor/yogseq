@@ -1,0 +1,96 @@
+{
+  "id": "reclined-hero",
+  "slug": "reclined-hero",
+  "nameEn": "Reclined Hero",
+  "nameSanskrit": "Supta Virasana",
+  "nameSanskritDiacritics": "Supta Vīrāsana",
+  "aliases": ["Supta Virasana", "Reclining Hero", "Supine Hero"],
+  "position": "supine",
+  "types": ["hipOpener", "restorative", "chestOpener"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.245,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.309
+      },
+      "spineLower": {
+        "angle": 0.1745
+      },
+      "spineUpper": {
+        "angle": 0.0873
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.1416
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.8727
+      },
+      "shinL": {
+        "angle": 2.8798
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.8727,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.8798,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "block", "blanket"],
+  "cues": [
+    "Sit in hero pose with blocks or a bolster behind you.",
+    "Lean back onto the forearms before lowering fully.",
+    "Keep the knees together and the tailbone long.",
+    "Come out the same way, lifting through the sternum."
+  ],
+  "benefits": ["Deeply stretches quads and ankles", "Opens the chest", "Releases hip flexors"],
+  "cautions": ["Use a bolster to prop the torso", "Avoid with knee or low back problems"],
+  "related": {
+    "prep": ["hero"],
+    "counter": ["knees-to-chest"],
+    "variations": ["hero"]
+  },
+  "status": "published",
+  "version": 1
+}

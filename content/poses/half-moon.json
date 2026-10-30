@@ -1,0 +1,95 @@
+{
+  "id": "half-moon",
+  "slug": "half-moon",
+  "nameEn": "Half Moon Pose",
+  "nameSanskrit": "Ardha Chandrasana",
+  "nameSanskritDiacritics": "Ardha Candrāsana",
+  "aliases": ["Half Moon", "Standing Half Moon", "Ardha Chandrasana"],
+  "position": "standing",
+  "types": ["balance", "lateralBend"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.0214,
+      "y": -0.04,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.5708
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.5708
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Step the weight into the front foot and reach the hand to a block.",
+    "Float the back leg until it is level with the hip and flex the foot.",
+    "Stack the top hip over the bottom and open the chest to the side.",
+    "Reach the top arm vertically and keep the standing knee soft."
+  ],
+  "benefits": ["Builds balance and leg strength", "Opens hips and chest", "Improves focus"],
+  "cautions": [
+    "Practice against a wall if balance is limited",
+    "Keep the gaze down with neck strain"
+  ],
+  "related": {
+    "prep": ["triangle", "warrior-2"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["revolved-half-moon", "warrior-3"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "id": "crow",
+  "slug": "crow",
+  "nameEn": "Crow Pose",
+  "nameSanskrit": "Kakasana",
+  "nameSanskritDiacritics": "Kākāsana",
+  "aliases": ["Kakasana", "Crane Prep", "Bent-Arm Balance"],
+  "position": "armBalance",
+  "types": ["balance", "core"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1913,
+      "y": 0.055,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.042
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0.1222
+      },
+      "head": {
+        "angle": 0.2618
+      },
+      "upperArmL": {
+        "angle": 1.4046
+      },
+      "forearmL": {
+        "angle": 1.3943
+      },
+      "handL": {
+        "angle": 0.8139
+      },
+      "thighL": {
+        "angle": -2.8449
+      },
+      "shinL": {
+        "angle": 2.9671
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.4674,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.2524,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.893,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -2.8449,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 2.9671,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Squat with the hands shoulder-width apart and the fingers spread.",
+    "Bend the elbows slightly and hug the knees into the upper arms.",
+    "Lean forward until the toes lift off the floor.",
+    "Keep the gaze slightly forward and press through the hands."
+  ],
+  "benefits": [
+    "Strengthens arms, wrists and core",
+    "Builds balance and focus",
+    "Introduces arm balancing"
+  ],
+  "cautions": ["Place a pillow in front of you while learning", "Skip with wrist injuries"],
+  "related": {
+    "prep": ["garland"],
+    "counter": ["child"],
+    "variations": ["crane", "side-crow"]
+  },
+  "status": "published",
+  "version": 1
+}

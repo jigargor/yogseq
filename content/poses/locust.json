@@ -1,0 +1,100 @@
+{
+  "id": "locust",
+  "slug": "locust",
+  "nameEn": "Locust Pose",
+  "nameSanskrit": "Salabhasana",
+  "nameSanskritDiacritics": "Śalabhāsana",
+  "aliases": ["Salabhasana", "Full Locust", "Superman"],
+  "position": "prone",
+  "types": ["backbend", "core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0307,
+      "y": 0.42,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.1745
+      },
+      "spineUpper": {
+        "angle": 0.384
+      },
+      "neck": {
+        "angle": 0.1745
+      },
+      "head": {
+        "angle": 0.1047
+      },
+      "upperArmL": {
+        "angle": -0.6632
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.3142
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -0.6632,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.3142,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Lie face down with the arms alongside the body.",
+    "Inhale and lift the chest, arms and legs together.",
+    "Reach back through the toes and forward through the crown.",
+    "Keep the neck in line with the spine."
+  ],
+  "benefits": [
+    "Strengthens the entire back body",
+    "Improves posture",
+    "Tones glutes and hamstrings"
+  ],
+  "cautions": ["Keep the lift small with low back concerns", "Avoid in pregnancy"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["child"],
+    "variations": ["half-locust", "bow"]
+  },
+  "status": "published",
+  "version": 1
+}

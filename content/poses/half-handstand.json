@@ -1,0 +1,100 @@
+{
+  "id": "half-handstand",
+  "slug": "half-handstand",
+  "nameEn": "Half Handstand",
+  "nameSanskrit": "Ardha Adho Mukha Vrksasana",
+  "nameSanskritDiacritics": "Ardha Adho Mukha Vṛkṣāsana",
+  "aliases": ["L-Handstand", "Wall Handstand Prep", "Ardha Adho Mukha Vrksasana"],
+  "position": "inversion",
+  "types": ["balance", "core", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.1954,
+      "y": -0.1949,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -3.0543
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.1416
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 1.4835
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.4835,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Walk the feet up a wall until the legs are parallel to the floor.",
+    "Keep the arms straight and press the floor away.",
+    "Stack the hips over the shoulders.",
+    "Look at a spot between the hands."
+  ],
+  "benefits": [
+    "Builds shoulder and core strength",
+    "Introduces handstand weight-bearing",
+    "Improves confidence upside down"
+  ],
+  "cautions": ["Use the wall and keep the hips high", "Avoid with wrist pain"],
+  "related": {
+    "prep": ["downward-dog"],
+    "counter": ["child"],
+    "variations": ["handstand"]
+  },
+  "status": "published",
+  "version": 1
+}

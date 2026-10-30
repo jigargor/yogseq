@@ -1,0 +1,98 @@
+{
+  "id": "fire-log",
+  "slug": "fire-log",
+  "nameEn": "Fire Log Pose",
+  "nameSanskrit": "Agnistambhasana",
+  "nameSanskritDiacritics": "Agnistambhāsana",
+  "aliases": ["Agnistambhasana", "Double Pigeon", "Square Pose", "Stacked Shins"],
+  "position": "seated",
+  "types": ["hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.3784,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2094
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.309,
+        "scale": 0.45
+      },
+      "shinL": {
+        "angle": -2.8798
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.2094
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.309,
+        "scale": 0.45
+      },
+      "shinR": {
+        "angle": 2.8798
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Stack the shins so the ankles align with the opposite knees.",
+    "Flex both feet to protect the knees.",
+    "Sit on a blanket and lengthen the spine.",
+    "Fold forward only if the hips are comfortable."
+  ],
+  "benefits": [
+    "Deeply opens outer hips",
+    "Stretches glutes and rotators",
+    "Good for long-held yin or restorative sequences"
+  ],
+  "cautions": ["Place props under the top knee when it floats", "Avoid with knee pain"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["staff"],
+    "variations": ["pigeon"]
+  },
+  "status": "published",
+  "version": 1
+}

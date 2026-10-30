@@ -1,0 +1,100 @@
+{
+  "id": "bird-dog",
+  "slug": "bird-dog",
+  "nameEn": "Bird Dog",
+  "nameSanskrit": "Parsva Balasana",
+  "nameSanskritDiacritics": "Pārśva Bālāsana",
+  "aliases": ["Opposite Arm and Leg Reach", "Dirty Dog", "Quadruped Balance"],
+  "position": "kneeling",
+  "types": ["core", "balance"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1163,
+      "y": 0.1057,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "From tabletop, extend one leg back and the opposite arm forward.",
+    "Keep the hips and shoulders level as if balancing a tray.",
+    "Reach long through the heel and fingertips rather than lifting high.",
+    "Draw the ribs in and keep the neck in line with the spine."
+  ],
+  "benefits": [
+    "Builds core and back stability",
+    "Improves balance and coordination",
+    "Strengthens glutes and shoulders"
+  ],
+  "cautions": ["Keep the lifted leg low if the lower back arches"],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["child"],
+    "variations": ["tabletop"]
+  },
+  "status": "published",
+  "version": 1
+}

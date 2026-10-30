@@ -1,0 +1,101 @@
+{
+  "id": "easy-seat",
+  "slug": "easy-seat",
+  "nameEn": "Easy Seat",
+  "nameSanskrit": "Sukhasana",
+  "nameSanskritDiacritics": "Sukhāsana",
+  "aliases": ["Sukhasana", "Cross-Legged Seat", "Comfortable Seat", "Simple Seat"],
+  "position": "seated",
+  "types": ["hipOpener", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.335,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2618
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.309,
+        "scale": 0.55
+      },
+      "shinL": {
+        "angle": -2.7053
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.2618
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.309,
+        "scale": 0.55
+      },
+      "shinR": {
+        "angle": 2.7053
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Cross the shins and let the knees fall open.",
+    "Sit on a folded blanket so the hips are higher than the knees.",
+    "Stack the head over the heart and the heart over the pelvis.",
+    "Rest the hands on the knees and breathe naturally."
+  ],
+  "benefits": [
+    "Opens the hips and ankles gently",
+    "Encourages good seated posture",
+    "Supports meditation and breathwork"
+  ],
+  "cautions": [
+    "Elevate the seat if the knees rise above the hips",
+    "Switch the crossing leg regularly"
+  ],
+  "related": {
+    "prep": [],
+    "counter": ["staff"],
+    "variations": ["bound-angle", "lotus"]
+  },
+  "status": "published",
+  "version": 1
+}

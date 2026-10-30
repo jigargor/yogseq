@@ -1,0 +1,100 @@
+{
+  "id": "sphinx",
+  "slug": "sphinx",
+  "nameEn": "Sphinx Pose",
+  "nameSanskrit": "Salamba Bhujangasana",
+  "nameSanskritDiacritics": "Sālamba Bhujaṅgāsana",
+  "aliases": ["Salamba Bhujangasana", "Supported Cobra", "Forearm Cobra"],
+  "position": "prone",
+  "types": ["backbend", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0002,
+      "y": 0.3473,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.0873
+      },
+      "spineUpper": {
+        "angle": 0.2618
+      },
+      "neck": {
+        "angle": 0.1396
+      },
+      "head": {
+        "angle": -0.2269
+      },
+      "upperArmL": {
+        "angle": 1.2217
+      },
+      "forearmL": {
+        "angle": 1.5708
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.2217,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "Lie on the belly and place the forearms flat with elbows under the shoulders.",
+    "Press the forearms down and lift the chest.",
+    "Keep the legs relaxed and the pubic bone grounded.",
+    "Hold gently and breathe into the belly."
+  ],
+  "benefits": [
+    "Gently strengthens the back",
+    "Opens the chest",
+    "Accessible backbend for stretching"
+  ],
+  "cautions": ["Use a bolster under the chest to reduce arch", "Avoid with low back pain"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["child"],
+    "variations": ["cobra"]
+  },
+  "status": "published",
+  "version": 1
+}

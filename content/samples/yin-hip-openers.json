@@ -1,0 +1,197 @@
+{
+  "id": "yin-hip-openers",
+  "title": "Yin — Deep Hip Openers",
+  "description": "A slow, floor-based practice with long supported holds to release the hips, groins and lower back.",
+  "level": "beginner",
+  "style": "Yin",
+  "targetMinutes": 60,
+  "tags": ["yin", "hips", "restorative", "slow", "evening"],
+  "items": [
+    {
+      "id": "yin-hip-openers-01",
+      "kind": "section",
+      "title": "Settle in"
+    },
+    {
+      "id": "yin-hip-openers-02",
+      "kind": "pose",
+      "poseId": "corpse",
+      "durationSec": 180,
+      "note": "Let the body arrive and the breath slow down."
+    },
+    {
+      "id": "yin-hip-openers-03",
+      "kind": "pose",
+      "poseId": "knees-to-chest",
+      "durationSec": 90
+    },
+    {
+      "id": "yin-hip-openers-04",
+      "kind": "pose",
+      "poseId": "easy-seat",
+      "durationSec": 120
+    },
+    {
+      "id": "yin-hip-openers-05",
+      "kind": "section",
+      "title": "Floor-based hip openers"
+    },
+    {
+      "id": "yin-hip-openers-06",
+      "kind": "pose",
+      "poseId": "bound-angle-fold",
+      "durationSec": 240,
+      "note": "Support the head and let gravity open the hips."
+    },
+    {
+      "id": "yin-hip-openers-07",
+      "kind": "pose",
+      "poseId": "wide-knee-child",
+      "durationSec": 240
+    },
+    {
+      "id": "yin-hip-openers-08",
+      "kind": "pose",
+      "poseId": "frog",
+      "durationSec": 180,
+      "note": "Keep the knees well padded. Come out slowly."
+    },
+    {
+      "id": "yin-hip-openers-09",
+      "kind": "pose",
+      "poseId": "child",
+      "durationSec": 60
+    },
+    {
+      "id": "yin-hip-openers-10",
+      "kind": "pose",
+      "poseId": "sleeping-pigeon",
+      "side": "right",
+      "durationSec": 240,
+      "note": "Fold forward and let the weight sink."
+    },
+    {
+      "id": "yin-hip-openers-11",
+      "kind": "pose",
+      "poseId": "sleeping-pigeon",
+      "side": "left",
+      "durationSec": 240,
+      "note": "Fold forward and let the weight sink."
+    },
+    {
+      "id": "yin-hip-openers-12",
+      "kind": "pose",
+      "poseId": "child",
+      "durationSec": 45
+    },
+    {
+      "id": "yin-hip-openers-13",
+      "kind": "section",
+      "title": "Outer hip and twists"
+    },
+    {
+      "id": "yin-hip-openers-14",
+      "kind": "pose",
+      "poseId": "fire-log",
+      "side": "right",
+      "durationSec": 180
+    },
+    {
+      "id": "yin-hip-openers-15",
+      "kind": "pose",
+      "poseId": "fire-log",
+      "side": "left",
+      "durationSec": 180
+    },
+    {
+      "id": "yin-hip-openers-16",
+      "kind": "pose",
+      "poseId": "bharadvaja-twist",
+      "side": "right",
+      "durationSec": 90
+    },
+    {
+      "id": "yin-hip-openers-17",
+      "kind": "pose",
+      "poseId": "bharadvaja-twist",
+      "side": "left",
+      "durationSec": 90
+    },
+    {
+      "id": "yin-hip-openers-18",
+      "kind": "pose",
+      "poseId": "tabletop",
+      "durationSec": 20
+    },
+    {
+      "id": "yin-hip-openers-19",
+      "kind": "pose",
+      "poseId": "thread-the-needle",
+      "side": "right",
+      "durationSec": 90
+    },
+    {
+      "id": "yin-hip-openers-20",
+      "kind": "pose",
+      "poseId": "thread-the-needle",
+      "side": "left",
+      "durationSec": 90
+    },
+    {
+      "id": "yin-hip-openers-21",
+      "kind": "section",
+      "title": "Restore"
+    },
+    {
+      "id": "yin-hip-openers-22",
+      "kind": "pose",
+      "poseId": "reclined-bound-angle",
+      "durationSec": 300
+    },
+    {
+      "id": "yin-hip-openers-23",
+      "kind": "pose",
+      "poseId": "reclined-pigeon",
+      "side": "right",
+      "durationSec": 150
+    },
+    {
+      "id": "yin-hip-openers-24",
+      "kind": "pose",
+      "poseId": "reclined-pigeon",
+      "side": "left",
+      "durationSec": 150
+    },
+    {
+      "id": "yin-hip-openers-25",
+      "kind": "pose",
+      "poseId": "reclined-twist",
+      "side": "right",
+      "durationSec": 120
+    },
+    {
+      "id": "yin-hip-openers-26",
+      "kind": "pose",
+      "poseId": "reclined-twist",
+      "side": "left",
+      "durationSec": 120
+    },
+    {
+      "id": "yin-hip-openers-27",
+      "kind": "pose",
+      "poseId": "legs-up-wall",
+      "durationSec": 240
+    },
+    {
+      "id": "yin-hip-openers-28",
+      "kind": "section",
+      "title": "Rest"
+    },
+    {
+      "id": "yin-hip-openers-29",
+      "kind": "pose",
+      "poseId": "corpse",
+      "durationSec": 145
+    }
+  ]
+}

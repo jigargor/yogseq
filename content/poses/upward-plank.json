@@ -1,0 +1,103 @@
+{
+  "id": "upward-plank",
+  "slug": "upward-plank",
+  "nameEn": "Upward Plank",
+  "nameSanskrit": "Purvottanasana",
+  "nameSanskritDiacritics": "Pūrvottānāsana",
+  "aliases": ["Purvottanasana", "Reverse Plank", "Upward-Facing Plank", "Intense East Stretch"],
+  "position": "seated",
+  "types": ["chestOpener", "core", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0184,
+      "y": 0.2316,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.2043
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0698
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": -1.2043
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.2043
+      },
+      "upperArmR": {
+        "angle": -1.2043,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.2043,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Press the hands and feet down and lift the hips into a long diagonal line.",
+    "Squeeze the thighs and glutes to support the lower back.",
+    "Broaden through the collarbones and keep the shoulders stable.",
+    "Point the toes or press the soles flat."
+  ],
+  "benefits": [
+    "Strengthens arms, wrists and legs",
+    "Opens the chest and shoulders",
+    "Counters forward-folding postures"
+  ],
+  "cautions": [
+    "Bend the knees for reverse tabletop if the wrists tire",
+    "Avoid with wrist or shoulder injury"
+  ],
+  "related": {
+    "prep": ["reverse-tabletop"],
+    "counter": ["seated-forward-fold"],
+    "variations": ["reverse-tabletop"]
+  },
+  "status": "published",
+  "version": 1
+}

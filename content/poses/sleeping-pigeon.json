@@ -1,0 +1,104 @@
+{
+  "id": "sleeping-pigeon",
+  "slug": "sleeping-pigeon",
+  "nameEn": "Sleeping Pigeon",
+  "nameSanskrit": "Eka Pada Rajakapotasana (Forward Fold)",
+  "nameSanskritDiacritics": "Eka Pāda Rājakapotāsana",
+  "aliases": ["Swan", "Folded Pigeon", "Sleeping Swan", "Pigeon Fold"],
+  "position": "kneeling",
+  "types": ["hipOpener", "forwardFold", "restorative"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0743,
+      "y": 0.3469,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.0472
+      },
+      "spineLower": {
+        "angle": -0.5585
+      },
+      "spineUpper": {
+        "angle": -0.1396
+      },
+      "neck": {
+        "angle": 0.0349
+      },
+      "head": {
+        "angle": -0.0349
+      },
+      "upperArmL": {
+        "angle": -3.0369
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.4435
+      },
+      "shinL": {
+        "angle": 2.7925,
+        "scale": 0.6
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.0369,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.5236,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket", "block"],
+  "cues": [
+    "From pigeon, walk the hands forward and lower the torso toward the floor.",
+    "Rest the forehead on stacked hands or a bolster.",
+    "Keep the hips level by supporting the front hip if needed.",
+    "Stay still and breathe slowly into the glute."
+  ],
+  "benefits": [
+    "Releases the deep hip rotators",
+    "Soothes the nervous system",
+    "Prepares the body for rest"
+  ],
+  "cautions": [
+    "Use support under the hip and torso to avoid knee strain",
+    "Skip if the front knee protests"
+  ],
+  "related": {
+    "prep": ["pigeon"],
+    "counter": ["child"],
+    "variations": ["pigeon"]
+  },
+  "status": "published",
+  "version": 1
+}

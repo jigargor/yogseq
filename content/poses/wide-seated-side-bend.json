@@ -1,0 +1,96 @@
+{
+  "id": "wide-seated-side-bend",
+  "slug": "wide-seated-side-bend",
+  "nameEn": "Wide Seated Side Bend",
+  "nameSanskrit": "Parsva Upavistha Konasana",
+  "nameSanskritDiacritics": "Pārśva Upaviṣṭha Koṇāsana",
+  "aliases": ["Seated Straddle Side Bend", "Side Bend in Straddle"],
+  "position": "seated",
+  "types": ["lateralBend", "hamstring", "hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.0577,
+      "y": 0.299,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.3142
+      },
+      "neck": {
+        "angle": -0.0698
+      },
+      "head": {
+        "angle": -0.0524
+      },
+      "upperArmL": {
+        "angle": 2.5482
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.2566
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": 3.0718
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2566
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["strap", "block"],
+  "cues": [
+    "From a wide straddle, reach the near hand toward the foot.",
+    "Sweep the top arm overhead and lengthen the side.",
+    "Keep both sitting bones heavy.",
+    "Look up past the top arm if the neck allows."
+  ],
+  "benefits": [
+    "Stretches sides and inner thighs",
+    "Opens hamstrings",
+    "Improves lateral spinal flexibility"
+  ],
+  "cautions": ["Hold the shin instead of the foot if the hamstring is tight"],
+  "related": {
+    "prep": ["wide-seated-forward-fold"],
+    "counter": ["staff"],
+    "variations": ["wide-seated-forward-fold"]
+  },
+  "status": "published",
+  "version": 1
+}

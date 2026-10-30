@@ -1,0 +1,99 @@
+{
+  "id": "compass",
+  "slug": "compass",
+  "nameEn": "Compass Pose",
+  "nameSanskrit": "Parivrtta Surya Yantrasana",
+  "nameSanskritDiacritics": "Parivṛtta Sūrya Yantrāsana",
+  "aliases": ["Parivrtta Surya Yantrasana", "Sundial Pose", "Reaching Leg Hold"],
+  "position": "seated",
+  "types": ["hipOpener", "lateralBend", "hamstring"],
+  "level": "advanced",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0951,
+      "y": 0.4022,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.2618
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": -0.2618
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 2.8798
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.1345
+      },
+      "shinL": {
+        "angle": 2.9671
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.6115,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.3565,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.1817,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "Sit with one leg extended and the other folded in.",
+    "Hook the extended foot with the top arm and sweep the leg wide.",
+    "Straighten the lifted leg while tilting the torso.",
+    "Draw the shoulder blades back to lift the chest."
+  ],
+  "benefits": ["Opens hamstrings and hips", "Improves spinal mobility", "Strengthens the arms"],
+  "cautions": [
+    "Use a strap to hold the foot",
+    "Keep the lifted knee bent if the hamstring cries out"
+  ],
+  "related": {
+    "prep": ["head-to-knee"],
+    "counter": ["staff"],
+    "variations": ["revolved-head-to-knee"]
+  },
+  "status": "published",
+  "version": 1
+}

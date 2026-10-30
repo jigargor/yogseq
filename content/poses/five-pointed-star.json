@@ -1,0 +1,92 @@
+{
+  "id": "five-pointed-star",
+  "slug": "five-pointed-star",
+  "nameEn": "Five-Pointed Star",
+  "nameSanskrit": "Utthita Tadasana",
+  "nameSanskritDiacritics": "Utthita Tāḍāsana",
+  "aliases": ["Star Pose", "Extended Mountain", "Jumping Jack Pose"],
+  "position": "standing",
+  "types": ["chestOpener", "balance"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.027,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 2.3562
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.384
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -2.3562
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -0.384
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Step the feet wide and reach the arms into a long V.",
+    "Press through the outer edges of the feet.",
+    "Lift the chest and keep the neck long.",
+    "Imagine five points radiating from your core."
+  ],
+  "benefits": ["Energizes the whole body", "Opens the chest and shoulders", "Builds leg strength"],
+  "cautions": ["Narrow the stance if the hips feel unstable"],
+  "related": {
+    "prep": ["mountain"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["goddess"]
+  },
+  "status": "published",
+  "version": 1
+}

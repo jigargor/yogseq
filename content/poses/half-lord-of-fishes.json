@@ -1,0 +1,99 @@
+{
+  "id": "half-lord-of-fishes",
+  "slug": "half-lord-of-fishes",
+  "nameEn": "Half Lord of the Fishes",
+  "nameSanskrit": "Ardha Matsyendrasana",
+  "nameSanskritDiacritics": "Ardha Matsyendrāsana",
+  "aliases": ["Ardha Matsyendrasana", "Seated Spinal Twist", "Half Spinal Twist", "Sage Twist"],
+  "position": "seated",
+  "types": ["twist"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.0959,
+      "y": 0.3697,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -1.0472
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.2689
+      },
+      "shinL": {
+        "angle": -2.618
+      },
+      "footL": {
+        "angle": 0.3491
+      },
+      "upperArmR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.8727,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket", "strap"],
+  "cues": [
+    "Bend one knee and place the foot outside the opposite thigh.",
+    "Lengthen up on the inhale and rotate from the belly on the exhale.",
+    "Hook the opposite elbow outside the knee or hug the knee.",
+    "Keep both sitting bones grounded and the spine tall."
+  ],
+  "benefits": ["Increases spinal rotation", "Stimulates digestion", "Releases tension in the back"],
+  "cautions": [
+    "Sit on a blanket if the pelvis tips back",
+    "Avoid forcing the twist with spinal conditions"
+  ],
+  "related": {
+    "prep": ["staff", "easy-seat"],
+    "counter": ["staff"],
+    "variations": ["seated-twist", "marichi-iii"]
+  },
+  "status": "published",
+  "version": 1
+}

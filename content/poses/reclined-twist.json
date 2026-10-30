@@ -1,0 +1,101 @@
+{
+  "id": "reclined-twist",
+  "slug": "reclined-twist",
+  "nameEn": "Reclined Spinal Twist",
+  "nameSanskrit": "Supta Matsyendrasana",
+  "nameSanskritDiacritics": "Supta Matsyendrāsana",
+  "aliases": ["Supine Twist", "Supta Matsyendrasana", "Knees-Across Twist", "Lying Twist"],
+  "position": "supine",
+  "types": ["twist", "restorative"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.0535,
+      "y": 0.384,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.5236,
+        "scale": 0.8
+      },
+      "shinL": {
+        "angle": -1.0472
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.5236,
+        "scale": 0.8,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.0472,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "block", "bolster"],
+  "cues": [
+    "Hug the knees in, then drop them to one side.",
+    "Extend the arms in a T shape and keep both shoulders grounded.",
+    "Turn the head the opposite way if the neck is comfortable.",
+    "Place a block between the knees or under the top knee."
+  ],
+  "benefits": ["Releases the spine and back", "Opens the chest and hips", "Calming and grounding"],
+  "cautions": [
+    "Support the knees with a pillow if the spine strains",
+    "Skip deep twists with disc problems"
+  ],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": ["corpse"],
+    "variations": ["reclined-pigeon"]
+  },
+  "status": "published",
+  "version": 1
+}

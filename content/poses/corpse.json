@@ -1,0 +1,96 @@
+{
+  "id": "corpse",
+  "slug": "corpse",
+  "nameEn": "Corpse Pose",
+  "nameSanskrit": "Savasana",
+  "nameSanskritDiacritics": "Śavāsana",
+  "aliases": ["Savasana", "Final Relaxation", "Relaxation Pose", "Dead Man's Pose"],
+  "position": "supine",
+  "types": ["restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.0225,
+      "y": 0.3784,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.1745
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.1745,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "blanket"],
+  "cues": [
+    "Lie on the back with the legs long and the feet falling open.",
+    "Let the arms rest slightly away from the body with palms up.",
+    "Release the jaw, the eyes and the tongue.",
+    "Soften the breath and let the floor hold you."
+  ],
+  "benefits": ["Deep relaxation", "Integrates the effects of practice", "Reduces stress"],
+  "cautions": ["Place a bolster under the knees with low back discomfort", "Cover up to stay warm"],
+  "related": {
+    "prep": ["knees-to-chest"],
+    "counter": [],
+    "variations": ["reclined-bound-angle", "legs-up-wall"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,99 @@
+{
+  "id": "standing-yoga-mudra",
+  "slug": "standing-yoga-mudra",
+  "nameEn": "Standing Yoga Mudra",
+  "nameSanskrit": "Utthita Yoga Mudrasana",
+  "nameSanskritDiacritics": "Utthita Yoga Mudrāsana",
+  "aliases": ["Standing Clasped Fold", "Yoga Mudra Fold", "Shoulder-Opening Fold"],
+  "position": "standing",
+  "types": ["forwardFold", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1316,
+      "y": -0.0074,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.0472
+      },
+      "spineLower": {
+        "angle": -1.309
+      },
+      "spineUpper": {
+        "angle": -0.4363
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": -0.6109
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.0472
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.6109,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "Interlace the fingers behind the back and straighten the arms.",
+    "Hinge from the hips as the arms travel up and overhead.",
+    "Let the head hang heavy between the shoulders.",
+    "Soften the knees to protect the low back."
+  ],
+  "benefits": ["Opens shoulders and chest", "Stretches hamstrings", "Releases upper body tension"],
+  "cautions": [
+    "Use a strap if the hands cannot clasp",
+    "Keep the knees bent with tight hamstrings"
+  ],
+  "related": {
+    "prep": ["standing-forward-fold"],
+    "counter": ["mountain"],
+    "variations": ["humble-warrior"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,103 @@
+{
+  "id": "camel",
+  "slug": "camel",
+  "nameEn": "Camel Pose",
+  "nameSanskrit": "Ustrasana",
+  "nameSanskritDiacritics": "Uṣṭrāsana",
+  "aliases": ["Ustrasana", "Kneeling Backbend"],
+  "position": "kneeling",
+  "types": ["backbend", "chestOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.1698,
+      "y": 0.2143,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.2618
+      },
+      "spineLower": {
+        "angle": 0.3491
+      },
+      "spineUpper": {
+        "angle": 0.3491
+      },
+      "neck": {
+        "angle": 0.0873
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": -0.9402
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -0.2618
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -0.9347,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.2618,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "blanket"],
+  "cues": [
+    "Kneel with the thighs vertical and press the hips forward.",
+    "Place the hands on the lower back, then reach back for the heels or blocks.",
+    "Lift the sternum toward the ceiling and lengthen before deepening.",
+    "Let the head follow the line of the spine only if comfortable."
+  ],
+  "benefits": [
+    "Opens the chest, abdomen and hip flexors",
+    "Strengthens the back muscles",
+    "Improves posture"
+  ],
+  "cautions": [
+    "Keep hands on the back with neck or back concerns",
+    "Use blocks beside the feet if the heels are out of reach"
+  ],
+  "related": {
+    "prep": ["thunderbolt", "cat"],
+    "counter": ["child"],
+    "variations": ["rabbit"]
+  },
+  "status": "published",
+  "version": 1
+}

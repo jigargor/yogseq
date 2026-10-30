@@ -1,0 +1,96 @@
+{
+  "id": "crescent-moon",
+  "slug": "crescent-moon",
+  "nameEn": "Crescent Moon",
+  "nameSanskrit": "Ardha Chandrasana (Standing Side Bend)",
+  "nameSanskritDiacritics": "Ardha Candrāsana",
+  "aliases": ["Standing Side Bend", "Palm Tree Pose", "Standing Crescent"],
+  "position": "standing",
+  "types": ["lateralBend"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.132,
+      "y": -0.005,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.1745
+      },
+      "spineUpper": {
+        "angle": -0.2618
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 3.0543
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -3.1416
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": 0
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Clasp the hands overhead or hold the opposite wrist.",
+    "Press the feet down and lift the ribs away from the hips.",
+    "Arc sideways without twisting or leaning forward.",
+    "Keep both hips level and breathe into the long side."
+  ],
+  "benefits": [
+    "Stretches the sides of the torso",
+    "Improves spinal mobility",
+    "Opens the shoulders"
+  ],
+  "cautions": ["Keep the movement small with shoulder issues"],
+  "related": {
+    "prep": ["upward-salute"],
+    "counter": ["mountain"],
+    "variations": ["standing-backbend"]
+  },
+  "status": "published",
+  "version": 1
+}

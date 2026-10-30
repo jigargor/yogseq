@@ -1,0 +1,99 @@
+{
+  "id": "wide-legged-forward-fold",
+  "slug": "wide-legged-forward-fold",
+  "nameEn": "Wide-Legged Forward Fold",
+  "nameSanskrit": "Prasarita Padottanasana",
+  "nameSanskritDiacritics": "Prasārita Pādottānāsana",
+  "aliases": ["Wide-Legged Fold", "Standing Straddle Fold", "Prasarita Padottanasana"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.01,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -3.1416
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -2.103
+      },
+      "forearmL": {
+        "angle": -2.5024
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.5236
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": 2.103
+      },
+      "forearmR": {
+        "angle": 2.5024
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -0.5236
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Step the feet wide with toes slightly turned in.",
+    "Hinge from the hips with a long spine and hands on the floor or blocks.",
+    "Walk the hands back in line with the feet for a deeper fold.",
+    "Let the crown of the head reach toward the floor."
+  ],
+  "benefits": [
+    "Stretches inner thighs and hamstrings",
+    "Releases the lower back",
+    "Refreshes the mind"
+  ],
+  "cautions": [
+    "Keep knees soft for tight hamstrings",
+    "Avoid dropping the head if you have high blood pressure"
+  ],
+  "related": {
+    "prep": ["mountain", "five-pointed-star"],
+    "counter": ["mountain"],
+    "variations": ["pyramid", "extended-side-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

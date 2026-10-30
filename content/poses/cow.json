@@ -1,0 +1,100 @@
+{
+  "id": "cow",
+  "slug": "cow",
+  "nameEn": "Cow Pose",
+  "nameSanskrit": "Bitilasana",
+  "nameSanskritDiacritics": "Bitilāsana",
+  "aliases": ["Cow Tilt", "Bitilasana", "Spinal Extension"],
+  "position": "kneeling",
+  "types": ["backbend", "chestOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.071,
+      "y": 0.1743,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.0595
+      },
+      "spineLower": {
+        "angle": 0.6283
+      },
+      "spineUpper": {
+        "angle": 0.2443
+      },
+      "neck": {
+        "angle": 0.2793
+      },
+      "head": {
+        "angle": 0.2094
+      },
+      "upperArmL": {
+        "angle": 1.1868
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.0595
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 1.1868,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.0595,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "On an inhale, drop the belly and lift the tailbone.",
+    "Draw the chest forward between the arms.",
+    "Keep the shoulders away from the ears.",
+    "Lift the gaze only as far as the neck feels easy."
+  ],
+  "benefits": [
+    "Opens the chest and front body",
+    "Mobilizes the spine",
+    "Relieves stiffness in the back"
+  ],
+  "cautions": ["Keep the neck neutral with neck pain"],
+  "related": {
+    "prep": ["tabletop"],
+    "counter": ["child"],
+    "variations": ["cat"]
+  },
+  "status": "published",
+  "version": 1
+}

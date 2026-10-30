@@ -1,0 +1,103 @@
+{
+  "id": "crocodile",
+  "slug": "crocodile",
+  "nameEn": "Crocodile Pose",
+  "nameSanskrit": "Makarasana",
+  "nameSanskritDiacritics": "Makarāsana",
+  "aliases": ["Makarasana", "Prone Rest", "Rest on Belly"],
+  "position": "prone",
+  "types": ["restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0782,
+      "y": 0.3861,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 3.0543
+      },
+      "forearmL": {
+        "angle": 0.1745
+      },
+      "handL": {
+        "angle": -0.0873
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 3.0543,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.1745,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": -0.0873,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket", "bolster"],
+  "cues": [
+    "Lie on the belly with the legs apart and toes turned out.",
+    "Stack the forearms and rest the forehead on them.",
+    "Let the belly press softly into the floor on every inhale.",
+    "Relax the shoulders and jaw."
+  ],
+  "benefits": [
+    "Promotes deep belly breathing",
+    "Releases back tension",
+    "Soothes the nervous system"
+  ],
+  "cautions": [
+    "Place a blanket under the hips or chest if comfort is needed",
+    "Avoid in later pregnancy"
+  ],
+  "related": {
+    "prep": ["sphinx"],
+    "counter": ["child"],
+    "variations": ["sphinx"]
+  },
+  "status": "published",
+  "version": 1
+}

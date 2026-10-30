@@ -1,0 +1,100 @@
+{
+  "id": "crane",
+  "slug": "crane",
+  "nameEn": "Crane Pose",
+  "nameSanskrit": "Bakasana",
+  "nameSanskritDiacritics": "Bakāsana",
+  "aliases": ["Bakasana", "Straight-Arm Crow", "Heron Balance"],
+  "position": "armBalance",
+  "types": ["balance", "core"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.147,
+      "y": -0.095,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.3562
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0.2618
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": 2.2369
+      },
+      "forearmL": {
+        "angle": 0.257
+      },
+      "handL": {
+        "angle": 1.4331
+      },
+      "thighL": {
+        "angle": -2.7925
+      },
+      "shinL": {
+        "angle": -3.0543
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 2.3562,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -2.7925,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -3.0543,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "From a crow shape, shift forward and straighten the arms.",
+    "Round the upper back and press the floor away.",
+    "Squeeze the knees tightly into the arms.",
+    "Look forward and keep the breath moving."
+  ],
+  "benefits": [
+    "Builds arm, wrist and core strength",
+    "Improves focus",
+    "Prepares for more advanced balances"
+  ],
+  "cautions": ["Keep the elbows bent if the arms do not hold", "Practice over a cushion"],
+  "related": {
+    "prep": ["crow"],
+    "counter": ["child"],
+    "variations": ["crow"]
+  },
+  "status": "published",
+  "version": 1
+}

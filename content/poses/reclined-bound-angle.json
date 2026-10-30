@@ -1,0 +1,103 @@
+{
+  "id": "reclined-bound-angle",
+  "slug": "reclined-bound-angle",
+  "nameEn": "Reclined Bound Angle",
+  "nameSanskrit": "Supta Baddha Konasana",
+  "nameSanskritDiacritics": "Supta Baddha Koṇāsana",
+  "aliases": ["Supta Baddha Konasana", "Reclining Butterfly", "Reclined Cobbler's Pose"],
+  "position": "supine",
+  "types": ["hipOpener", "restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.1718,
+      "y": 0.3497,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.1745
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.8727
+      },
+      "shinL": {
+        "angle": -3.1416
+      },
+      "footL": {
+        "angle": -1.3963
+      },
+      "upperArmR": {
+        "angle": 0.1745,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.8727,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.3963,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["bolster", "block", "blanket"],
+  "cues": [
+    "Lie back and bring the soles of the feet together.",
+    "Let the knees fall open and support them with blocks.",
+    "Rest the arms out to the sides, palms up.",
+    "Place a bolster along the spine for a gentler backbend."
+  ],
+  "benefits": [
+    "Opens the inner thighs and hips",
+    "Soothes the nervous system",
+    "Passive chest opener"
+  ],
+  "cautions": [
+    "Support the knees if the groins feel strained",
+    "Place a bolster under the torso for comfort"
+  ],
+  "related": {
+    "prep": ["corpse"],
+    "counter": ["knees-to-chest"],
+    "variations": ["bound-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

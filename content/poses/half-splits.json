@@ -1,0 +1,96 @@
+{
+  "id": "half-splits",
+  "slug": "half-splits",
+  "nameEn": "Half Splits",
+  "nameSanskrit": "Ardha Hanumanasana",
+  "nameSanskritDiacritics": "Ardha Hanumānāsana",
+  "aliases": ["Ardha Hanumanasana", "Runner's Stretch", "Half Monkey Pose"],
+  "position": "kneeling",
+  "types": ["forwardFold", "hamstring"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0869,
+      "y": 0.1583,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.8727
+      },
+      "spineLower": {
+        "angle": -0.6632
+      },
+      "spineUpper": {
+        "angle": -0.2094
+      },
+      "neck": {
+        "angle": -0.0698
+      },
+      "head": {
+        "angle": -0.1047
+      },
+      "upperArmL": {
+        "angle": 1.4591
+      },
+      "forearmL": {
+        "angle": 1.0763
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.85
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.5395,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0.8752,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.8727,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "strap"],
+  "cues": [
+    "From low lunge, shift the hips back over the back knee.",
+    "Straighten the front leg and flex the foot.",
+    "Hinge forward from the hip crease with a long spine.",
+    "Rest the hands on blocks or the floor and breathe into the hamstring."
+  ],
+  "benefits": ["Stretches hamstrings", "Prepares for full splits", "Releases the hips"],
+  "cautions": ["Keep the front knee slightly bent with hamstring strain", "Pad the back knee"],
+  "related": {
+    "prep": ["low-lunge"],
+    "counter": ["child"],
+    "variations": ["splits"]
+  },
+  "status": "published",
+  "version": 1
+}

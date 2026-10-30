@@ -1,0 +1,96 @@
+{
+  "id": "rabbit",
+  "slug": "rabbit",
+  "nameEn": "Rabbit Pose",
+  "nameSanskrit": "Sasangasana",
+  "nameSanskritDiacritics": "Śaśāṅgāsana",
+  "aliases": ["Sasangasana", "Hare Pose"],
+  "position": "kneeling",
+  "types": ["forwardFold", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.014,
+      "y": 0.1041,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.7854
+      },
+      "spineLower": {
+        "angle": -1.2217
+      },
+      "spineUpper": {
+        "angle": -0.7854
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 0.9599
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.0472
+      },
+      "shinL": {
+        "angle": -1.8326
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.9599,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.8326,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Hold the heels and roll forward until the crown of the head rests on the floor.",
+    "Lift the hips high while pulling the heels toward the hips.",
+    "Keep the weight in the knees rather than the neck.",
+    "Use a folded blanket under the head if it feels sensitive."
+  ],
+  "benefits": ["Stretches the spine and neck", "Opens shoulders", "Calms the mind"],
+  "cautions": ["Avoid with neck injury", "Skip with high blood pressure"],
+  "related": {
+    "prep": ["child"],
+    "counter": ["child"],
+    "variations": ["child"]
+  },
+  "status": "published",
+  "version": 1
+}

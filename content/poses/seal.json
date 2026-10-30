@@ -1,0 +1,100 @@
+{
+  "id": "seal",
+  "slug": "seal",
+  "nameEn": "Seal Pose",
+  "nameSanskrit": "Bhujangasana (Deep)",
+  "nameSanskritDiacritics": "Bhujaṅgāsana",
+  "aliases": ["Sealion", "Deep Cobra", "Seal Backbend"],
+  "position": "prone",
+  "types": ["backbend", "chestOpener"],
+  "level": "intermediate",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.078,
+      "y": 0.3806,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.5708
+      },
+      "spineLower": {
+        "angle": 0.2618
+      },
+      "spineUpper": {
+        "angle": 0.576
+      },
+      "neck": {
+        "angle": 0.2967
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": -0.0344
+      },
+      "forearmL": {
+        "angle": 1.6965
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": 0.0033,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.6074,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Place the hands forward of the shoulders and straighten the arms.",
+    "Keep the hips and thighs on the floor and lift the chest.",
+    "Relax the glutes and let the lower back release.",
+    "Press the tops of the feet down."
+  ],
+  "benefits": [
+    "Deeper opening of the front body",
+    "Strengthens the back",
+    "Stretches the abdomen and hip flexors"
+  ],
+  "cautions": ["Skip if the lower back feels compressed", "Avoid in pregnancy"],
+  "related": {
+    "prep": ["cobra"],
+    "counter": ["child"],
+    "variations": ["cobra"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,103 @@
+{
+  "id": "crescent-lunge",
+  "slug": "crescent-lunge",
+  "nameEn": "Crescent Lunge",
+  "nameSanskrit": "Anjaneyasana (High)",
+  "nameSanskritDiacritics": "Añjaneyāsana",
+  "aliases": ["Crescent Pose", "Sun Salutation Lunge", "Arms-Up Lunge"],
+  "position": "standing",
+  "types": ["backbend", "hipOpener", "balance"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.025,
+      "y": 0.0845,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0.1396
+      },
+      "neck": {
+        "angle": 0.0349
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.0718
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.9939
+      },
+      "shinL": {
+        "angle": -0.9911
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.0718,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.5525,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.5324,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.125,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "From a high lunge, sweep the arms overhead with palms facing.",
+    "Keep the back heel lifted and the thigh engaged.",
+    "Tuck the tailbone and arch lightly through the upper back.",
+    "Press the front heel down to lift the torso tall."
+  ],
+  "benefits": [
+    "Opens hip flexors and quads",
+    "Strengthens legs and glutes",
+    "Stretches chest and shoulders"
+  ],
+  "cautions": [
+    "Keep the back knee down if the knee is sensitive",
+    "Keep the gaze forward with neck discomfort"
+  ],
+  "related": {
+    "prep": ["high-lunge"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["warrior-1"]
+  },
+  "status": "published",
+  "version": 1
+}

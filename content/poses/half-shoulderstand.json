@@ -1,0 +1,96 @@
+{
+  "id": "half-shoulderstand",
+  "slug": "half-shoulderstand",
+  "nameEn": "Half Shoulderstand",
+  "nameSanskrit": "Ardha Sarvangasana",
+  "nameSanskritDiacritics": "Ardha Sarvāṅgāsana",
+  "aliases": ["Ardha Sarvangasana", "Half Candle", "Angled Shoulderstand"],
+  "position": "supine",
+  "types": ["restorative", "core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0972,
+      "y": 0.0253,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.7925
+      },
+      "spineLower": {
+        "angle": -0.1396
+      },
+      "spineUpper": {
+        "angle": -0.1222
+      },
+      "neck": {
+        "angle": -0.7854
+      },
+      "head": {
+        "angle": -0.8727
+      },
+      "upperArmL": {
+        "angle": -1.4835
+      },
+      "forearmL": {
+        "angle": 1.0472
+      },
+      "handL": {
+        "angle": 0.1745
+      },
+      "thighL": {
+        "angle": -0.8727
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -1.4835,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.0472,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.1745,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.8727,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["blanket"],
+  "cues": [
+    "Lift the hips with the hands supporting the lower back.",
+    "Angle the legs overhead at about forty-five degrees.",
+    "Keep the elbows shoulder-width apart.",
+    "Breathe smoothly and release when the neck tires."
+  ],
+  "benefits": ["Easier inversion for beginners", "Strengthens the core", "Releases tired legs"],
+  "cautions": ["Avoid with neck issues", "Come down slowly through the spine"],
+  "related": {
+    "prep": ["bridge"],
+    "counter": ["fish"],
+    "variations": ["shoulderstand"]
+  },
+  "status": "published",
+  "version": 1
+}

@@ -1,0 +1,98 @@
+{
+  "id": "eagle",
+  "slug": "eagle",
+  "nameEn": "Eagle Pose",
+  "nameSanskrit": "Garudasana",
+  "nameSanskritDiacritics": "Garuḍāsana",
+  "aliases": ["Garudasana", "Twisted Eagle"],
+  "position": "standing",
+  "types": ["balance", "shoulderOpener", "hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.0084,
+      "y": -0.0039,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.2217,
+        "scale": 0.6
+      },
+      "forearmL": {
+        "angle": 1.885
+      },
+      "handL": {
+        "angle": 0.0349
+      },
+      "thighL": {
+        "angle": 0.0698
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.2217,
+        "scale": 0.6
+      },
+      "forearmR": {
+        "angle": -1.885
+      },
+      "handR": {
+        "angle": -0.0349
+      },
+      "thighR": {
+        "angle": 0.9599
+      },
+      "shinR": {
+        "angle": -0.7505
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Bend the standing knee and wrap the top leg over it.",
+    "Hook the top foot behind the standing calf if available.",
+    "Cross the arms with elbows stacked and lift them away from the chest.",
+    "Sit the hips back and keep the chest lifted."
+  ],
+  "benefits": [
+    "Opens the shoulders and upper back",
+    "Stretches outer hips",
+    "Develops balance and focus"
+  ],
+  "cautions": ["Keep legs uncrossed with knee pain", "Release the arms if shoulders pinch"],
+  "related": {
+    "prep": ["chair"],
+    "counter": ["mountain"],
+    "variations": ["tree"]
+  },
+  "status": "published",
+  "version": 1
+}

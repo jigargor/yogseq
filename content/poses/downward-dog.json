@@ -1,0 +1,103 @@
+{
+  "id": "downward-dog",
+  "slug": "downward-dog",
+  "nameEn": "Downward-Facing Dog",
+  "nameSanskrit": "Adho Mukha Svanasana",
+  "nameSanskritDiacritics": "Adho Mukha Śvānāsana",
+  "aliases": ["Down Dog", "Adho Mukha Svanasana", "Downdog"],
+  "position": "inversion",
+  "types": ["forwardFold", "hamstring", "shoulderOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0695,
+      "y": 0.0517,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -2.2166
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.2269
+      },
+      "head": {
+        "angle": -0.3491
+      },
+      "upperArmL": {
+        "angle": 1.367
+      },
+      "forearmL": {
+        "angle": 1.8978
+      },
+      "handL": {
+        "angle": 0.5225
+      },
+      "thighL": {
+        "angle": 1.693
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0.5236
+      },
+      "upperArmR": {
+        "angle": 1.4065,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 1.7997,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0.5812,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.693,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0.5236,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Press the hands into the floor and lift the hips up and back.",
+    "Spread the fingers and rotate the upper arms outward.",
+    "Bend the knees as needed to keep the spine long.",
+    "Let the head hang between the arms and the heels reach toward the floor."
+  ],
+  "benefits": [
+    "Stretches the hamstrings, calves and shoulders",
+    "Strengthens arms and legs",
+    "Gently energizes the whole body"
+  ],
+  "cautions": [
+    "Avoid with uncontrolled high blood pressure or wrist injury",
+    "Use a wall or blocks to adjust the shape"
+  ],
+  "related": {
+    "prep": ["tabletop", "child"],
+    "counter": ["child"],
+    "variations": ["three-legged-dog", "dolphin"]
+  },
+  "status": "published",
+  "version": 1
+}

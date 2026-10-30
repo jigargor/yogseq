@@ -1,0 +1,99 @@
+{
+  "id": "revolved-triangle",
+  "slug": "revolved-triangle",
+  "nameEn": "Revolved Triangle",
+  "nameSanskrit": "Parivrtta Trikonasana",
+  "nameSanskritDiacritics": "Parivṛtta Trikoṇāsana",
+  "aliases": ["Twisted Triangle", "Parivrtta Trikonasana"],
+  "position": "standing",
+  "types": ["twist", "hamstring", "balance"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1552,
+      "y": -0.0132,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.0472
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.0349
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0.2094
+      },
+      "upperArmL": {
+        "angle": -1.5359
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.8928
+      },
+      "shinL": {
+        "angle": -0.5722
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 1.6057,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.4537,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Step the feet into a short stance and square the hips forward.",
+    "Fold from the hips with a long spine and place a hand on a block.",
+    "Spin the chest open and lift the top arm toward the ceiling.",
+    "Press firmly through the back heel to stay grounded."
+  ],
+  "benefits": ["Stretches hamstrings and spine", "Improves balance", "Stimulates abdominal organs"],
+  "cautions": [
+    "Use a higher block if the hips lift or twist unevenly",
+    "Take care with low back or SI joint sensitivity"
+  ],
+  "related": {
+    "prep": ["pyramid"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["revolved-half-moon"]
+  },
+  "status": "published",
+  "version": 1
+}

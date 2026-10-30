@@ -1,0 +1,281 @@
+{
+  "id": "beginner-flow-30min",
+  "title": "Beginner Flow — 30 Minutes",
+  "description": "A gentle full-body class for newer practitioners: breath awareness, warm-up, foundational standing poses and a long rest.",
+  "level": "beginner",
+  "style": "Hatha",
+  "targetMinutes": 30,
+  "tags": ["beginner", "full-body", "foundations", "30-minute"],
+  "items": [
+    {
+      "id": "beginner-flow-30min-01",
+      "kind": "section",
+      "title": "Arrive"
+    },
+    {
+      "id": "beginner-flow-30min-02",
+      "kind": "pose",
+      "poseId": "easy-seat",
+      "durationSec": 120,
+      "note": "Close the eyes and follow the natural breath."
+    },
+    {
+      "id": "beginner-flow-30min-03",
+      "kind": "pose",
+      "poseId": "seated-twist",
+      "side": "right",
+      "durationSec": 30
+    },
+    {
+      "id": "beginner-flow-30min-04",
+      "kind": "pose",
+      "poseId": "seated-twist",
+      "side": "left",
+      "durationSec": 30
+    },
+    {
+      "id": "beginner-flow-30min-05",
+      "kind": "pose",
+      "poseId": "seated-side-bend",
+      "side": "right",
+      "durationSec": 30
+    },
+    {
+      "id": "beginner-flow-30min-06",
+      "kind": "pose",
+      "poseId": "seated-side-bend",
+      "side": "left",
+      "durationSec": 30
+    },
+    {
+      "id": "beginner-flow-30min-07",
+      "kind": "section",
+      "title": "Warm up"
+    },
+    {
+      "id": "beginner-flow-30min-08",
+      "kind": "pose",
+      "poseId": "tabletop",
+      "durationSec": 30
+    },
+    {
+      "id": "beginner-flow-30min-09",
+      "kind": "pose",
+      "poseId": "cat",
+      "breaths": 6,
+      "durationSec": 30
+    },
+    {
+      "id": "beginner-flow-30min-10",
+      "kind": "pose",
+      "poseId": "cow",
+      "breaths": 6,
+      "durationSec": 30,
+      "note": "Link movement to breath, one breath per movement."
+    },
+    {
+      "id": "beginner-flow-30min-11",
+      "kind": "pose",
+      "poseId": "thread-the-needle",
+      "side": "right",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-12",
+      "kind": "pose",
+      "poseId": "thread-the-needle",
+      "side": "left",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-13",
+      "kind": "pose",
+      "poseId": "child",
+      "durationSec": 45
+    },
+    {
+      "id": "beginner-flow-30min-14",
+      "kind": "pose",
+      "poseId": "downward-dog",
+      "durationSec": 40,
+      "note": "Pedal the feet and bend the knees freely."
+    },
+    {
+      "id": "beginner-flow-30min-15",
+      "kind": "section",
+      "title": "Standing poses"
+    },
+    {
+      "id": "beginner-flow-30min-16",
+      "kind": "pose",
+      "poseId": "low-lunge",
+      "side": "right",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-17",
+      "kind": "pose",
+      "poseId": "low-lunge",
+      "side": "left",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-18",
+      "kind": "pose",
+      "poseId": "mountain",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-19",
+      "kind": "pose",
+      "poseId": "upward-salute",
+      "breaths": 3,
+      "durationSec": 15
+    },
+    {
+      "id": "beginner-flow-30min-20",
+      "kind": "pose",
+      "poseId": "standing-forward-fold",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-21",
+      "kind": "pose",
+      "poseId": "half-forward-fold",
+      "durationSec": 15
+    },
+    {
+      "id": "beginner-flow-30min-22",
+      "kind": "pose",
+      "poseId": "chair",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-23",
+      "kind": "pose",
+      "poseId": "warrior-1",
+      "side": "right",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-24",
+      "kind": "pose",
+      "poseId": "warrior-1",
+      "side": "left",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-25",
+      "kind": "pose",
+      "poseId": "warrior-2",
+      "side": "right",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-26",
+      "kind": "pose",
+      "poseId": "warrior-2",
+      "side": "left",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-27",
+      "kind": "pose",
+      "poseId": "triangle",
+      "side": "right",
+      "durationSec": 35
+    },
+    {
+      "id": "beginner-flow-30min-28",
+      "kind": "pose",
+      "poseId": "triangle",
+      "side": "left",
+      "durationSec": 35
+    },
+    {
+      "id": "beginner-flow-30min-29",
+      "kind": "pose",
+      "poseId": "wide-legged-forward-fold",
+      "durationSec": 45
+    },
+    {
+      "id": "beginner-flow-30min-30",
+      "kind": "pose",
+      "poseId": "tree",
+      "side": "right",
+      "durationSec": 35
+    },
+    {
+      "id": "beginner-flow-30min-31",
+      "kind": "pose",
+      "poseId": "tree",
+      "side": "left",
+      "durationSec": 35
+    },
+    {
+      "id": "beginner-flow-30min-32",
+      "kind": "section",
+      "title": "Floor sequence"
+    },
+    {
+      "id": "beginner-flow-30min-33",
+      "kind": "pose",
+      "poseId": "staff",
+      "durationSec": 20
+    },
+    {
+      "id": "beginner-flow-30min-34",
+      "kind": "pose",
+      "poseId": "seated-forward-fold",
+      "durationSec": 60
+    },
+    {
+      "id": "beginner-flow-30min-35",
+      "kind": "pose",
+      "poseId": "bridge",
+      "durationSec": 45
+    },
+    {
+      "id": "beginner-flow-30min-36",
+      "kind": "pose",
+      "poseId": "knees-to-chest",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-37",
+      "kind": "pose",
+      "poseId": "reclined-twist",
+      "side": "right",
+      "durationSec": 50
+    },
+    {
+      "id": "beginner-flow-30min-38",
+      "kind": "pose",
+      "poseId": "reclined-twist",
+      "side": "left",
+      "durationSec": 50
+    },
+    {
+      "id": "beginner-flow-30min-39",
+      "kind": "pose",
+      "poseId": "happy-baby",
+      "durationSec": 40
+    },
+    {
+      "id": "beginner-flow-30min-40",
+      "kind": "section",
+      "title": "Rest"
+    },
+    {
+      "id": "beginner-flow-30min-41",
+      "kind": "note",
+      "note": "Cover up and let the body feel heavy."
+    },
+    {
+      "id": "beginner-flow-30min-42",
+      "kind": "pose",
+      "poseId": "corpse",
+      "durationSec": 425
+    }
+  ]
+}

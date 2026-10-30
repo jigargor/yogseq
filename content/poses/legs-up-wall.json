@@ -1,0 +1,103 @@
+{
+  "id": "legs-up-wall",
+  "slug": "legs-up-wall",
+  "nameEn": "Legs Up the Wall",
+  "nameSanskrit": "Viparita Karani",
+  "nameSanskritDiacritics": "Viparīta Karaṇī",
+  "aliases": ["Viparita Karani", "Inverted Lake", "Legs on the Wall", "Waterfall Pose"],
+  "position": "supine",
+  "types": ["restorative"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.235,
+      "y": 0.3503,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.2618
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.5708
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.2618,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall", "bolster", "blanket"],
+  "cues": [
+    "Sit sideways to the wall and swing the legs up as you lie back.",
+    "Rest the sitting bones close to the wall or a few inches away.",
+    "Let the arms rest softly at the sides.",
+    "Relax the thighs and breathe slowly."
+  ],
+  "benefits": [
+    "Soothes tired legs and feet",
+    "Calms the nervous system",
+    "Gentle inversion for stress relief"
+  ],
+  "cautions": [
+    "Slide the hips away from the wall if the hamstrings feel tight",
+    "Avoid with glaucoma or uncontrolled blood pressure"
+  ],
+  "related": {
+    "prep": ["corpse"],
+    "counter": ["knees-to-chest"],
+    "variations": ["supported-shoulderstand"]
+  },
+  "status": "published",
+  "version": 1
+}

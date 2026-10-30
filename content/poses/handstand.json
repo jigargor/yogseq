@@ -1,0 +1,100 @@
+{
+  "id": "handstand",
+  "slug": "handstand",
+  "nameEn": "Handstand",
+  "nameSanskrit": "Adho Mukha Vrksasana",
+  "nameSanskritDiacritics": "Adho Mukha Vṛkṣāsana",
+  "aliases": ["Adho Mukha Vrksasana", "Downward-Facing Tree", "Hand Balance"],
+  "position": "inversion",
+  "types": ["balance", "core", "shoulderOpener"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0071,
+      "y": -0.195,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -3.1416
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -3.1416
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": -1.5708
+      },
+      "upperArmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Plant the hands shoulder-width apart and reach long through the arms.",
+    "Kick up with one leg at a time, using the wall for guidance.",
+    "Stack the hips over the shoulders and the shoulders over the wrists.",
+    "Squeeze the legs together and breathe steadily."
+  ],
+  "benefits": [
+    "Builds shoulder, core and wrist strength",
+    "Improves balance and confidence",
+    "Energizing"
+  ],
+  "cautions": ["Practice against a wall", "Avoid with wrist injury or high blood pressure"],
+  "related": {
+    "prep": ["downward-dog", "plank"],
+    "counter": ["child"],
+    "variations": ["half-handstand"]
+  },
+  "status": "published",
+  "version": 1
+}

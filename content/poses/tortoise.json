@@ -1,0 +1,100 @@
+{
+  "id": "tortoise",
+  "slug": "tortoise",
+  "nameEn": "Tortoise Pose",
+  "nameSanskrit": "Kurmasana",
+  "nameSanskritDiacritics": "Kūrmāsana",
+  "aliases": ["Kurmasana", "Turtle Pose", "Compressed Fold"],
+  "position": "seated",
+  "types": ["forwardFold", "hamstring", "hipOpener"],
+  "level": "advanced",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.3264,
+      "y": 0.415,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.0472
+      },
+      "spineLower": {
+        "angle": -0.4363
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": -3.1416
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": -3.1416
+      },
+      "shinL": {
+        "angle": -1.1345
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.1345,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "bolster"],
+  "cues": [
+    "Sit with the legs wide and knees bent, then thread the arms under the knees.",
+    "Slide the shoulders under the thighs as the chest lowers.",
+    "Relax the neck and let the head rest on the floor.",
+    "Breathe slowly and stay long in the spine."
+  ],
+  "benefits": [
+    "Deeply stretches the hamstrings and back",
+    "Encourages introspection",
+    "Releases the shoulders"
+  ],
+  "cautions": ["Use a bolster under the torso", "Skip with back, hip or knee issues"],
+  "related": {
+    "prep": ["wide-seated-forward-fold"],
+    "counter": ["staff"],
+    "variations": ["wide-seated-forward-fold"]
+  },
+  "status": "published",
+  "version": 1
+}

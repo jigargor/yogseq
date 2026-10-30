@@ -1,0 +1,101 @@
+{
+  "id": "head-to-knee",
+  "slug": "head-to-knee",
+  "nameEn": "Head-to-Knee Forward Fold",
+  "nameSanskrit": "Janu Sirsasana",
+  "nameSanskritDiacritics": "Jānu Śīrṣāsana",
+  "aliases": ["Janu Sirsasana", "Head-to-Knee Pose", "One-Legged Fold"],
+  "position": "seated",
+  "types": ["forwardFold", "hamstring"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1855,
+      "y": 0.3633,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.8727
+      },
+      "spineLower": {
+        "angle": -0.5236
+      },
+      "spineUpper": {
+        "angle": -0.3491
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": 3.0926
+      },
+      "forearmL": {
+        "angle": 1.9646
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.4435
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.2523,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 2.3725,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.9548,
+        "scale": 0.85,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -2.8623,
+        "scale": 0.85,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "blanket"],
+  "cues": [
+    "Extend one leg and draw the other foot against the inner thigh.",
+    "Turn the chest toward the extended leg and lengthen the spine.",
+    "Hinge forward and hold the foot, shin or a strap.",
+    "Keep the extended leg active with the toes pointing up."
+  ],
+  "benefits": ["Stretches hamstrings and spine", "Calms the mind", "Gently opens the hip"],
+  "cautions": [
+    "Prop the bent knee with a block if the knee complains",
+    "Sit on a blanket if the pelvis tilts back"
+  ],
+  "related": {
+    "prep": ["staff", "bound-angle"],
+    "counter": ["staff"],
+    "variations": ["revolved-head-to-knee", "one-leg-folded-forward-fold"]
+  },
+  "status": "published",
+  "version": 1
+}

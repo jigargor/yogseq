@@ -1,0 +1,99 @@
+{
+  "id": "side-plank",
+  "slug": "side-plank",
+  "nameEn": "Side Plank",
+  "nameSanskrit": "Vasisthasana",
+  "nameSanskritDiacritics": "Vasiṣṭhāsana",
+  "aliases": ["Vasisthasana", "Sage Pose", "Lateral Plank"],
+  "position": "prone",
+  "types": ["core", "balance", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0.0116,
+      "y": 0.1586,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.2043
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": -0.0698
+      },
+      "head": {
+        "angle": 0.0873
+      },
+      "upperArmL": {
+        "angle": 1.9373
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": 0
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.2043
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": 0
+      },
+      "shinR": {
+        "angle": 0
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["wall", "block"],
+  "cues": [
+    "Stack the feet or stagger them for balance, pressing the bottom hand firmly.",
+    "Lift the hips and reach the top arm to the sky.",
+    "Keep the body in one diagonal line from heels to head.",
+    "Spread the fingers and press the floor away."
+  ],
+  "benefits": [
+    "Strengthens obliques and shoulders",
+    "Builds balance and focus",
+    "Tones the wrists and legs"
+  ],
+  "cautions": [
+    "Lower the bottom knee if the shoulder or wrist is sensitive",
+    "Skip with wrist or shoulder pain"
+  ],
+  "related": {
+    "prep": ["plank"],
+    "counter": ["child"],
+    "variations": ["plank"]
+  },
+  "status": "published",
+  "version": 1
+}

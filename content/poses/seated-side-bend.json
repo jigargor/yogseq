@@ -1,0 +1,98 @@
+{
+  "id": "seated-side-bend",
+  "slug": "seated-side-bend",
+  "nameEn": "Seated Side Bend",
+  "nameSanskrit": "Parsva Sukhasana",
+  "nameSanskritDiacritics": "Pārśva Sukhāsana",
+  "aliases": ["Side Bend in Easy Seat", "Parsva Sukhasana", "Seated Lateral Stretch"],
+  "position": "seated",
+  "types": ["lateralBend"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": -0.1735,
+      "y": 0.335,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.1745
+      },
+      "spineUpper": {
+        "angle": -0.3491
+      },
+      "neck": {
+        "angle": -0.0873
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 2.2689
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.309,
+        "scale": 0.55
+      },
+      "shinL": {
+        "angle": -2.7053
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": 2.9671
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.309,
+        "scale": 0.55
+      },
+      "shinR": {
+        "angle": 2.7053
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["blanket", "block"],
+  "cues": [
+    "Root the sitting bones and anchor one hand beside the hip.",
+    "Sweep the other arm overhead and bend sideways.",
+    "Keep the chest open and avoid collapsing forward.",
+    "Breathe into the stretched side and return slowly."
+  ],
+  "benefits": [
+    "Stretches the sides and shoulders",
+    "Releases the ribcage",
+    "Improves breathing capacity"
+  ],
+  "cautions": ["Keep the neck neutral if it feels strained"],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["easy-seat"],
+    "variations": ["mermaid"]
+  },
+  "status": "published",
+  "version": 1
+}

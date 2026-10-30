@@ -1,0 +1,99 @@
+{
+  "id": "pyramid",
+  "slug": "pyramid",
+  "nameEn": "Pyramid Pose",
+  "nameSanskrit": "Parsvottanasana",
+  "nameSanskritDiacritics": "Pārśvottānāsana",
+  "aliases": ["Intense Side Stretch", "Pyramid", "Parsvottanasana"],
+  "position": "standing",
+  "types": ["forwardFold", "hamstring"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.1292,
+      "y": -0.0193,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -1.0472
+      },
+      "spineLower": {
+        "angle": -0.8727
+      },
+      "spineUpper": {
+        "angle": -0.2618
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.0873
+      },
+      "upperArmL": {
+        "angle": 2.3609
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.512
+      },
+      "shinL": {
+        "angle": -0.229
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 2.3541,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.7007,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block", "wall"],
+  "cues": [
+    "Keep both legs straight with hips squared toward the front foot.",
+    "Hinge forward with a long spine, hands on blocks or shin.",
+    "Draw the front hip back and the back hip forward.",
+    "Let the head hang or tuck the chin gently."
+  ],
+  "benefits": ["Deeply stretches hamstrings", "Calms the nervous system", "Improves hip alignment"],
+  "cautions": [
+    "Bend the front knee if hamstrings are tight",
+    "Keep the spine long rather than rounding"
+  ],
+  "related": {
+    "prep": ["half-forward-fold"],
+    "counter": ["mountain"],
+    "variations": ["standing-forward-fold", "revolved-triangle"]
+  },
+  "status": "published",
+  "version": 1
+}

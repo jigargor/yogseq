@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Placeholder icon: replace with final artwork. Safe zone keeps it maskable. -->
+  <rect width="512" height="512" fill="#3d6b4f" />
+  <g fill="none" stroke="#fdfcf3" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="150" r="34" fill="#fdfcf3" stroke="none" />
+    <path d="M256 196 V300" />
+    <path d="M256 220 L168 176 M256 220 L344 176" />
+    <path d="M256 300 L196 388 M256 300 L316 388" />
+  </g>
+  <line x1="136" y1="408" x2="376" y2="408" stroke="#fdfcf3" stroke-width="14" stroke-linecap="round" opacity="0.6" />
+</svg>

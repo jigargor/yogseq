@@ -1,0 +1,95 @@
+{
+  "id": "bound-angle",
+  "slug": "bound-angle",
+  "nameEn": "Bound Angle",
+  "nameSanskrit": "Baddha Konasana",
+  "nameSanskritDiacritics": "Baddha Koṇāsana",
+  "aliases": ["Butterfly Pose", "Cobbler's Pose", "Baddha Konasana", "Soles-Together Pose"],
+  "position": "seated",
+  "types": ["hipOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.2557,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 0.2618
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.2217
+      },
+      "shinL": {
+        "angle": -2.4435
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -0.2618
+      },
+      "forearmR": {
+        "angle": 0
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.2217
+      },
+      "shinR": {
+        "angle": 2.4435
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": ["block", "blanket", "strap"],
+  "cues": [
+    "Bring the soles of the feet together and let the knees fall open.",
+    "Hold the feet or ankles and lengthen the spine.",
+    "Sit on a blanket so the pelvis tilts forward.",
+    "Avoid pushing down on the knees; let gravity work."
+  ],
+  "benefits": ["Opens the inner thighs and groins", "Stretches the hips", "Calms the mind"],
+  "cautions": [
+    "Support the knees with blocks if the stretch is intense",
+    "Avoid forcing the knees down"
+  ],
+  "related": {
+    "prep": ["easy-seat"],
+    "counter": ["staff"],
+    "variations": ["bound-angle-fold", "reclined-bound-angle"]
+  },
+  "status": "published",
+  "version": 1
+}

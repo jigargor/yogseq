@@ -1,0 +1,103 @@
+{
+  "id": "humble-warrior",
+  "slug": "humble-warrior",
+  "nameEn": "Humble Warrior",
+  "nameSanskrit": "Baddha Virabhadrasana",
+  "nameSanskritDiacritics": "Baddha Vīrabhadrāsana",
+  "aliases": ["Bound Warrior", "Prayer Warrior", "Humble Warrior I"],
+  "position": "standing",
+  "types": ["forwardFold", "shoulderOpener", "hipOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0958,
+      "y": 0.038,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": -0.8727
+      },
+      "spineLower": {
+        "angle": -0.7854
+      },
+      "spineUpper": {
+        "angle": -0.2618
+      },
+      "neck": {
+        "angle": -0.1745
+      },
+      "head": {
+        "angle": -0.1745
+      },
+      "upperArmL": {
+        "angle": -0.0873
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.8781
+      },
+      "shinL": {
+        "angle": -1.0089
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -0.0873,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0.4785,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.4927,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap"],
+  "cues": [
+    "From Warrior I, interlace the hands behind the back.",
+    "Hinge the chest down inside the front thigh while keeping the front knee bent.",
+    "Draw the clasped hands up and over the head to open the shoulders.",
+    "Let the neck hang long and breathe into the back of the ribs."
+  ],
+  "benefits": [
+    "Opens shoulders and chest",
+    "Stretches hip flexors and groins",
+    "Encourages a calm, inward focus"
+  ],
+  "cautions": [
+    "Use a strap between the hands if the clasp is unavailable",
+    "Avoid forcing the arms overhead"
+  ],
+  "related": {
+    "prep": ["warrior-1"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["warrior-1"]
+  },
+  "status": "published",
+  "version": 1
+}

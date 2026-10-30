@@ -1,0 +1,92 @@
+{
+  "id": "goddess",
+  "slug": "goddess",
+  "nameEn": "Goddess Pose",
+  "nameSanskrit": "Utkata Konasana",
+  "nameSanskritDiacritics": "Utkaṭa Koṇāsana",
+  "aliases": ["Horse Stance", "Fierce Angle", "Victory Squat", "Utkata Konasana"],
+  "position": "standing",
+  "types": ["hipOpener", "core"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "front",
+    "root": {
+      "x": 0,
+      "y": 0.135,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 1.5708
+      },
+      "forearmL": {
+        "angle": 1.5708
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 1.1599
+      },
+      "shinL": {
+        "angle": -0.8917
+      },
+      "footL": {
+        "angle": 0,
+        "scale": 0.45
+      },
+      "upperArmR": {
+        "angle": -1.5708
+      },
+      "forearmR": {
+        "angle": -1.5708
+      },
+      "handR": {
+        "angle": 0
+      },
+      "thighR": {
+        "angle": -1.1599
+      },
+      "shinR": {
+        "angle": 0.8917
+      },
+      "footR": {
+        "angle": -3.1416,
+        "scale": 0.45
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "Step wide and turn the toes out to match the knees.",
+    "Bend the knees until they track directly over the ankles.",
+    "Draw the tailbone down and keep the ribcage stacked over the pelvis.",
+    "Bend the elbows into cactus arms and draw the shoulder blades together."
+  ],
+  "benefits": ["Strengthens thighs and glutes", "Opens inner thighs and chest", "Builds stamina"],
+  "cautions": ["Raise the hips higher with knee pain", "Do not let the knees cave inward"],
+  "related": {
+    "prep": ["mountain"],
+    "counter": ["wide-legged-forward-fold"],
+    "variations": ["warrior-2", "side-lunge"]
+  },
+  "status": "published",
+  "version": 1
+}

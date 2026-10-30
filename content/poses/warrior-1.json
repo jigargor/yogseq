@@ -1,0 +1,103 @@
+{
+  "id": "warrior-1",
+  "slug": "warrior-1",
+  "nameEn": "Warrior I",
+  "nameSanskrit": "Virabhadrasana I",
+  "nameSanskritDiacritics": "Vīrabhadrāsana I",
+  "aliases": ["Warrior One", "Crescent Warrior", "Virabhadrasana One"],
+  "position": "standing",
+  "types": ["backbend", "balance", "hipOpener"],
+  "level": "beginner",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": -0.0025,
+      "y": 0.0371,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": 0
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": 3.002
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0.9939
+      },
+      "shinL": {
+        "angle": -0.9911
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": 3.002,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": -0.3816,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -0.5237,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["wall"],
+  "cues": [
+    "Bend the front knee over the ankle and press the back heel down at a slight angle.",
+    "Square the hips toward the front of the mat as far as comfortable.",
+    "Reach the arms overhead with biceps by the ears.",
+    "Lengthen the tailbone down so the lower back stays supported."
+  ],
+  "benefits": [
+    "Strengthens legs and glutes",
+    "Opens hip flexors and chest",
+    "Builds stability in a lunge"
+  ],
+  "cautions": [
+    "Shorten the stance with knee discomfort",
+    "Keep palms apart if shoulders are tight"
+  ],
+  "related": {
+    "prep": ["mountain", "high-lunge"],
+    "counter": ["standing-forward-fold"],
+    "variations": ["warrior-2", "humble-warrior"]
+  },
+  "status": "published",
+  "version": 1
+}

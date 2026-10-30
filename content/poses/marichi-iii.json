@@ -1,0 +1,96 @@
+{
+  "id": "marichi-iii",
+  "slug": "marichi-iii",
+  "nameEn": "Marichi's Pose III",
+  "nameSanskrit": "Marichyasana III",
+  "nameSanskritDiacritics": "Marīcyāsana III",
+  "aliases": ["Marichyasana III", "Sage Marichi Twist", "Seated Twist with Bind"],
+  "position": "seated",
+  "types": ["twist", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": -0.1224,
+      "y": 0.3697,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0
+      },
+      "spineLower": {
+        "angle": -0.0873
+      },
+      "spineUpper": {
+        "angle": -0.0873
+      },
+      "neck": {
+        "angle": 0
+      },
+      "head": {
+        "angle": 0
+      },
+      "upperArmL": {
+        "angle": -0.5236
+      },
+      "forearmL": {
+        "angle": -0.6981
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 2.2689
+      },
+      "shinL": {
+        "angle": -2.618
+      },
+      "footL": {
+        "angle": 0.3491
+      },
+      "upperArmR": {
+        "angle": 1.8326,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": -3.1416,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 1.5708,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["strap", "blanket"],
+  "cues": [
+    "Bend one knee with the foot flat and hip-width from the extended leg.",
+    "Wrap the opposite arm around the knee and reach the other arm behind.",
+    "Lengthen up on the inhale and rotate on the exhale.",
+    "Use a strap if the hands do not meet."
+  ],
+  "benefits": ["Deeper spinal twist", "Opens shoulders and back", "Stimulates abdominal organs"],
+  "cautions": ["Avoid forcing the bind", "Sit on a blanket if hips are tight"],
+  "related": {
+    "prep": ["half-lord-of-fishes"],
+    "counter": ["staff"],
+    "variations": ["half-lord-of-fishes"]
+  },
+  "status": "published",
+  "version": 1
+}

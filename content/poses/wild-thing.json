@@ -1,0 +1,103 @@
+{
+  "id": "wild-thing",
+  "slug": "wild-thing",
+  "nameEn": "Wild Thing",
+  "nameSanskrit": "Camatkarasana",
+  "nameSanskritDiacritics": "Camatkārāsana",
+  "aliases": ["Camatkarasana", "Flip Dog", "Flipped Dog"],
+  "position": "armBalance",
+  "types": ["backbend", "chestOpener", "shoulderOpener"],
+  "level": "intermediate",
+  "sidedness": "asymmetric",
+  "rig": {
+    "version": 1,
+    "view": "threeQuarter",
+    "root": {
+      "x": 0.1519,
+      "y": 0.1341,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 0.6109
+      },
+      "spineLower": {
+        "angle": 0.5236
+      },
+      "spineUpper": {
+        "angle": 0.5236
+      },
+      "neck": {
+        "angle": 0.2618
+      },
+      "head": {
+        "angle": 0.1745
+      },
+      "upperArmL": {
+        "angle": -1.6581
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 1.5708
+      },
+      "thighL": {
+        "angle": 0.5236
+      },
+      "shinL": {
+        "angle": -1.1345
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -2.7053,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 2.0071,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": [],
+  "cues": [
+    "From down dog, lift one leg and flip over onto one hand and the opposite foot.",
+    "Lift the hips and reach the free arm overhead.",
+    "Keep the supporting hand under the shoulder.",
+    "Open the chest and breathe into the front body."
+  ],
+  "benefits": [
+    "Opens chest, shoulders and hip flexors",
+    "Strengthens arms and legs",
+    "Playful and energizing"
+  ],
+  "cautions": [
+    "Keep the hips lower if the shoulder is tight",
+    "Avoid with wrist or shoulder issues"
+  ],
+  "related": {
+    "prep": ["downward-dog"],
+    "counter": ["child"],
+    "variations": ["upward-dog"]
+  },
+  "status": "published",
+  "version": 1
+}

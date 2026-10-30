@@ -1,0 +1,100 @@
+{
+  "id": "reverse-tabletop",
+  "slug": "reverse-tabletop",
+  "nameEn": "Reverse Tabletop",
+  "nameSanskrit": "Ardha Purvottanasana",
+  "nameSanskritDiacritics": "Ardha Pūrvottānāsana",
+  "aliases": ["Ardha Purvottanasana", "Reverse Table", "Hips-Up Table"],
+  "position": "seated",
+  "types": ["chestOpener", "core", "shoulderOpener"],
+  "level": "beginner",
+  "sidedness": "symmetric",
+  "rig": {
+    "version": 1,
+    "view": "side",
+    "root": {
+      "x": 0.092,
+      "y": 0.128,
+      "rotation": 0
+    },
+    "bones": {
+      "pelvis": {
+        "angle": 1.5708
+      },
+      "spineLower": {
+        "angle": 0
+      },
+      "spineUpper": {
+        "angle": -0.1396
+      },
+      "neck": {
+        "angle": -0.0698
+      },
+      "head": {
+        "angle": -0.1396
+      },
+      "upperArmL": {
+        "angle": -1.4312
+      },
+      "forearmL": {
+        "angle": 0
+      },
+      "handL": {
+        "angle": 0
+      },
+      "thighL": {
+        "angle": 0
+      },
+      "shinL": {
+        "angle": -1.5708
+      },
+      "footL": {
+        "angle": 0
+      },
+      "upperArmR": {
+        "angle": -1.4312,
+        "depth": -0.1
+      },
+      "forearmR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "handR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "thighR": {
+        "angle": 0,
+        "depth": -0.1
+      },
+      "shinR": {
+        "angle": -1.5708,
+        "depth": -0.1
+      },
+      "footR": {
+        "angle": 0,
+        "depth": -0.1
+      }
+    }
+  },
+  "props": ["block"],
+  "cues": [
+    "Plant the hands behind the hips with fingers pointing forward.",
+    "Press into the feet and hands to lift the hips level with the knees.",
+    "Draw the shoulder blades together and open the chest.",
+    "Keep the neck long or let the head drop gently back."
+  ],
+  "benefits": [
+    "Strengthens shoulders, glutes and back",
+    "Opens the chest and wrists",
+    "Counterbalances forward folds"
+  ],
+  "cautions": ["Keep the neck neutral if it is sensitive", "Avoid with wrist pain"],
+  "related": {
+    "prep": ["staff"],
+    "counter": ["seated-forward-fold"],
+    "variations": ["upward-plank"]
+  },
+  "status": "published",
+  "version": 1
+}
