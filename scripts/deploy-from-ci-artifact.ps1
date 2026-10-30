@@ -18,14 +18,13 @@ $WebDir = Join-Path $RepoRoot "apps\web"
 $Tmp = Join-Path $env:TEMP "yogseq-open-next"
 
 if ($RunId -eq 0) {
-  $run = gh run list --repo $Repo --workflow CI --branch main --limit 20 --json databaseId,conclusion,status,displayTitle |
-    ConvertFrom-Json |
-    Where-Object { $_.status -eq "completed" } |
-    Select-Object -First 1
+  $runs = gh run list --repo $Repo --workflow CI --branch main --limit 20 --json databaseId,conclusion,status,displayTitle |
+    ConvertFrom-Json
+  $run = @($runs | Where-Object { $_.status -eq "completed" }) | Select-Object -First 1
   if (-not $run) { throw "No completed CI run found" }
-  $RunId = $run.databaseId
+  $RunId = [long]$run.databaseId
   Write-Host "Using run $RunId ($($run.displayTitle))"
-}
+}}
 
 if (Test-Path $Tmp) { Remove-Item -Recurse -Force $Tmp }
 New-Item -ItemType Directory -Path $Tmp | Out-Null
