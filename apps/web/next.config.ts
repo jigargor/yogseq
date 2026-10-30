@@ -3,6 +3,8 @@ import withSerwistInit from "@serwist/next";
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@yogseq/db", "@yogseq/figure", "@yogseq/content"],
+  // Native sharp cannot ship in the Cloudflare Worker OpenNext bundle.
+  images: { unoptimized: true },
   turbopack: {
     rules: {
       "*.css": {

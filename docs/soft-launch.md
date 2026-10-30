@@ -6,10 +6,11 @@ Goal: get a small group of yoga teachers using yogseq for real sequences, collec
 
 ## 1. Pre-Launch Checklist
 
-- [ ] Production deploy is live on the hosting platform chosen in `docs/go-no-go-hosting.md`.
+- [ ] Production deploy is live on the hosting platform chosen in `docs/go-no-go-hosting.md` (see `docs/metier-deploy.md`; interim `yogseq.metierstudio.org`).
 - [ ] Sign-up, login, create sequence, edit, and save all work on mobile and desktop.
 - [ ] Sentry error monitoring receives a test error from production.
 - [ ] Cost alerts configured (Cloudflare and Neon). See section 4.
+- [ ] Cloudflare rate limiting / WAF on `/api/*` for the Yogseq hostname (see `docs/go-no-go-hosting.md`).
 - [ ] Feedback form is live and linked from inside the app.
 - [ ] Privacy notice and terms are published (teachers will store client-adjacent data).
 - [ ] Backup/export of a sequence works (teachers will ask for this first).

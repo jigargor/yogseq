@@ -69,7 +69,7 @@ Run a spike in week 1: deploy a minimal build (auth + create/save one sequence +
 
 | Date | Result (GO / NO-GO) | Measured p95 | Cold start | Projected cost | Blockers | Decider |
 |------|---------------------|--------------|------------|----------------|----------|---------|
-| 2026-10-30 | PENDING smoke | — | — | Soft-launch model &lt; $25 target | Awaiting first Workers+Neon smoke on `yogseq.metierstudio.com` after secrets/DNS | Operator |
+| 2026-10-30 | PENDING smoke | — | — | Soft-launch model under $25 target | Neon project `yogseq` migrated; CI deploy + Worker secrets + custom domain next. Interim host `yogseq.metierstudio.org` (`.com` still on Namecheap NS) | Operator |
 | | | | | | | |
 
 ### Production target (Métier Studio)
