@@ -78,22 +78,22 @@ Run a spike in week 1: deploy a minimal build (auth + create/save one sequence +
 - **Runbook:** [`docs/metier-deploy.md`](metier-deploy.md)
 - **Setup scripts:** `scripts/setup-production.ps1`, `scripts/setup-github-secrets.ps1`
 
-### Rate limiting (Cloudflare)
+### Rate limiting (Cloudflare) — operator checklist
 
 In-app limiter (`apps/web/src/lib/rate-limit.ts`) is per Worker isolate only. For production:
 
-1. Cloudflare Dashboard → **Security** → **WAF** (or **Rate limiting** rules) for zone `metierstudio.com`.
-2. Create a rule matching hostname `yogseq.metierstudio.com` and URI Path starts with `/api/`.
-3. Suggested starting threshold: 60 requests / 1 minute / IP → challenge or block (tune after soft launch).
-4. Also consider a tighter rule on auth paths (`/api/auth/*`) if abuse appears.
+- [ ] Cloudflare Dashboard → zone **`metierstudio.org`** (interim) or **`metierstudio.com`** (after NS cutover) → **Security** → **WAF** / **Rate limiting**.
+- [ ] Rule: hostname `yogseq.<zone>` AND URI Path starts with `/api/`.
+- [ ] Threshold (start): 60 requests / 1 minute / IP → Managed Challenge (tune after soft launch).
+- [ ] Optional tighter rule on `/api/auth/*`.
 
-### Billing alerts
+### Billing alerts — operator checklist
 
 Before inviting teachers:
 
-1. **Cloudflare:** Billing → Notifications / Usage alerts at ~50% of Workers included quota (see `docs/soft-launch.md` §4).
-2. **Neon:** Project → Monitoring / Billing → alert at ~50% of plan compute hours.
-3. Record weekly totals in the soft-launch cost log.
+- [ ] **Cloudflare:** Billing → Notifications / Usage alerts at ~50% of Workers included quota (see `docs/soft-launch.md` §4).
+- [ ] **Neon:** Project `yogseq` → Monitoring / Billing → alert at ~50% of plan compute hours.
+- [ ] Record week-1 totals in the soft-launch cost log after first teacher traffic.
 
 ---
 

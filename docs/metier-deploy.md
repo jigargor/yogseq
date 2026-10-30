@@ -7,6 +7,28 @@
 **Runtime:** Cloudflare Workers (OpenNext) + Neon Postgres  
 **Apex site:** Leave `metierstudio.com` architecture portfolio unchanged  
 
+### Finish deploy (operator — interactive Cloudflare auth)
+
+These steps cannot be completed from a non-interactive agent session once Wrangler OAuth expires:
+
+1. **Login:** in `apps/web` run `pnpm exec wrangler login` and approve in the browser.
+2. **Deploy latest OpenNext artifact:**
+   ```powershell
+   .\scripts\deploy-from-ci-artifact.ps1
+   ```
+3. **Worker secrets** (from `apps/web`, paste Neon pooled URL + auth secret from your local `.env.local`):
+   ```powershell
+   pnpm exec wrangler secret put DATABASE_URL
+   pnpm exec wrangler secret put BETTER_AUTH_SECRET
+   pnpm exec wrangler secret put BETTER_AUTH_URL
+   # value: https://yogseq.metierstudio.org
+   ```
+4. **Custom domain:** Dashboard → Workers → `yogseq` → Domains & Routes → Add → `yogseq.metierstudio.org`.
+5. **CI API token (optional but preferred):** create [Edit Cloudflare Workers](https://dash.cloudflare.com/profile/api-tokens) token → `gh secret set CLOUDFLARE_API_TOKEN --repo jigargor/yogseq`.
+6. **`.com` cutover:** add zone `metierstudio.com` to Cloudflare, point Namecheap NS at Cloudflare, recreate apex A `199.188.200.46`, attach `yogseq.metierstudio.com`, flip `NEXT_PUBLIC_APP_URL` / `BETTER_AUTH_URL`, rebuild.
+
+**Already done:** Neon project `yogseq` + migrations; GitHub secrets for DB/auth; CI OpenNext build + `open-next-yogseq` artifact; Métier branding; runbooks/scripts.
+
 ### DNS note (required for `.com`)
 
 As of 2026-10-30:
