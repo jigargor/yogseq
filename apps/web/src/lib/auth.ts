@@ -74,9 +74,25 @@ export function getAuth(): Auth {
 /**
  * Lazy proxy to the Better Auth instance. Safe to import at build time;
  * the real instance (and DB connection) is created on first property access.
+ *
+ * `has` is required: better-auth's `toNextJsHandler` does `"handler" in auth`
+ * before calling it, and a Proxy without a `has` trap answers for the empty
+ * target, which made every /api/auth/* request throw "is not a function".
  */
 export const auth: Auth = new Proxy({} as Auth, {
-  get(_target, prop, receiver) {
-    return Reflect.get(getAuth(), prop, receiver);
+  get(_target, prop) {
+    const instance = getAuth();
+    const value = Reflect.get(instance, prop, instance);
+    return typeof value === "function" ? value.bind(instance) : value;
+  },
+  has(_target, prop) {
+    return Reflect.has(getAuth(), prop);
+  },
+  ownKeys() {
+    return Reflect.ownKeys(getAuth());
+  },
+  getOwnPropertyDescriptor(_target, prop) {
+    const descriptor = Reflect.getOwnPropertyDescriptor(getAuth(), prop);
+    return descriptor ? { ...descriptor, configurable: true } : undefined;
   },
 });

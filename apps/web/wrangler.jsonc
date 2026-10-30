@@ -11,6 +11,12 @@
   "observability": {
     "enabled": true
   },
+  "vars": {
+    // Next 16 `getMiddlewareManifest()` does a raw dynamic require() that Workers
+    // cannot execute (opennextjs-cloudflare #1232 / #1380). OpenNext already runs
+    // middleware in its own routing layer, so Next's internal pass is redundant.
+    "NEXT_PRIVATE_MINIMAL_MODE": "1"
+  },
   // Production custom domain is attached in the Cloudflare dashboard
   // (Workers → yogseq → Domains & Routes → yogseq.metierstudio.com)
   // so SSL/DNS stay tied to the metierstudio.com zone. Do not bind that

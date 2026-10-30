@@ -26,3 +26,4 @@ test-results
 .deploy-secret.tmp
 *.tmp
 .neon
+.wrangler-dry
