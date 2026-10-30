@@ -5,14 +5,7 @@ const nextConfig: NextConfig = {
   transpilePackages: ["@yogseq/db", "@yogseq/figure", "@yogseq/content"],
   // Native sharp cannot ship in the Cloudflare Worker OpenNext bundle.
   images: { unoptimized: true },
-  turbopack: {
-    rules: {
-      "*.css": {
-        loaders: ["@tailwindcss/turbopack"],
-        as: "*.css",
-      },
-    },
-  },
+  // Tailwind runs through postcss.config.mjs for both webpack and Turbopack.
 };
 
 const withSerwist = withSerwistInit({
